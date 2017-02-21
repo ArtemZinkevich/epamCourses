@@ -5,19 +5,17 @@ import com.rtmznk.sphere.entity.CoordinateAxisPlane;
 import com.rtmznk.sphere.entity.Sphere;
 import com.rtmznk.sphere.math.result.FullMathResult;
 import com.rtmznk.sphere.math.result.Ratio;
-import com.rtmznk.sphere.math.result.Square;
-import com.rtmznk.sphere.math.result.Volume;
 
 /**
  * Created by RTM on 17.02.2017.
  */
 public class SphereCalculator {
-    public static Volume calculateVolume(Sphere sphere) {
-        return new Volume(4 / 3 * Math.PI * Math.pow(sphere.getRadius(), 3));
+    public static double calculateVolume(Sphere sphere) {
+        return 4 / 3 * Math.PI * Math.pow(sphere.getRadius(), 3);
     }
 
-    public static Square calculateSquare(Sphere sphere) {
-        return new Square(4 * Math.PI * Math.pow(sphere.getRadius(), 2));
+    public static double calculateSquare(Sphere sphere) {
+        return 4 * Math.PI * Math.pow(sphere.getRadius(), 2);
     }
 
     public static Ratio calculateRatio(Sphere sphere) {

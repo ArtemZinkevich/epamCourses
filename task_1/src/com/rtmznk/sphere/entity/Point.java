@@ -10,7 +10,9 @@ import java.util.List;
  * Created by RTM on 16.02.2017.
  */
 public class Point {
-    private int x, y, z;
+    private int x;
+    private int y;
+    private int z;
     private List<PointObserver> pointObservers = new ArrayList<>();
 
     public Point(int x, int y, int z) {
@@ -71,7 +73,7 @@ public class Point {
     }
 
     public void notifyObservers() {
-        for (PointObserver observer : pointObservers){
+        for (PointObserver observer : pointObservers) {
             observer.update();
         }
     }

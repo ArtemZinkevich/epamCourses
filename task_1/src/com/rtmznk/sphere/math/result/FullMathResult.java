@@ -5,10 +5,10 @@ package com.rtmznk.sphere.math.result;
  */
 public class FullMathResult {
     private Ratio ratio;
-    private Square square;
-    private Volume volume;
+    private double square;
+    private double volume;
 
-    public FullMathResult(Ratio ratio, Square square, Volume volume) {
+    public FullMathResult(Ratio ratio, double square, double volume) {
         this.ratio = ratio;
         this.square = square;
         this.volume = volume;
@@ -18,23 +18,23 @@ public class FullMathResult {
         return ratio;
     }
 
-    public Square getSquare() {
-        return square;
-    }
-
-    public Volume getVolume() {
-        return volume;
-    }
-
     public void setRatio(Ratio ratio) {
         this.ratio = ratio;
     }
 
-    public void setSquare(Square square) {
+    public double getSquare() {
+        return square;
+    }
+
+    public void setSquare(double square) {
         this.square = square;
     }
 
-    public void setVolume(Volume volume) {
+    public double getVolume() {
+        return volume;
+    }
+
+    public void setVolume(double volume) {
         this.volume = volume;
     }
 }

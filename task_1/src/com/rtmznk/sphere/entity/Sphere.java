@@ -22,35 +22,47 @@ public class Sphere implements PointObserver {
         return center;
     }
 
-    public int getRadius() {
-        return radius;
-    }
-
     public void setCenter(Point center) {
         if (center.equals(this.center)) {
             this.center = center;
         } else {
             this.center = center;
+            notifyObserver();
         }
+    }
+
+    public int getRadius() {
+        return radius;
     }
 
     public void setRadius(int radius) {
         this.radius = radius;
+        notifyObserver();
+    }
+
+    @Override
+    public String toString() {
+        return "Sphere{" +
+                "center(" + center.getX() +
+                " , " + center.getY() +
+                " , " + center.getZ() +
+                " ) , radius=" + radius +
+                '}';
     }
 
     @Override
     public void update() {
-        if(sphereObserver!=null){
-        notifyObserver();
+        if (sphereObserver != null) {
+            notifyObserver();
         }
-    }
-
-    public void setObserver(SphereObserver sphereObserver) {
-        this.sphereObserver = sphereObserver;
     }
 
     public SphereObserver getObserver() {
         return sphereObserver;
+    }
+
+    public void setObserver(SphereObserver sphereObserver) {
+        this.sphereObserver = sphereObserver;
     }
 
     public void notifyObserver() {
