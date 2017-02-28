@@ -14,7 +14,32 @@ public class FullMathResult {
         this.volume = volume;
     }
 
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+
+        FullMathResult that = (FullMathResult) o;
+
+        if (Double.compare(that.square, square) != 0) return false;
+        if (Double.compare(that.volume, volume) != 0) return false;
+        return ratio != null ? ratio.equals(that.ratio) : that.ratio == null;
+    }
+
+    @Override
+    public int hashCode() {
+        int result;
+        long temp;
+        result = ratio != null ? ratio.hashCode() : 0;
+        temp = Double.doubleToLongBits(square);
+        result = 31 * result + (int) (temp ^ (temp >>> 32));
+        temp = Double.doubleToLongBits(volume);
+        result = 31 * result + (int) (temp ^ (temp >>> 32));
+        return result;
+    }
+
     public Ratio getRatio() {
+
         return ratio;
     }
 

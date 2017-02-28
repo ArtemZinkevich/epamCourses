@@ -7,7 +7,7 @@ import com.rtmznk.sphere.entity.Sphere;
  * Created by RTM on 17.02.2017.
  */
 public class RatioCalculationHelper {
-    public static double calculateOneRatio(Sphere sphere, CoordinateAxisPlane plane) {
+    static double calculateOneRatio(Sphere sphere, CoordinateAxisPlane plane) {
         int radius = sphere.getRadius();
         int diametr = radius * 2;
         if (isIntersected((sphere), plane)) {
@@ -20,15 +20,11 @@ public class RatioCalculationHelper {
     }
 
     private static double calculateSphereSegmentVolume(double segmentHeight, double radius) {
-        return Math.PI * Math.pow(segmentHeight, 2) * (radius - 1 / 3 * segmentHeight);
+        return Math.PI * Math.pow(segmentHeight, 2) * (radius - 1d / 3 * segmentHeight);
     }
 
     private static int calculateHeight(int coordinate, int radius) {
-        if (coordinate < 0) {
-            return (coordinate + radius);
-        } else {
-            return (coordinate - radius);
-        }
+        return coordinate < 0 ? (coordinate + radius) : (Math.abs(coordinate - radius));
     }
 
     private static int calculateSegmentHeight(Sphere sphere, CoordinateAxisPlane plane) {
@@ -52,11 +48,7 @@ public class RatioCalculationHelper {
     }
 
     private static boolean compareDistanceWithRadius(int coordinate, int radius) {
-        if (coordinate < 0) {
-            return (coordinate + radius) >= 0;
-        } else {
-            return (coordinate - radius) <= 0;
-        }
+        return coordinate < 0 ? ((coordinate + radius) >= 0) : ((coordinate - radius) <= 0);
     }
 
     private static boolean isIntersected(Sphere sphere, CoordinateAxisPlane plane) {

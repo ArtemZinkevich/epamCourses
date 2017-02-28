@@ -1,6 +1,7 @@
 package com.rtmznk.sphere.entity;
 
 
+import com.rtmznk.sphere.observer.GeneralizedEvent;
 import com.rtmznk.sphere.observer.PointObserver;
 
 import java.util.ArrayList;
@@ -25,22 +26,22 @@ public class Point {
         return x;
     }
 
-    public int getY() {
-        return y;
-    }
-
-    public int getZ() {
-        return z;
-    }
-
     public void setX(int x) {
         this.x = x;
         notifyObservers();
     }
 
+    public int getY() {
+        return y;
+    }
+
     public void setY(int y) {
         this.y = y;
         notifyObservers();
+    }
+
+    public int getZ() {
+        return z;
     }
 
     public void setZ(int z) {
@@ -68,13 +69,13 @@ public class Point {
         return result;
     }
 
-    public void addObserver(PointObserver pointObserver) {
+    protected void addObserver(PointObserver pointObserver) {
         pointObservers.add(pointObserver);
     }
 
     public void notifyObservers() {
         for (PointObserver observer : pointObservers) {
-            observer.update();
+            observer.handleEvent(new GeneralizedEvent<Point>(this));
         }
     }
 }

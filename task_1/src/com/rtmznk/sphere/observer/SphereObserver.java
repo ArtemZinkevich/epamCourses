@@ -6,5 +6,5 @@ import com.rtmznk.sphere.entity.Sphere;
  * Created by RTM on 17.02.2017.
  */
 public interface SphereObserver {
-    void update(Sphere sphere);
+    void handleEvent(GeneralizedEvent<Sphere> event);
 }

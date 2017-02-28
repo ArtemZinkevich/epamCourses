@@ -1,0 +1,53 @@
+28.02.2017 09:41:03.908 [main] WARN  com.rtmznk.sphere.parser.ParametrStringParser - incorrect line in file +SomeWrongString
+28.02.2017 09:41:03.912 [main] WARN  com.rtmznk.sphere.parser.ParametrStringParser - incorrect line in file +Some 1 Wrong 2 String 3
+28.02.2017 10:02:39.868 [main] WARN  com.rtmznk.sphere.parser.ParametrStringParser - incorrect line in file : SomeWrongString
+28.02.2017 10:02:39.872 [main] WARN  com.rtmznk.sphere.parser.ParametrStringParser - incorrect line in file : Some 1 Wrong 2 String 3
+28.02.2017 10:03:40.404 [main] WARN  com.rtmznk.sphere.parser.ParametrStringParser - incorrect line in file : SomeWrongString
+28.02.2017 10:03:40.448 [main] WARN  com.rtmznk.sphere.parser.ParametrStringParser - incorrect line in file : Some 1 Wrong 2 String 3
+28.02.2017 10:08:47.502 [main] WARN  com.rtmznk.sphere.parser.ParametrStringParser - incorrect line : SomeWrongString
+28.02.2017 10:08:47.506 [main] WARN  com.rtmznk.sphere.parser.ParametrStringParser - incorrect line : Some 1 Wrong 2 String 3
+28.02.2017 10:12:13.030 [main] WARN  com.rtmznk.sphere.parser.ParametrStringParser - incorrect line : SomeWrongString
+28.02.2017 10:12:13.042 [main] WARN  com.rtmznk.sphere.parser.ParametrStringParser - incorrect line : Some 1 Wrong 2 String 3
+28.02.2017 10:25:46.404 [main] WARN  com.rtmznk.sphere.parser.ParametrStringParser - incorrect line : SomeWrongString
+28.02.2017 10:25:46.408 [main] WARN  com.rtmznk.sphere.parser.ParametrStringParser - incorrect line : Some 1 Wrong 2 String 3
+28.02.2017 10:26:30.587 [main] WARN  com.rtmznk.sphere.parser.ParametrStringParser - incorrect line : SomeWrongString
+28.02.2017 10:26:30.592 [main] WARN  com.rtmznk.sphere.parser.ParametrStringParser - incorrect line : Some 1 Wrong 2 String 3
+28.02.2017 10:27:48.877 [main] WARN  com.rtmznk.sphere.parser.ParametrStringParser - incorrect line : SomeWrongString
+28.02.2017 10:27:48.884 [main] WARN  com.rtmznk.sphere.parser.ParametrStringParser - incorrect line : Some 1 Wrong 2 String 3
+28.02.2017 10:28:25.208 [main] WARN  com.rtmznk.sphere.parser.ParametrStringParser - incorrect line : SomeWrongString
+28.02.2017 10:28:25.213 [main] WARN  com.rtmznk.sphere.parser.ParametrStringParser - incorrect line : Some 1 Wrong 2 String 3
+28.02.2017 11:44:24.510 [main] FATAL com.rtmznk.sphere.reader.TextFileReader - java.nio.file.NoSuchFileException: badFileName
+28.02.2017 11:45:14.232 [main] FATAL com.rtmznk.sphere.reader.TextFileReader - java.nio.file.NoSuchFileException: badFileName
+28.02.2017 11:45:28.533 [main] FATAL com.rtmznk.sphere.reader.TextFileReader - java.nio.file.NoSuchFileException: badFileName
+28.02.2017 12:05:20.970 [main] INFO  com.rtmznk.sphere.creator.SphereCreator - New sphere was created: Sphere{center(1 , 2 , 3 ) , radius=4}
+28.02.2017 12:08:34.387 [main] INFO  com.rtmznk.sphere.creator.SphereCreator - New sphere was created: Sphere{center(1 , 2 , 3 ) , radius=4}
+28.02.2017 12:56:12.440 [main] INFO  com.rtmznk.sphere.creator.SphereCreator - New sphere was created: Sphere{center(1 , 2 , 3 ) , radius=4}
+28.02.2017 12:56:12.444 [main] ERROR com.rtmznk.sphere.creator.SphereCreator - com.rtmznk.sphere.creator.exception.CreatingSphereException: Logically incorrect radius :-4
+28.02.2017 12:57:42.753 [main] INFO  com.rtmznk.sphere.creator.SphereCreator - New sphere was created: Sphere{center(1 , 2 , 3 ) , radius=4}
+28.02.2017 12:57:42.758 [main] ERROR com.rtmznk.sphere.creator.SphereCreator - com.rtmznk.sphere.creator.exception.CreatingSphereException: Logically incorrect radius :-4
+28.02.2017 13:04:51.463 [main] WARN  com.rtmznk.sphere.parser.ParametrStringParser - incorrect line : SomeWrongString
+28.02.2017 13:04:51.480 [main] WARN  com.rtmznk.sphere.parser.ParametrStringParser - incorrect line : Some 1 Wrong 2 String 3
+28.02.2017 13:06:55.144 [main] WARN  com.rtmznk.sphere.parser.ParametrStringParser - incorrect line : SomeWrongString
+28.02.2017 13:06:55.152 [main] WARN  com.rtmznk.sphere.parser.ParametrStringParser - incorrect line : Some 1 Wrong 2 String 3
+28.02.2017 13:08:10.361 [main] WARN  com.rtmznk.sphere.parser.ParametrStringParser - incorrect line : SomeWrongString
+28.02.2017 13:08:10.367 [main] WARN  com.rtmznk.sphere.parser.ParametrStringParser - incorrect line : Some 1 Wrong 2 String 3
+28.02.2017 13:09:49.523 [main] WARN  com.rtmznk.sphere.parser.ParametrStringParser - incorrect line : SomeWrongString
+28.02.2017 13:09:49.536 [main] WARN  com.rtmznk.sphere.parser.ParametrStringParser - incorrect line : Some 1 Wrong 2 String 3
+28.02.2017 14:38:50.433 [main] INFO  com.rtmznk.sphere.creator.SphereCreator - New sphere was created: Sphere{center(1 , 2 , 3 ) , radius=4}
+28.02.2017 14:38:50.438 [main] INFO  com.rtmznk.sphere.creator.SphereCreator - New sphere was created: Sphere{center(1 , 2 , 3 ) , radius=4}
+28.02.2017 14:38:50.439 [main] ERROR com.rtmznk.sphere.creator.SphereCreator - com.rtmznk.sphere.creator.exception.CreatingSphereException: Logically incorrect radius :-4
+28.02.2017 14:38:50.487 [main] WARN  com.rtmznk.sphere.parser.ParametrStringParser - incorrect line : SomeWrongString
+28.02.2017 14:38:50.491 [main] WARN  com.rtmznk.sphere.parser.ParametrStringParser - incorrect line : Some 1 Wrong 2 String 3
+28.02.2017 14:38:50.917 [main] FATAL com.rtmznk.sphere.reader.TextFileReader - java.nio.file.NoSuchFileException: badFileName
+28.02.2017 15:50:11.741 [main] INFO  com.rtmznk.sphere.creator.SphereCreator - New sphere was created: Sphere{center(1 , 2 , 3 ) , radius=4}
+28.02.2017 15:50:11.748 [main] INFO  com.rtmznk.sphere.creator.SphereCreator - New sphere was created: Sphere{center(1 , 2 , 3 ) , radius=4}
+28.02.2017 15:50:11.751 [main] ERROR com.rtmznk.sphere.creator.SphereCreator - com.rtmznk.sphere.creator.exception.CreatingSphereException: Logically incorrect radius :-4
+28.02.2017 15:50:11.790 [main] WARN  com.rtmznk.sphere.parser.ParametrStringParser - incorrect line : SomeWrongString
+28.02.2017 15:50:11.800 [main] WARN  com.rtmznk.sphere.parser.ParametrStringParser - incorrect line : Some 1 Wrong 2 String 3
+28.02.2017 15:50:12.196 [main] FATAL com.rtmznk.sphere.reader.TextFileReader - java.nio.file.NoSuchFileException: badFileName
+28.02.2017 16:03:00.652 [main] INFO  com.rtmznk.sphere.creator.SphereCreator - New sphere was created: Sphere{center(1 , 2 , 3 ) , radius=4}
+28.02.2017 16:03:00.656 [main] INFO  com.rtmznk.sphere.creator.SphereCreator - New sphere was created: Sphere{center(1 , 2 , 3 ) , radius=4}
+28.02.2017 16:03:00.657 [main] ERROR com.rtmznk.sphere.creator.SphereCreator - com.rtmznk.sphere.creator.exception.CreatingSphereException: Logically incorrect radius :-4
+28.02.2017 16:03:00.681 [main] WARN  com.rtmznk.sphere.parser.ParametrStringParser - incorrect line : SomeWrongString
+28.02.2017 16:03:00.682 [main] WARN  com.rtmznk.sphere.parser.ParametrStringParser - incorrect line : Some 1 Wrong 2 String 3
+28.02.2017 16:03:01.256 [main] FATAL com.rtmznk.sphere.reader.TextFileReader - java.nio.file.NoSuchFileException: badFileName

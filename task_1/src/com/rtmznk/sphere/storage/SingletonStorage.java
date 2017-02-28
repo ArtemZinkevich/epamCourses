@@ -11,12 +11,12 @@ import java.util.HashMap;
  */
 public class SingletonStorage {
 
-    private static HashMap<Sphere, FullMathResult> storage = new HashMap<>();
+    private static HashMap<Long, FullMathResult> storage = new HashMap<>();
 
     private SingletonStorage() {
     }
 
-    public static HashMap<Sphere, FullMathResult> getStorage() {
+    public static HashMap<Long, FullMathResult> getStorage() {
         return storage;
     }
 
@@ -25,7 +25,24 @@ public class SingletonStorage {
     }
 
     public void store(Sphere sphere) {
-        storage.put(sphere, SphereCalculator.getFullMathResult(sphere));
+        storage.put(sphere.getId(),
+                SphereCalculator.getFullMathResult(sphere));
+    }
+
+    public void remove(Sphere sphere) {
+        storage.remove(sphere.getId());
+    }
+
+    public FullMathResult getFullMathResult(Sphere sphere) {
+        return storage.get(sphere.getId());
+    }
+
+    public void clear() {
+        storage.clear();
+    }
+
+    public boolean contains(Sphere sphere) {
+        return storage.containsKey(sphere.getId());
     }
 
     private static class SingletonHolder {

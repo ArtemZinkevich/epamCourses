@@ -8,7 +8,7 @@ import com.rtmznk.sphere.storage.SingletonStorage;
  */
 public class DimensionObserver implements SphereObserver {
     @Override
-    public void update(Sphere sphere) {
-        SingletonStorage.getInstance().store(sphere);
+    public void handleEvent(GeneralizedEvent<Sphere> event) {
+        SingletonStorage.getInstance().store(event.getSource());
     }
 }

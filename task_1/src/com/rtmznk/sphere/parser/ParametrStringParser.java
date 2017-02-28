@@ -29,8 +29,9 @@ public class ParametrStringParser {
                         array[i] = scanner.nextInt();
                     }
                 }
+                paramList.add(array);
             } else {
-                logger.info("incorrect line in file +" + string);
+                logger.warn("incorrect line : " + string);
             }
         }
         return paramList;
