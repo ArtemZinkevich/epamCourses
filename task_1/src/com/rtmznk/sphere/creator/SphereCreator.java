@@ -16,9 +16,10 @@ import java.util.List;
  */
 public class SphereCreator {
     private static Logger logger = LogManager.getLogger(SphereCreator.class);
+    private static final int CORRECT_ARGUMENTS_AMOUNT =4;
 
     public Sphere createSphere(int... args) throws CreatingSphereException {
-        if (args.length==4) {
+        if (args.length==CORRECT_ARGUMENTS_AMOUNT) {
             int x = args[0];
             int y = args[1];
             int z = args[2];
