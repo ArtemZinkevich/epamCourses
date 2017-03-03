@@ -1,0 +1,47 @@
+train{ type  : 0  }
+SomeWrongString;
+locomotive { engineTYpe :0  ,enginePower :3300}
+
+wagon{ TYpe  : 1 ,pasSenger :16, luggage:10}
+wagon{ TYpe  : 2 ,pasSenger :16, luggage:20}
+wagon{ TYpe  : 3 ,pasSenger :16, luggage:30}
+
+wagon{ TYpe  : 4 ,pasSenger :16, luggage:40}
+wagon{ TYpe  : 5 ,pasSenger :16, luggage:50}
+wagon{ TYpe  : 6 ,pasSenger :16, luggage:40}
+wagon{ TYpe  : 7 ,pasSenger :16, luggage:30}
+wagon{ TYpe  : 8 ,pasSenger :16, luggage:20}
+wagon{ TYpe  : 9 ,pasSenger :16, luggage:10}
+wagon{ TYpe  : 10 ,pasSenger :16, luggage:10}
+wagon{ TYpe  : 1 ,pasSenger :32, luggage:20}
+wagon{ TYpe  : 2 ,pasSenger :32, luggage:30}
+wagon{ TYpe  : 3 ,pasSenger :32, luggage:40}
+wagon{ TYpe  : 4 ,pasSenger :32, luggage:50}
+wagon{ TYpe  : 5 ,pasSenger :32, luggage:60}
+wagon{ TYpe  : 6 ,pasSenger :32, baggage:50}
+wagon{ TYpe  : 7 ,pasSenger :32, luggage:40}
+wagon{ TYpe  : 8 ,pasSenger :32, luggage:200}
+wagon{ TYpe  : 9 ,pasSenger :32, luggage:111}
+wagon{ TYpe  : 10 ,pasSenger :32, luggage:221}
+wagon{ TYpe  : 1 ,pasSenger :64, luggage:20}
+wagon{ TYpe  : 2 ,pasSenger :64, luggage:30}
+wagon{ TYpe  : 3 ,pasSenger :64, luggage:40}
+wagon{ TYpe  : 4 ,pasSenger :64, luggage:50}
+wagon{ TYpe  : 5 ,pasSenger :64, baggage:60}
+wagon{ TYpe  : 6 ,pasSenger :64, luggage:50}
+wagon{ TYpe  : 7 ,pasSenger :64, luggage:40}
+wagon{ TYpe  : 8 ,pasSenger :64, luggage:200}
+wagon{ TYpe  : 9 ,pasSenger :64, baggage:111}
+wagon{ TYpe  : 10 ,pasSenger :64, luggage:221}
+train{ type  : 1  }
+locomotive { engineTYpe :1  ,enginePower :5500}
+wagon{ TYpe  : 1 ,pasSenger :96, luggage:20}
+wagon{ TYpe  : 2 ,pasSenger :96, luggage:30}
+wagon{ TYpe  : 3 ,pasSenger :96, luggage:40}
+wagon{ TYpe  : 4 ,pasSenger :96, luggage:50}
+wagon{ TYpe  : 5 ,pasSenger :96, baggage:60}
+wagon{ TYpe  : 6 ,pasSenger :96, luggage:50}
+wagon{ TYpe  : 7 ,pasSenger :96, luggage:40}
+wagon{ TYpe  : 8 ,pasSenger :96, luggage:200}
+wagon{ TYpe  : 9 ,pasSenger :96, baggage:111}
+wagon{ TYpe  : 10 ,pasSenger :96, luggage:221}
