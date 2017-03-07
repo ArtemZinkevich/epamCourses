@@ -1,0 +1,5 @@
+07.03.2017 16:13:02.572 [main] WARN  com.rtmznk.railway.parser.TrainParametrStringParser - Wrong string will be ignored : wrong string
+07.03.2017 16:13:02.668 [main] FATAL com.rtmznk.railway.parser.TrainParametrStringParser - Wrong parametrs list. Train Type not Defined
+07.03.2017 16:13:03.721 [main] FATAL com.rtmznk.railway.reader.TextFileReader - java.nio.file.NoSuchFileException: badFilePath
+07.03.2017 16:13:03.745 [main] ERROR com.rtmznk.railway.factory.RailwayRollingStockFactory - com.rtmznk.railway.entity.CreatingEntityException: Wrong wagon Type : 100
+07.03.2017 16:13:03.745 [main] ERROR com.rtmznk.railway.factory.RailwayRollingStockFactory - com.rtmznk.railway.entity.CreatingEntityException: Incorrect engine type

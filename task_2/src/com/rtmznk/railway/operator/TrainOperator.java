@@ -16,7 +16,7 @@ public class TrainOperator {
     public static List<Wagon> getWagonsWithPassengersIn(Train train, int begin, int end) {
         List<Wagon> resultList = new ArrayList<>();
         for (Wagon wagon : train.getWagons()) {
-            if (wagon.getPassengerAmount() > begin && wagon.getPassengerAmount() < end) {
+            if (wagon.getPassengerAmount() >= begin && wagon.getPassengerAmount() <= end) {
                 resultList.add(wagon);
             }
         }
@@ -42,4 +42,6 @@ public class TrainOperator {
     public static void sortTrainWagons(Train train, Comparator<Wagon> comparator) {
         Collections.sort(train.getWagons(), comparator);
     }
+
+
 }

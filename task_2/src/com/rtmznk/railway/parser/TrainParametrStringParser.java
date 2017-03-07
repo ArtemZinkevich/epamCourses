@@ -1,5 +1,6 @@
 package com.rtmznk.railway.parser;
 
+
 import org.apache.logging.log4j.Level;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
@@ -11,14 +12,14 @@ import java.util.regex.Pattern;
 /**
  * Created by RTM on 17.02.2017.
  */
-public class ParametrStringParser {
+public class TrainParametrStringParser {
     private static final String TRAIN_TYPE_TEMPLATE = "(?i)^\\s*train\\s*\\{\\s*type\\s*:\\s*[0-1]\\s*\\}\\s*$";
     private static final String WAGON_TEMPLATE = "(?i)^\\s*wagon\\s*\\{\\s*type\\s*:\\s*[0-9]\\s*" +
             "(,\\s*passenger\\s*:\\s*\\d{1,2}\\s*)?" +
             "(,\\s*(ba|lu)ggage\\s*:\\s*\\d{1,5}\\s*)?\\}\\s*$";
     private static final String LOCOMOTIVE_TEMPLATE = "(?i)^\\s*locomotive\\s*\\{\\s*enginetype\\s*:\\s*[0-3]\\s*" +
             ",\\s*enginepower\\s*:\\s*\\d{1,4}\\s*\\}\\s*$";
-    private static Logger logger = LogManager.getLogger(ParametrStringParser.class);
+    private static Logger logger = LogManager.getLogger(TrainParametrStringParser.class);
 
     public Map<ParametrsType, List<int[]>> getParsingResultMap(List<String> list) {
         Pattern trainPattern = Pattern.compile(TRAIN_TYPE_TEMPLATE);
@@ -39,7 +40,7 @@ public class ParametrStringParser {
                     trainType.add(result);
                     isTrainTypeFound = true;
                 } else {
-                    logger.log(Level.WARN, "Another line with train type definition : " + string);
+                    logger.log(Level.WARN, "Another line with train type definition will be ignored : " + string);
                 }
                 continue;
             } else if (wagonMatcher.matches()) {
@@ -49,10 +50,11 @@ public class ParametrStringParser {
                 locomotives.add(getAllIntFromString(string));
                 continue;
             } else {
-                logger.log(Level.WARN, "Wrong string : " + string);
+                logger.log(Level.WARN, "Wrong string will be ignored : " + string);
             }
         }
         if (!isTrainTypeFound) {
+            logger.log(Level.FATAL, "Wrong parametrs list. Train Type not Defined");
             throw new RuntimeException("Wrong parametrs list. Train Type not Defined");
         }
         paramMap.put(ParametrsType.TRAIN, trainType);
@@ -64,6 +66,7 @@ public class ParametrStringParser {
     private int[] getAllIntFromString(String string) {
         Scanner scanner = new Scanner(string);
         List<Integer> paramlist = new ArrayList<>();
+        scanner.useDelimiter("\\D+");
         while (scanner.hasNextInt()) {
             paramlist.add(scanner.nextInt());
         }

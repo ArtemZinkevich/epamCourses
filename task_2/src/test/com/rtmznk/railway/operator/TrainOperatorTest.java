@@ -1,0 +1,85 @@
+package test.com.rtmznk.railway.operator;
+
+import com.rtmznk.railway.comparator.WagonNumberComparator;
+import com.rtmznk.railway.entity.CreatingEntityException;
+import com.rtmznk.railway.entity.Locomotive;
+import com.rtmznk.railway.entity.Train;
+import com.rtmznk.railway.entity.Wagon;
+import com.rtmznk.railway.operator.TrainOperator;
+import org.junit.AfterClass;
+import org.junit.Assert;
+import org.junit.BeforeClass;
+import org.junit.Test;
+
+import java.util.Arrays;
+import java.util.List;
+
+import static org.hamcrest.CoreMatchers.*;
+
+/**
+ * Created by RTM on 07.03.2017.
+ */
+public class TrainOperatorTest {
+    public static Train testTrain;
+
+    @BeforeClass
+    public static void initTrain() throws CreatingEntityException {
+        List<Wagon> wagonList = Arrays.asList(new Wagon(0, 10, 900),
+                new Wagon(1, 20, 700),
+                new Wagon(2, 40, 800),
+                new Wagon(3, 80, 1400),
+                new Wagon(4, 50, 2500),
+                new Wagon(5, 0, 100000),
+                new Wagon(6, 0, 0),
+                new Wagon(1, 30, 2100),
+                new Wagon(3, 50, 4000));
+        List<Locomotive> locomotives = Arrays.asList(new Locomotive(2, 8000));
+        testTrain = new Train(0, locomotives, wagonList);
+    }
+
+    @AfterClass
+    public static void unInitTestTrain() {
+        testTrain = null;
+    }
+
+    @Test
+    public void getWagonsWithPassengersInTest() throws CreatingEntityException {
+        Wagon expectedFirst = new Wagon(0, 10, 900);
+        Wagon expectedSecond = new Wagon(1, 20, 700);
+        Wagon expectedThird = new Wagon(2, 40, 800);
+        Wagon expectedFourth = new Wagon(1, 30, 2100);
+        List<Wagon> actualWagonList = TrainOperator.getWagonsWithPassengersIn(testTrain, 10, 40);
+        Assert.assertThat(actualWagonList.size(), equalTo(4));
+        Assert.assertThat("Incorrect wagons from passenger diapsone [10,40] : ",
+                actualWagonList, hasItems(expectedFirst, expectedSecond, expectedThird, expectedFourth));
+    }
+
+    @Test
+    public void calculatePassengersAmountTest() {
+        int expectedPassengersAmount = 280;
+        int actualAmount = TrainOperator.calculatePassengers(testTrain);
+        Assert.assertEquals("Actual amount not equals to expected : ",
+                expectedPassengersAmount, actualAmount);
+    }
+
+    @Test
+    public void calculateLuggageAmountTest() {
+        int expectedLuggageWeight = 112400;
+        int actualWeight = TrainOperator.calculateLuggage(testTrain);
+        Assert.assertEquals("Actual amount not equals to expected : ",
+                expectedLuggageWeight, actualWeight);
+    }
+
+    @Test
+    public void sortTrainWagonsTest() {
+        int expectedFirstWagonNumber = 1;
+        int expectedLastWagonNumber = 9;
+        TrainOperator.sortTrainWagons(testTrain, new WagonNumberComparator());
+        int actualFirstWagonNumber = testTrain.getWagons().get(0).getWagonNumber();
+        int actualLastWagonNumber = testTrain.getWagons().get(testTrain.getWagons().size() - 1).getWagonNumber();
+        Assert.assertEquals("First wagon number not equals to expected : ",
+                expectedFirstWagonNumber, actualFirstWagonNumber);
+        Assert.assertEquals("Last wagon number not equals to expected : ",
+                expectedLastWagonNumber, actualLastWagonNumber);
+    }
+}

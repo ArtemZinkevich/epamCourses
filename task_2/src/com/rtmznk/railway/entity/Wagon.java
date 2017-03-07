@@ -1,8 +1,6 @@
 package com.rtmznk.railway.entity;
 
 
-import com.rtmznk.railway.entity.exception.CreatingEntityException;
-
 import java.util.Arrays;
 
 /**
@@ -13,38 +11,6 @@ public class Wagon extends RailwayRollingStock {
     private WagonType wagonType;
     private int passengerAmount;
     private int luggageWeight;
-
-    @Override
-    public String toString() {
-        return "Wagon{" +
-                "wagonNumber=" + wagonNumber +
-                ", wagonType=" + wagonType +
-                ", passengerAmount=" + passengerAmount +
-                ", luggageWeight=" + luggageWeight +
-                '}';
-    }
-
-    @Override
-    public boolean equals(Object o) {
-        if (this == o) return true;
-        if (o == null || getClass() != o.getClass()) return false;
-
-        Wagon wagon = (Wagon) o;
-
-        if (wagonNumber != wagon.wagonNumber) return false;
-        if (passengerAmount != wagon.passengerAmount) return false;
-        if (luggageWeight != wagon.luggageWeight) return false;
-        return wagonType == wagon.wagonType;
-    }
-
-    @Override
-    public int hashCode() {
-        int result = wagonNumber;
-        result = 31 * result + (wagonType != null ? wagonType.hashCode() : 0);
-        result = 31 * result + passengerAmount;
-        result = 31 * result + luggageWeight;
-        return result;
-    }
 
     public Wagon(int wagonType, int passengerAmount, int luggageWeight) throws CreatingEntityException {
         this(wagonType);
@@ -77,13 +43,13 @@ public class Wagon extends RailwayRollingStock {
             } else {
                 throw new CreatingEntityException("Wrong wagon Type : " + args[0]);
             }
-            if (args.length == 2 && args[1] <= wagonType.getMaxPassengers() && args[1] >= 0) {
+            if (args.length >= 2 && args[1] <= wagonType.getMaxPassengers() && args[1] >= 0) {
                 this.passengerAmount = args[1];
+                if (args.length == 3) {
+                    this.luggageWeight = args[2];
+                }
             } else {
                 throw new CreatingEntityException("passengers amount more than capacity: " + args[1]);
-            }
-            if (args.length == 3) {
-                this.luggageWeight = args[3];
             }
         } else {
             throw new CreatingEntityException("Wrong arguments : " + Arrays.asList(args));
@@ -116,5 +82,35 @@ public class Wagon extends RailwayRollingStock {
 
     public WagonType getWagonType() {
         return wagonType;
+    }
+
+    @Override
+    public String toString() {
+        return "Wagon{" +
+                "wagonNumber=" + wagonNumber +
+                ", wagonType=" + wagonType +
+                ", passengerAmount=" + passengerAmount +
+                ", luggageWeight=" + luggageWeight +
+                '}';
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+
+        Wagon wagon = (Wagon) o;
+
+        if (passengerAmount != wagon.passengerAmount) return false;
+        if (luggageWeight != wagon.luggageWeight) return false;
+        return wagonType == wagon.wagonType;
+    }
+
+    @Override
+    public int hashCode() {
+        int result = wagonType != null ? wagonType.hashCode() : 0;
+        result = 31 * result + passengerAmount;
+        result = 31 * result + luggageWeight;
+        return result;
     }
 }

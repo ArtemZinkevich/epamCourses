@@ -1,21 +1,11 @@
 package com.rtmznk.railway.entity;
 
-import com.rtmznk.railway.entity.exception.CreatingEntityException;
-
 /**
  * Created by RTM on 02.03.2017.
  */
 public class Engine {
     private EngineType type;
     private int powerKW;
-
-    @Override
-    public String toString() {
-        return "Engine{" +
-                "type=" + type +
-                ", powerKW=" + powerKW +
-                '}';
-    }
 
     public Engine(int type, int powerKW) throws CreatingEntityException {
         if (type < EngineType.values().length && type >= 0) {
@@ -41,5 +31,32 @@ public class Engine {
 
     public int getPowerKW() {
         return powerKW;
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+
+        Engine engine = (Engine) o;
+
+        if (powerKW != engine.powerKW) return false;
+        return type == engine.type;
+    }
+
+    @Override
+    public int hashCode() {
+        int result = type != null ? type.hashCode() : 0;
+        result = 31 * result + powerKW;
+        return result;
+    }
+
+    @Override
+
+    public String toString() {
+        return "Engine{" +
+                "type=" + type +
+                ", powerKW=" + powerKW +
+                '}';
     }
 }

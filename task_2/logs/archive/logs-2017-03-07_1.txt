@@ -1,0 +1,695 @@
+06.03.2017 22:41:21.977 [main] FATAL com.rtmznk.railway.reader.TextFileReader - java.nio.file.NoSuchFileException: badFilePath
+07.03.2017 13:27:34.205 [main] WARN  com.rtmznk.railway.parser.ParametrStringParser - Wrong string will be ignored : wrong string
+07.03.2017 13:27:34.210 [main] WARN  com.rtmznk.railway.parser.ParametrStringParser - Wrong string will be ignored : wrong string
+07.03.2017 13:27:34.211 [main] WARN  com.rtmznk.railway.parser.ParametrStringParser - Wrong string will be ignored : wrong string
+07.03.2017 13:27:34.211 [main] FATAL com.rtmznk.railway.parser.ParametrStringParser - Wrong parametrs list. Train Type not Defined
+07.03.2017 15:15:04.263 [main] ERROR com.rtmznk.railway.factory.RailwayRollingStockFactory - com.rtmznk.railway.entity.CreatingEntityException: Wrong wagon Type : 100
+07.03.2017 15:19:23.381 [main] ERROR com.rtmznk.railway.factory.RailwayRollingStockFactory - com.rtmznk.railway.entity.CreatingEntityException: passengers amount more than capacity: 300
+07.03.2017 15:19:23.390 [main] ERROR com.rtmznk.railway.factory.RailwayRollingStockFactory - com.rtmznk.railway.entity.CreatingEntityException: Incorrect engine type
+07.03.2017 15:23:27.490 [main] ERROR com.rtmznk.railway.factory.RailwayRollingStockFactory - com.rtmznk.railway.entity.CreatingEntityException: Incorrect engine type
+07.03.2017 15:25:00.180 [main] ERROR com.rtmznk.railway.factory.RailwayRollingStockFactory - com.rtmznk.railway.entity.CreatingEntityException: Wrong wagon Type : 100
+07.03.2017 15:25:00.184 [main] ERROR com.rtmznk.railway.factory.RailwayRollingStockFactory - com.rtmznk.railway.entity.CreatingEntityException: Incorrect engine type
+07.03.2017 15:43:50.441 [main] ERROR com.rtmznk.railway.factory.RailwayRollingStockFactory - com.rtmznk.railway.entity.CreatingEntityException: Wrong wagon Type : 100
+07.03.2017 15:43:50.446 [main] ERROR com.rtmznk.railway.factory.RailwayRollingStockFactory - com.rtmznk.railway.entity.CreatingEntityException: Incorrect engine type
+07.03.2017 16:10:33.882 [main] WARN  com.rtmznk.railway.parser.TrainParametrStringParser - Wrong string will be ignored : wrong string
+07.03.2017 16:10:33.886 [main] WARN  com.rtmznk.railway.parser.TrainParametrStringParser - Wrong string will be ignored : wrong string
+07.03.2017 16:10:33.886 [main] WARN  com.rtmznk.railway.parser.TrainParametrStringParser - Wrong string will be ignored : wrong string
+07.03.2017 16:10:33.886 [main] FATAL com.rtmznk.railway.parser.TrainParametrStringParser - Wrong parametrs list. Train Type not Defined
+07.03.2017 16:10:34.561 [main] FATAL com.rtmznk.railway.reader.TextFileReader - java.nio.file.NoSuchFileException: badFilePath
+07.03.2017 16:10:34.577 [main] ERROR com.rtmznk.railway.factory.RailwayRollingStockFactory - com.rtmznk.railway.entity.CreatingEntityException: Wrong wagon Type : 100
+07.03.2017 16:10:34.578 [main] ERROR com.rtmznk.railway.factory.RailwayRollingStockFactory - com.rtmznk.railway.entity.CreatingEntityException: Incorrect engine type
+07.03.2017 16:10:56.425 [main] WARN  com.rtmznk.railway.parser.TrainParametrStringParser - Wrong string will be ignored : wrong string
+07.03.2017 16:10:56.429 [main] WARN  com.rtmznk.railway.parser.TrainParametrStringParser - Wrong string will be ignored : wrong string
+07.03.2017 16:10:56.429 [main] WARN  com.rtmznk.railway.parser.TrainParametrStringParser - Wrong string will be ignored : wrong string
+07.03.2017 16:10:56.429 [main] FATAL com.rtmznk.railway.parser.TrainParametrStringParser - Wrong parametrs list. Train Type not Defined
+07.03.2017 16:10:58.614 [main] FATAL com.rtmznk.railway.reader.TextFileReader - java.nio.file.NoSuchFileException: badFilePath
+07.03.2017 16:10:58.630 [main] ERROR com.rtmznk.railway.factory.RailwayRollingStockFactory - com.rtmznk.railway.entity.CreatingEntityException: Wrong wagon Type : 100
+07.03.2017 16:10:58.631 [main] ERROR com.rtmznk.railway.factory.RailwayRollingStockFactory - com.rtmznk.railway.entity.CreatingEntityException: Incorrect engine type
+07.03.2017 16:11:09.390 [main] WARN  com.rtmznk.railway.parser.TrainParametrStringParser - Wrong string will be ignored : wrong string
+07.03.2017 16:11:09.393 [main] WARN  com.rtmznk.railway.parser.TrainParametrStringParser - Wrong string will be ignored : wrong string
+07.03.2017 16:11:09.393 [main] WARN  com.rtmznk.railway.parser.TrainParametrStringParser - Wrong string will be ignored : wrong string
+07.03.2017 16:11:09.394 [main] FATAL com.rtmznk.railway.parser.TrainParametrStringParser - Wrong parametrs list. Train Type not Defined
+07.03.2017 16:11:09.855 [main] FATAL com.rtmznk.railway.reader.TextFileReader - java.nio.file.NoSuchFileException: badFilePath
+07.03.2017 16:11:09.872 [main] ERROR com.rtmznk.railway.factory.RailwayRollingStockFactory - com.rtmznk.railway.entity.CreatingEntityException: Wrong wagon Type : 100
+07.03.2017 16:11:09.873 [main] ERROR com.rtmznk.railway.factory.RailwayRollingStockFactory - com.rtmznk.railway.entity.CreatingEntityException: Incorrect engine type
+07.03.2017 16:11:18.183 [main] WARN  com.rtmznk.railway.parser.TrainParametrStringParser - Wrong string will be ignored : wrong string
+07.03.2017 16:11:18.189 [main] WARN  com.rtmznk.railway.parser.TrainParametrStringParser - Wrong string will be ignored : wrong string
+07.03.2017 16:11:18.189 [main] WARN  com.rtmznk.railway.parser.TrainParametrStringParser - Wrong string will be ignored : wrong string
+07.03.2017 16:11:18.191 [main] FATAL com.rtmznk.railway.parser.TrainParametrStringParser - Wrong parametrs list. Train Type not Defined
+07.03.2017 16:11:20.723 [main] FATAL com.rtmznk.railway.reader.TextFileReader - java.nio.file.NoSuchFileException: badFilePath
+07.03.2017 16:11:20.732 [main] ERROR com.rtmznk.railway.factory.RailwayRollingStockFactory - com.rtmznk.railway.entity.CreatingEntityException: Wrong wagon Type : 100
+07.03.2017 16:11:20.732 [main] ERROR com.rtmznk.railway.factory.RailwayRollingStockFactory - com.rtmznk.railway.entity.CreatingEntityException: Incorrect engine type
+06.03.2017 22:41:21.977 [main] FATAL com.rtmznk.railway.reader.TextFileReader - java.nio.file.NoSuchFileException: badFilePath
+07.03.2017 13:27:34.205 [main] WARN  com.rtmznk.railway.parser.ParametrStringParser - Wrong string will be ignored : wrong string
+07.03.2017 13:27:34.210 [main] WARN  com.rtmznk.railway.parser.ParametrStringParser - Wrong string will be ignored : wrong string
+07.03.2017 13:27:34.211 [main] WARN  com.rtmznk.railway.parser.ParametrStringParser - Wrong string will be ignored : wrong string
+07.03.2017 13:27:34.211 [main] FATAL com.rtmznk.railway.parser.ParametrStringParser - Wrong parametrs list. Train Type not Defined
+07.03.2017 15:15:04.263 [main] ERROR com.rtmznk.railway.factory.RailwayRollingStockFactory - com.rtmznk.railway.entity.CreatingEntityException: Wrong wagon Type : 100
+07.03.2017 15:19:23.381 [main] ERROR com.rtmznk.railway.factory.RailwayRollingStockFactory - com.rtmznk.railway.entity.CreatingEntityException: passengers amount more than capacity: 300
+07.03.2017 15:19:23.390 [main] ERROR com.rtmznk.railway.factory.RailwayRollingStockFactory - com.rtmznk.railway.entity.CreatingEntityException: Incorrect engine type
+07.03.2017 15:23:27.490 [main] ERROR com.rtmznk.railway.factory.RailwayRollingStockFactory - com.rtmznk.railway.entity.CreatingEntityException: Incorrect engine type
+07.03.2017 15:25:00.180 [main] ERROR com.rtmznk.railway.factory.RailwayRollingStockFactory - com.rtmznk.railway.entity.CreatingEntityException: Wrong wagon Type : 100
+07.03.2017 15:25:00.184 [main] ERROR com.rtmznk.railway.factory.RailwayRollingStockFactory - com.rtmznk.railway.entity.CreatingEntityException: Incorrect engine type
+07.03.2017 15:43:50.441 [main] ERROR com.rtmznk.railway.factory.RailwayRollingStockFactory - com.rtmznk.railway.entity.CreatingEntityException: Wrong wagon Type : 100
+07.03.2017 15:43:50.446 [main] ERROR com.rtmznk.railway.factory.RailwayRollingStockFactory - com.rtmznk.railway.entity.CreatingEntityException: Incorrect engine type
+07.03.2017 16:10:33.882 [main] WARN  com.rtmznk.railway.parser.TrainParametrStringParser - Wrong string will be ignored : wrong string
+07.03.2017 16:10:33.886 [main] WARN  com.rtmznk.railway.parser.TrainParametrStringParser - Wrong string will be ignored : wrong string
+07.03.2017 16:10:33.886 [main] WARN  com.rtmznk.railway.parser.TrainParametrStringParser - Wrong string will be ignored : wrong string
+07.03.2017 16:10:33.886 [main] FATAL com.rtmznk.railway.parser.TrainParametrStringParser - Wrong parametrs list. Train Type not Defined
+07.03.2017 16:10:34.561 [main] FATAL com.rtmznk.railway.reader.TextFileReader - java.nio.file.NoSuchFileException: badFilePath
+07.03.2017 16:10:34.577 [main] ERROR com.rtmznk.railway.factory.RailwayRollingStockFactory - com.rtmznk.railway.entity.CreatingEntityException: Wrong wagon Type : 100
+07.03.2017 16:10:34.578 [main] ERROR com.rtmznk.railway.factory.RailwayRollingStockFactory - com.rtmznk.railway.entity.CreatingEntityException: Incorrect engine type
+07.03.2017 16:10:56.425 [main] WARN  com.rtmznk.railway.parser.TrainParametrStringParser - Wrong string will be ignored : wrong string
+07.03.2017 16:10:56.429 [main] WARN  com.rtmznk.railway.parser.TrainParametrStringParser - Wrong string will be ignored : wrong string
+07.03.2017 16:10:56.429 [main] WARN  com.rtmznk.railway.parser.TrainParametrStringParser - Wrong string will be ignored : wrong string
+07.03.2017 16:10:56.429 [main] FATAL com.rtmznk.railway.parser.TrainParametrStringParser - Wrong parametrs list. Train Type not Defined
+07.03.2017 16:10:58.614 [main] FATAL com.rtmznk.railway.reader.TextFileReader - java.nio.file.NoSuchFileException: badFilePath
+07.03.2017 16:10:58.630 [main] ERROR com.rtmznk.railway.factory.RailwayRollingStockFactory - com.rtmznk.railway.entity.CreatingEntityException: Wrong wagon Type : 100
+07.03.2017 16:10:58.631 [main] ERROR com.rtmznk.railway.factory.RailwayRollingStockFactory - com.rtmznk.railway.entity.CreatingEntityException: Incorrect engine type
+07.03.2017 16:11:09.390 [main] WARN  com.rtmznk.railway.parser.TrainParametrStringParser - Wrong string will be ignored : wrong string
+07.03.2017 16:11:09.393 [main] WARN  com.rtmznk.railway.parser.TrainParametrStringParser - Wrong string will be ignored : wrong string
+07.03.2017 16:11:09.393 [main] WARN  com.rtmznk.railway.parser.TrainParametrStringParser - Wrong string will be ignored : wrong string
+07.03.2017 16:11:09.394 [main] FATAL com.rtmznk.railway.parser.TrainParametrStringParser - Wrong parametrs list. Train Type not Defined
+07.03.2017 16:11:09.855 [main] FATAL com.rtmznk.railway.reader.TextFileReader - java.nio.file.NoSuchFileException: badFilePath
+07.03.2017 16:11:09.872 [main] ERROR com.rtmznk.railway.factory.RailwayRollingStockFactory - com.rtmznk.railway.entity.CreatingEntityException: Wrong wagon Type : 100
+07.03.2017 16:11:09.873 [main] ERROR com.rtmznk.railway.factory.RailwayRollingStockFactory - com.rtmznk.railway.entity.CreatingEntityException: Incorrect engine type
+07.03.2017 16:11:18.183 [main] WARN  com.rtmznk.railway.parser.TrainParametrStringParser - Wrong string will be ignored : wrong string
+07.03.2017 16:11:18.189 [main] WARN  com.rtmznk.railway.parser.TrainParametrStringParser - Wrong string will be ignored : wrong string
+07.03.2017 16:11:18.189 [main] WARN  com.rtmznk.railway.parser.TrainParametrStringParser - Wrong string will be ignored : wrong string
+07.03.2017 16:11:18.191 [main] FATAL com.rtmznk.railway.parser.TrainParametrStringParser - Wrong parametrs list. Train Type not Defined
+07.03.2017 16:11:20.723 [main] FATAL com.rtmznk.railway.reader.TextFileReader - java.nio.file.NoSuchFileException: badFilePath
+07.03.2017 16:11:20.732 [main] ERROR com.rtmznk.railway.factory.RailwayRollingStockFactory - com.rtmznk.railway.entity.CreatingEntityException: Wrong wagon Type : 100
+07.03.2017 16:11:20.732 [main] ERROR com.rtmznk.railway.factory.RailwayRollingStockFactory - com.rtmznk.railway.entity.CreatingEntityException: Incorrect engine type
+06.03.2017 22:41:21.977 [main] FATAL com.rtmznk.railway.reader.TextFileReader - java.nio.file.NoSuchFileException: badFilePath
+07.03.2017 13:27:34.205 [main] WARN  com.rtmznk.railway.parser.ParametrStringParser - Wrong string will be ignored : wrong string
+07.03.2017 13:27:34.210 [main] WARN  com.rtmznk.railway.parser.ParametrStringParser - Wrong string will be ignored : wrong string
+07.03.2017 13:27:34.211 [main] WARN  com.rtmznk.railway.parser.ParametrStringParser - Wrong string will be ignored : wrong string
+07.03.2017 13:27:34.211 [main] FATAL com.rtmznk.railway.parser.ParametrStringParser - Wrong parametrs list. Train Type not Defined
+07.03.2017 15:15:04.263 [main] ERROR com.rtmznk.railway.factory.RailwayRollingStockFactory - com.rtmznk.railway.entity.CreatingEntityException: Wrong wagon Type : 100
+07.03.2017 15:19:23.381 [main] ERROR com.rtmznk.railway.factory.RailwayRollingStockFactory - com.rtmznk.railway.entity.CreatingEntityException: passengers amount more than capacity: 300
+07.03.2017 15:19:23.390 [main] ERROR com.rtmznk.railway.factory.RailwayRollingStockFactory - com.rtmznk.railway.entity.CreatingEntityException: Incorrect engine type
+07.03.2017 15:23:27.490 [main] ERROR com.rtmznk.railway.factory.RailwayRollingStockFactory - com.rtmznk.railway.entity.CreatingEntityException: Incorrect engine type
+07.03.2017 15:25:00.180 [main] ERROR com.rtmznk.railway.factory.RailwayRollingStockFactory - com.rtmznk.railway.entity.CreatingEntityException: Wrong wagon Type : 100
+07.03.2017 15:25:00.184 [main] ERROR com.rtmznk.railway.factory.RailwayRollingStockFactory - com.rtmznk.railway.entity.CreatingEntityException: Incorrect engine type
+07.03.2017 15:43:50.441 [main] ERROR com.rtmznk.railway.factory.RailwayRollingStockFactory - com.rtmznk.railway.entity.CreatingEntityException: Wrong wagon Type : 100
+07.03.2017 15:43:50.446 [main] ERROR com.rtmznk.railway.factory.RailwayRollingStockFactory - com.rtmznk.railway.entity.CreatingEntityException: Incorrect engine type
+07.03.2017 16:10:33.882 [main] WARN  com.rtmznk.railway.parser.TrainParametrStringParser - Wrong string will be ignored : wrong string
+07.03.2017 16:10:33.886 [main] WARN  com.rtmznk.railway.parser.TrainParametrStringParser - Wrong string will be ignored : wrong string
+07.03.2017 16:10:33.886 [main] WARN  com.rtmznk.railway.parser.TrainParametrStringParser - Wrong string will be ignored : wrong string
+07.03.2017 16:10:33.886 [main] FATAL com.rtmznk.railway.parser.TrainParametrStringParser - Wrong parametrs list. Train Type not Defined
+07.03.2017 16:10:34.561 [main] FATAL com.rtmznk.railway.reader.TextFileReader - java.nio.file.NoSuchFileException: badFilePath
+07.03.2017 16:10:34.577 [main] ERROR com.rtmznk.railway.factory.RailwayRollingStockFactory - com.rtmznk.railway.entity.CreatingEntityException: Wrong wagon Type : 100
+07.03.2017 16:10:34.578 [main] ERROR com.rtmznk.railway.factory.RailwayRollingStockFactory - com.rtmznk.railway.entity.CreatingEntityException: Incorrect engine type
+07.03.2017 16:10:56.425 [main] WARN  com.rtmznk.railway.parser.TrainParametrStringParser - Wrong string will be ignored : wrong string
+07.03.2017 16:10:56.429 [main] WARN  com.rtmznk.railway.parser.TrainParametrStringParser - Wrong string will be ignored : wrong string
+07.03.2017 16:10:56.429 [main] WARN  com.rtmznk.railway.parser.TrainParametrStringParser - Wrong string will be ignored : wrong string
+07.03.2017 16:10:56.429 [main] FATAL com.rtmznk.railway.parser.TrainParametrStringParser - Wrong parametrs list. Train Type not Defined
+07.03.2017 16:10:58.614 [main] FATAL com.rtmznk.railway.reader.TextFileReader - java.nio.file.NoSuchFileException: badFilePath
+07.03.2017 16:10:58.630 [main] ERROR com.rtmznk.railway.factory.RailwayRollingStockFactory - com.rtmznk.railway.entity.CreatingEntityException: Wrong wagon Type : 100
+07.03.2017 16:10:58.631 [main] ERROR com.rtmznk.railway.factory.RailwayRollingStockFactory - com.rtmznk.railway.entity.CreatingEntityException: Incorrect engine type
+07.03.2017 16:11:09.390 [main] WARN  com.rtmznk.railway.parser.TrainParametrStringParser - Wrong string will be ignored : wrong string
+07.03.2017 16:11:09.393 [main] WARN  com.rtmznk.railway.parser.TrainParametrStringParser - Wrong string will be ignored : wrong string
+07.03.2017 16:11:09.393 [main] WARN  com.rtmznk.railway.parser.TrainParametrStringParser - Wrong string will be ignored : wrong string
+07.03.2017 16:11:09.394 [main] FATAL com.rtmznk.railway.parser.TrainParametrStringParser - Wrong parametrs list. Train Type not Defined
+07.03.2017 16:11:09.855 [main] FATAL com.rtmznk.railway.reader.TextFileReader - java.nio.file.NoSuchFileException: badFilePath
+07.03.2017 16:11:09.872 [main] ERROR com.rtmznk.railway.factory.RailwayRollingStockFactory - com.rtmznk.railway.entity.CreatingEntityException: Wrong wagon Type : 100
+07.03.2017 16:11:09.873 [main] ERROR com.rtmznk.railway.factory.RailwayRollingStockFactory - com.rtmznk.railway.entity.CreatingEntityException: Incorrect engine type
+07.03.2017 16:11:18.183 [main] WARN  com.rtmznk.railway.parser.TrainParametrStringParser - Wrong string will be ignored : wrong string
+07.03.2017 16:11:18.189 [main] WARN  com.rtmznk.railway.parser.TrainParametrStringParser - Wrong string will be ignored : wrong string
+07.03.2017 16:11:18.189 [main] WARN  com.rtmznk.railway.parser.TrainParametrStringParser - Wrong string will be ignored : wrong string
+07.03.2017 16:11:18.191 [main] FATAL com.rtmznk.railway.parser.TrainParametrStringParser - Wrong parametrs list. Train Type not Defined
+07.03.2017 16:11:20.723 [main] FATAL com.rtmznk.railway.reader.TextFileReader - java.nio.file.NoSuchFileException: badFilePath
+07.03.2017 16:11:20.732 [main] ERROR com.rtmznk.railway.factory.RailwayRollingStockFactory - com.rtmznk.railway.entity.CreatingEntityException: Wrong wagon Type : 100
+07.03.2017 16:11:20.732 [main] ERROR com.rtmznk.railway.factory.RailwayRollingStockFactory - com.rtmznk.railway.entity.CreatingEntityException: Incorrect engine type
+06.03.2017 22:41:21.977 [main] FATAL com.rtmznk.railway.reader.TextFileReader - java.nio.file.NoSuchFileException: badFilePath
+07.03.2017 13:27:34.205 [main] WARN  com.rtmznk.railway.parser.ParametrStringParser - Wrong string will be ignored : wrong string
+07.03.2017 13:27:34.210 [main] WARN  com.rtmznk.railway.parser.ParametrStringParser - Wrong string will be ignored : wrong string
+07.03.2017 13:27:34.211 [main] WARN  com.rtmznk.railway.parser.ParametrStringParser - Wrong string will be ignored : wrong string
+07.03.2017 13:27:34.211 [main] FATAL com.rtmznk.railway.parser.ParametrStringParser - Wrong parametrs list. Train Type not Defined
+07.03.2017 15:15:04.263 [main] ERROR com.rtmznk.railway.factory.RailwayRollingStockFactory - com.rtmznk.railway.entity.CreatingEntityException: Wrong wagon Type : 100
+07.03.2017 15:19:23.381 [main] ERROR com.rtmznk.railway.factory.RailwayRollingStockFactory - com.rtmznk.railway.entity.CreatingEntityException: passengers amount more than capacity: 300
+07.03.2017 15:19:23.390 [main] ERROR com.rtmznk.railway.factory.RailwayRollingStockFactory - com.rtmznk.railway.entity.CreatingEntityException: Incorrect engine type
+07.03.2017 15:23:27.490 [main] ERROR com.rtmznk.railway.factory.RailwayRollingStockFactory - com.rtmznk.railway.entity.CreatingEntityException: Incorrect engine type
+07.03.2017 15:25:00.180 [main] ERROR com.rtmznk.railway.factory.RailwayRollingStockFactory - com.rtmznk.railway.entity.CreatingEntityException: Wrong wagon Type : 100
+07.03.2017 15:25:00.184 [main] ERROR com.rtmznk.railway.factory.RailwayRollingStockFactory - com.rtmznk.railway.entity.CreatingEntityException: Incorrect engine type
+07.03.2017 15:43:50.441 [main] ERROR com.rtmznk.railway.factory.RailwayRollingStockFactory - com.rtmznk.railway.entity.CreatingEntityException: Wrong wagon Type : 100
+07.03.2017 15:43:50.446 [main] ERROR com.rtmznk.railway.factory.RailwayRollingStockFactory - com.rtmznk.railway.entity.CreatingEntityException: Incorrect engine type
+07.03.2017 16:10:33.882 [main] WARN  com.rtmznk.railway.parser.TrainParametrStringParser - Wrong string will be ignored : wrong string
+07.03.2017 16:10:33.886 [main] WARN  com.rtmznk.railway.parser.TrainParametrStringParser - Wrong string will be ignored : wrong string
+07.03.2017 16:10:33.886 [main] WARN  com.rtmznk.railway.parser.TrainParametrStringParser - Wrong string will be ignored : wrong string
+07.03.2017 16:10:33.886 [main] FATAL com.rtmznk.railway.parser.TrainParametrStringParser - Wrong parametrs list. Train Type not Defined
+07.03.2017 16:10:34.561 [main] FATAL com.rtmznk.railway.reader.TextFileReader - java.nio.file.NoSuchFileException: badFilePath
+07.03.2017 16:10:34.577 [main] ERROR com.rtmznk.railway.factory.RailwayRollingStockFactory - com.rtmznk.railway.entity.CreatingEntityException: Wrong wagon Type : 100
+07.03.2017 16:10:34.578 [main] ERROR com.rtmznk.railway.factory.RailwayRollingStockFactory - com.rtmznk.railway.entity.CreatingEntityException: Incorrect engine type
+07.03.2017 16:10:56.425 [main] WARN  com.rtmznk.railway.parser.TrainParametrStringParser - Wrong string will be ignored : wrong string
+07.03.2017 16:10:56.429 [main] WARN  com.rtmznk.railway.parser.TrainParametrStringParser - Wrong string will be ignored : wrong string
+07.03.2017 16:10:56.429 [main] WARN  com.rtmznk.railway.parser.TrainParametrStringParser - Wrong string will be ignored : wrong string
+07.03.2017 16:10:56.429 [main] FATAL com.rtmznk.railway.parser.TrainParametrStringParser - Wrong parametrs list. Train Type not Defined
+07.03.2017 16:10:58.614 [main] FATAL com.rtmznk.railway.reader.TextFileReader - java.nio.file.NoSuchFileException: badFilePath
+07.03.2017 16:10:58.630 [main] ERROR com.rtmznk.railway.factory.RailwayRollingStockFactory - com.rtmznk.railway.entity.CreatingEntityException: Wrong wagon Type : 100
+07.03.2017 16:10:58.631 [main] ERROR com.rtmznk.railway.factory.RailwayRollingStockFactory - com.rtmznk.railway.entity.CreatingEntityException: Incorrect engine type
+07.03.2017 16:11:09.390 [main] WARN  com.rtmznk.railway.parser.TrainParametrStringParser - Wrong string will be ignored : wrong string
+07.03.2017 16:11:09.393 [main] WARN  com.rtmznk.railway.parser.TrainParametrStringParser - Wrong string will be ignored : wrong string
+07.03.2017 16:11:09.393 [main] WARN  com.rtmznk.railway.parser.TrainParametrStringParser - Wrong string will be ignored : wrong string
+07.03.2017 16:11:09.394 [main] FATAL com.rtmznk.railway.parser.TrainParametrStringParser - Wrong parametrs list. Train Type not Defined
+07.03.2017 16:11:09.855 [main] FATAL com.rtmznk.railway.reader.TextFileReader - java.nio.file.NoSuchFileException: badFilePath
+07.03.2017 16:11:09.872 [main] ERROR com.rtmznk.railway.factory.RailwayRollingStockFactory - com.rtmznk.railway.entity.CreatingEntityException: Wrong wagon Type : 100
+07.03.2017 16:11:09.873 [main] ERROR com.rtmznk.railway.factory.RailwayRollingStockFactory - com.rtmznk.railway.entity.CreatingEntityException: Incorrect engine type
+07.03.2017 16:11:18.183 [main] WARN  com.rtmznk.railway.parser.TrainParametrStringParser - Wrong string will be ignored : wrong string
+07.03.2017 16:11:18.189 [main] WARN  com.rtmznk.railway.parser.TrainParametrStringParser - Wrong string will be ignored : wrong string
+07.03.2017 16:11:18.189 [main] WARN  com.rtmznk.railway.parser.TrainParametrStringParser - Wrong string will be ignored : wrong string
+07.03.2017 16:11:18.191 [main] FATAL com.rtmznk.railway.parser.TrainParametrStringParser - Wrong parametrs list. Train Type not Defined
+07.03.2017 16:11:20.723 [main] FATAL com.rtmznk.railway.reader.TextFileReader - java.nio.file.NoSuchFileException: badFilePath
+07.03.2017 16:11:20.732 [main] ERROR com.rtmznk.railway.factory.RailwayRollingStockFactory - com.rtmznk.railway.entity.CreatingEntityException: Wrong wagon Type : 100
+07.03.2017 16:11:20.732 [main] ERROR com.rtmznk.railway.factory.RailwayRollingStockFactory - com.rtmznk.railway.entity.CreatingEntityException: Incorrect engine type
+06.03.2017 22:41:21.977 [main] FATAL com.rtmznk.railway.reader.TextFileReader - java.nio.file.NoSuchFileException: badFilePath
+07.03.2017 13:27:34.205 [main] WARN  com.rtmznk.railway.parser.ParametrStringParser - Wrong string will be ignored : wrong string
+07.03.2017 13:27:34.210 [main] WARN  com.rtmznk.railway.parser.ParametrStringParser - Wrong string will be ignored : wrong string
+07.03.2017 13:27:34.211 [main] WARN  com.rtmznk.railway.parser.ParametrStringParser - Wrong string will be ignored : wrong string
+07.03.2017 13:27:34.211 [main] FATAL com.rtmznk.railway.parser.ParametrStringParser - Wrong parametrs list. Train Type not Defined
+07.03.2017 15:15:04.263 [main] ERROR com.rtmznk.railway.factory.RailwayRollingStockFactory - com.rtmznk.railway.entity.CreatingEntityException: Wrong wagon Type : 100
+07.03.2017 15:19:23.381 [main] ERROR com.rtmznk.railway.factory.RailwayRollingStockFactory - com.rtmznk.railway.entity.CreatingEntityException: passengers amount more than capacity: 300
+07.03.2017 15:19:23.390 [main] ERROR com.rtmznk.railway.factory.RailwayRollingStockFactory - com.rtmznk.railway.entity.CreatingEntityException: Incorrect engine type
+07.03.2017 15:23:27.490 [main] ERROR com.rtmznk.railway.factory.RailwayRollingStockFactory - com.rtmznk.railway.entity.CreatingEntityException: Incorrect engine type
+07.03.2017 15:25:00.180 [main] ERROR com.rtmznk.railway.factory.RailwayRollingStockFactory - com.rtmznk.railway.entity.CreatingEntityException: Wrong wagon Type : 100
+07.03.2017 15:25:00.184 [main] ERROR com.rtmznk.railway.factory.RailwayRollingStockFactory - com.rtmznk.railway.entity.CreatingEntityException: Incorrect engine type
+07.03.2017 15:43:50.441 [main] ERROR com.rtmznk.railway.factory.RailwayRollingStockFactory - com.rtmznk.railway.entity.CreatingEntityException: Wrong wagon Type : 100
+07.03.2017 15:43:50.446 [main] ERROR com.rtmznk.railway.factory.RailwayRollingStockFactory - com.rtmznk.railway.entity.CreatingEntityException: Incorrect engine type
+07.03.2017 16:10:33.882 [main] WARN  com.rtmznk.railway.parser.TrainParametrStringParser - Wrong string will be ignored : wrong string
+07.03.2017 16:10:33.886 [main] WARN  com.rtmznk.railway.parser.TrainParametrStringParser - Wrong string will be ignored : wrong string
+07.03.2017 16:10:33.886 [main] WARN  com.rtmznk.railway.parser.TrainParametrStringParser - Wrong string will be ignored : wrong string
+07.03.2017 16:10:33.886 [main] FATAL com.rtmznk.railway.parser.TrainParametrStringParser - Wrong parametrs list. Train Type not Defined
+07.03.2017 16:10:34.561 [main] FATAL com.rtmznk.railway.reader.TextFileReader - java.nio.file.NoSuchFileException: badFilePath
+07.03.2017 16:10:34.577 [main] ERROR com.rtmznk.railway.factory.RailwayRollingStockFactory - com.rtmznk.railway.entity.CreatingEntityException: Wrong wagon Type : 100
+07.03.2017 16:10:34.578 [main] ERROR com.rtmznk.railway.factory.RailwayRollingStockFactory - com.rtmznk.railway.entity.CreatingEntityException: Incorrect engine type
+07.03.2017 16:10:56.425 [main] WARN  com.rtmznk.railway.parser.TrainParametrStringParser - Wrong string will be ignored : wrong string
+07.03.2017 16:10:56.429 [main] WARN  com.rtmznk.railway.parser.TrainParametrStringParser - Wrong string will be ignored : wrong string
+07.03.2017 16:10:56.429 [main] WARN  com.rtmznk.railway.parser.TrainParametrStringParser - Wrong string will be ignored : wrong string
+07.03.2017 16:10:56.429 [main] FATAL com.rtmznk.railway.parser.TrainParametrStringParser - Wrong parametrs list. Train Type not Defined
+07.03.2017 16:10:58.614 [main] FATAL com.rtmznk.railway.reader.TextFileReader - java.nio.file.NoSuchFileException: badFilePath
+07.03.2017 16:10:58.630 [main] ERROR com.rtmznk.railway.factory.RailwayRollingStockFactory - com.rtmznk.railway.entity.CreatingEntityException: Wrong wagon Type : 100
+07.03.2017 16:10:58.631 [main] ERROR com.rtmznk.railway.factory.RailwayRollingStockFactory - com.rtmznk.railway.entity.CreatingEntityException: Incorrect engine type
+07.03.2017 16:11:09.390 [main] WARN  com.rtmznk.railway.parser.TrainParametrStringParser - Wrong string will be ignored : wrong string
+07.03.2017 16:11:09.393 [main] WARN  com.rtmznk.railway.parser.TrainParametrStringParser - Wrong string will be ignored : wrong string
+07.03.2017 16:11:09.393 [main] WARN  com.rtmznk.railway.parser.TrainParametrStringParser - Wrong string will be ignored : wrong string
+07.03.2017 16:11:09.394 [main] FATAL com.rtmznk.railway.parser.TrainParametrStringParser - Wrong parametrs list. Train Type not Defined
+07.03.2017 16:11:09.855 [main] FATAL com.rtmznk.railway.reader.TextFileReader - java.nio.file.NoSuchFileException: badFilePath
+07.03.2017 16:11:09.872 [main] ERROR com.rtmznk.railway.factory.RailwayRollingStockFactory - com.rtmznk.railway.entity.CreatingEntityException: Wrong wagon Type : 100
+07.03.2017 16:11:09.873 [main] ERROR com.rtmznk.railway.factory.RailwayRollingStockFactory - com.rtmznk.railway.entity.CreatingEntityException: Incorrect engine type
+07.03.2017 16:11:18.183 [main] WARN  com.rtmznk.railway.parser.TrainParametrStringParser - Wrong string will be ignored : wrong string
+07.03.2017 16:11:18.189 [main] WARN  com.rtmznk.railway.parser.TrainParametrStringParser - Wrong string will be ignored : wrong string
+07.03.2017 16:11:18.189 [main] WARN  com.rtmznk.railway.parser.TrainParametrStringParser - Wrong string will be ignored : wrong string
+07.03.2017 16:11:18.191 [main] FATAL com.rtmznk.railway.parser.TrainParametrStringParser - Wrong parametrs list. Train Type not Defined
+07.03.2017 16:11:20.723 [main] FATAL com.rtmznk.railway.reader.TextFileReader - java.nio.file.NoSuchFileException: badFilePath
+07.03.2017 16:11:20.732 [main] ERROR com.rtmznk.railway.factory.RailwayRollingStockFactory - com.rtmznk.railway.entity.CreatingEntityException: Wrong wagon Type : 100
+07.03.2017 16:11:20.732 [main] ERROR com.rtmznk.railway.factory.RailwayRollingStockFactory - com.rtmznk.railway.entity.CreatingEntityException: Incorrect engine type
+06.03.2017 22:41:21.977 [main] FATAL com.rtmznk.railway.reader.TextFileReader - java.nio.file.NoSuchFileException: badFilePath
+07.03.2017 13:27:34.205 [main] WARN  com.rtmznk.railway.parser.ParametrStringParser - Wrong string will be ignored : wrong string
+07.03.2017 13:27:34.210 [main] WARN  com.rtmznk.railway.parser.ParametrStringParser - Wrong string will be ignored : wrong string
+07.03.2017 13:27:34.211 [main] WARN  com.rtmznk.railway.parser.ParametrStringParser - Wrong string will be ignored : wrong string
+07.03.2017 13:27:34.211 [main] FATAL com.rtmznk.railway.parser.ParametrStringParser - Wrong parametrs list. Train Type not Defined
+07.03.2017 15:15:04.263 [main] ERROR com.rtmznk.railway.factory.RailwayRollingStockFactory - com.rtmznk.railway.entity.CreatingEntityException: Wrong wagon Type : 100
+07.03.2017 15:19:23.381 [main] ERROR com.rtmznk.railway.factory.RailwayRollingStockFactory - com.rtmznk.railway.entity.CreatingEntityException: passengers amount more than capacity: 300
+07.03.2017 15:19:23.390 [main] ERROR com.rtmznk.railway.factory.RailwayRollingStockFactory - com.rtmznk.railway.entity.CreatingEntityException: Incorrect engine type
+07.03.2017 15:23:27.490 [main] ERROR com.rtmznk.railway.factory.RailwayRollingStockFactory - com.rtmznk.railway.entity.CreatingEntityException: Incorrect engine type
+07.03.2017 15:25:00.180 [main] ERROR com.rtmznk.railway.factory.RailwayRollingStockFactory - com.rtmznk.railway.entity.CreatingEntityException: Wrong wagon Type : 100
+07.03.2017 15:25:00.184 [main] ERROR com.rtmznk.railway.factory.RailwayRollingStockFactory - com.rtmznk.railway.entity.CreatingEntityException: Incorrect engine type
+07.03.2017 15:43:50.441 [main] ERROR com.rtmznk.railway.factory.RailwayRollingStockFactory - com.rtmznk.railway.entity.CreatingEntityException: Wrong wagon Type : 100
+07.03.2017 15:43:50.446 [main] ERROR com.rtmznk.railway.factory.RailwayRollingStockFactory - com.rtmznk.railway.entity.CreatingEntityException: Incorrect engine type
+07.03.2017 16:10:33.882 [main] WARN  com.rtmznk.railway.parser.TrainParametrStringParser - Wrong string will be ignored : wrong string
+07.03.2017 16:10:33.886 [main] WARN  com.rtmznk.railway.parser.TrainParametrStringParser - Wrong string will be ignored : wrong string
+07.03.2017 16:10:33.886 [main] WARN  com.rtmznk.railway.parser.TrainParametrStringParser - Wrong string will be ignored : wrong string
+07.03.2017 16:10:33.886 [main] FATAL com.rtmznk.railway.parser.TrainParametrStringParser - Wrong parametrs list. Train Type not Defined
+07.03.2017 16:10:34.561 [main] FATAL com.rtmznk.railway.reader.TextFileReader - java.nio.file.NoSuchFileException: badFilePath
+07.03.2017 16:10:34.577 [main] ERROR com.rtmznk.railway.factory.RailwayRollingStockFactory - com.rtmznk.railway.entity.CreatingEntityException: Wrong wagon Type : 100
+07.03.2017 16:10:34.578 [main] ERROR com.rtmznk.railway.factory.RailwayRollingStockFactory - com.rtmznk.railway.entity.CreatingEntityException: Incorrect engine type
+07.03.2017 16:10:56.425 [main] WARN  com.rtmznk.railway.parser.TrainParametrStringParser - Wrong string will be ignored : wrong string
+07.03.2017 16:10:56.429 [main] WARN  com.rtmznk.railway.parser.TrainParametrStringParser - Wrong string will be ignored : wrong string
+07.03.2017 16:10:56.429 [main] WARN  com.rtmznk.railway.parser.TrainParametrStringParser - Wrong string will be ignored : wrong string
+07.03.2017 16:10:56.429 [main] FATAL com.rtmznk.railway.parser.TrainParametrStringParser - Wrong parametrs list. Train Type not Defined
+07.03.2017 16:10:58.614 [main] FATAL com.rtmznk.railway.reader.TextFileReader - java.nio.file.NoSuchFileException: badFilePath
+07.03.2017 16:10:58.630 [main] ERROR com.rtmznk.railway.factory.RailwayRollingStockFactory - com.rtmznk.railway.entity.CreatingEntityException: Wrong wagon Type : 100
+07.03.2017 16:10:58.631 [main] ERROR com.rtmznk.railway.factory.RailwayRollingStockFactory - com.rtmznk.railway.entity.CreatingEntityException: Incorrect engine type
+07.03.2017 16:11:09.390 [main] WARN  com.rtmznk.railway.parser.TrainParametrStringParser - Wrong string will be ignored : wrong string
+07.03.2017 16:11:09.393 [main] WARN  com.rtmznk.railway.parser.TrainParametrStringParser - Wrong string will be ignored : wrong string
+07.03.2017 16:11:09.393 [main] WARN  com.rtmznk.railway.parser.TrainParametrStringParser - Wrong string will be ignored : wrong string
+07.03.2017 16:11:09.394 [main] FATAL com.rtmznk.railway.parser.TrainParametrStringParser - Wrong parametrs list. Train Type not Defined
+07.03.2017 16:11:09.855 [main] FATAL com.rtmznk.railway.reader.TextFileReader - java.nio.file.NoSuchFileException: badFilePath
+07.03.2017 16:11:09.872 [main] ERROR com.rtmznk.railway.factory.RailwayRollingStockFactory - com.rtmznk.railway.entity.CreatingEntityException: Wrong wagon Type : 100
+07.03.2017 16:11:09.873 [main] ERROR com.rtmznk.railway.factory.RailwayRollingStockFactory - com.rtmznk.railway.entity.CreatingEntityException: Incorrect engine type
+07.03.2017 16:11:18.183 [main] WARN  com.rtmznk.railway.parser.TrainParametrStringParser - Wrong string will be ignored : wrong string
+07.03.2017 16:11:18.189 [main] WARN  com.rtmznk.railway.parser.TrainParametrStringParser - Wrong string will be ignored : wrong string
+07.03.2017 16:11:18.189 [main] WARN  com.rtmznk.railway.parser.TrainParametrStringParser - Wrong string will be ignored : wrong string
+07.03.2017 16:11:18.191 [main] FATAL com.rtmznk.railway.parser.TrainParametrStringParser - Wrong parametrs list. Train Type not Defined
+07.03.2017 16:11:20.723 [main] FATAL com.rtmznk.railway.reader.TextFileReader - java.nio.file.NoSuchFileException: badFilePath
+07.03.2017 16:11:20.732 [main] ERROR com.rtmznk.railway.factory.RailwayRollingStockFactory - com.rtmznk.railway.entity.CreatingEntityException: Wrong wagon Type : 100
+07.03.2017 16:11:20.732 [main] ERROR com.rtmznk.railway.factory.RailwayRollingStockFactory - com.rtmznk.railway.entity.CreatingEntityException: Incorrect engine type
+06.03.2017 22:41:21.977 [main] FATAL com.rtmznk.railway.reader.TextFileReader - java.nio.file.NoSuchFileException: badFilePath
+07.03.2017 13:27:34.205 [main] WARN  com.rtmznk.railway.parser.ParametrStringParser - Wrong string will be ignored : wrong string
+07.03.2017 13:27:34.210 [main] WARN  com.rtmznk.railway.parser.ParametrStringParser - Wrong string will be ignored : wrong string
+07.03.2017 13:27:34.211 [main] WARN  com.rtmznk.railway.parser.ParametrStringParser - Wrong string will be ignored : wrong string
+07.03.2017 13:27:34.211 [main] FATAL com.rtmznk.railway.parser.ParametrStringParser - Wrong parametrs list. Train Type not Defined
+07.03.2017 15:15:04.263 [main] ERROR com.rtmznk.railway.factory.RailwayRollingStockFactory - com.rtmznk.railway.entity.CreatingEntityException: Wrong wagon Type : 100
+07.03.2017 15:19:23.381 [main] ERROR com.rtmznk.railway.factory.RailwayRollingStockFactory - com.rtmznk.railway.entity.CreatingEntityException: passengers amount more than capacity: 300
+07.03.2017 15:19:23.390 [main] ERROR com.rtmznk.railway.factory.RailwayRollingStockFactory - com.rtmznk.railway.entity.CreatingEntityException: Incorrect engine type
+07.03.2017 15:23:27.490 [main] ERROR com.rtmznk.railway.factory.RailwayRollingStockFactory - com.rtmznk.railway.entity.CreatingEntityException: Incorrect engine type
+07.03.2017 15:25:00.180 [main] ERROR com.rtmznk.railway.factory.RailwayRollingStockFactory - com.rtmznk.railway.entity.CreatingEntityException: Wrong wagon Type : 100
+07.03.2017 15:25:00.184 [main] ERROR com.rtmznk.railway.factory.RailwayRollingStockFactory - com.rtmznk.railway.entity.CreatingEntityException: Incorrect engine type
+07.03.2017 15:43:50.441 [main] ERROR com.rtmznk.railway.factory.RailwayRollingStockFactory - com.rtmznk.railway.entity.CreatingEntityException: Wrong wagon Type : 100
+07.03.2017 15:43:50.446 [main] ERROR com.rtmznk.railway.factory.RailwayRollingStockFactory - com.rtmznk.railway.entity.CreatingEntityException: Incorrect engine type
+07.03.2017 16:10:33.882 [main] WARN  com.rtmznk.railway.parser.TrainParametrStringParser - Wrong string will be ignored : wrong string
+07.03.2017 16:10:33.886 [main] WARN  com.rtmznk.railway.parser.TrainParametrStringParser - Wrong string will be ignored : wrong string
+07.03.2017 16:10:33.886 [main] WARN  com.rtmznk.railway.parser.TrainParametrStringParser - Wrong string will be ignored : wrong string
+07.03.2017 16:10:33.886 [main] FATAL com.rtmznk.railway.parser.TrainParametrStringParser - Wrong parametrs list. Train Type not Defined
+07.03.2017 16:10:34.561 [main] FATAL com.rtmznk.railway.reader.TextFileReader - java.nio.file.NoSuchFileException: badFilePath
+07.03.2017 16:10:34.577 [main] ERROR com.rtmznk.railway.factory.RailwayRollingStockFactory - com.rtmznk.railway.entity.CreatingEntityException: Wrong wagon Type : 100
+07.03.2017 16:10:34.578 [main] ERROR com.rtmznk.railway.factory.RailwayRollingStockFactory - com.rtmznk.railway.entity.CreatingEntityException: Incorrect engine type
+07.03.2017 16:10:56.425 [main] WARN  com.rtmznk.railway.parser.TrainParametrStringParser - Wrong string will be ignored : wrong string
+07.03.2017 16:10:56.429 [main] WARN  com.rtmznk.railway.parser.TrainParametrStringParser - Wrong string will be ignored : wrong string
+07.03.2017 16:10:56.429 [main] WARN  com.rtmznk.railway.parser.TrainParametrStringParser - Wrong string will be ignored : wrong string
+07.03.2017 16:10:56.429 [main] FATAL com.rtmznk.railway.parser.TrainParametrStringParser - Wrong parametrs list. Train Type not Defined
+07.03.2017 16:10:58.614 [main] FATAL com.rtmznk.railway.reader.TextFileReader - java.nio.file.NoSuchFileException: badFilePath
+07.03.2017 16:10:58.630 [main] ERROR com.rtmznk.railway.factory.RailwayRollingStockFactory - com.rtmznk.railway.entity.CreatingEntityException: Wrong wagon Type : 100
+07.03.2017 16:10:58.631 [main] ERROR com.rtmznk.railway.factory.RailwayRollingStockFactory - com.rtmznk.railway.entity.CreatingEntityException: Incorrect engine type
+07.03.2017 16:11:09.390 [main] WARN  com.rtmznk.railway.parser.TrainParametrStringParser - Wrong string will be ignored : wrong string
+07.03.2017 16:11:09.393 [main] WARN  com.rtmznk.railway.parser.TrainParametrStringParser - Wrong string will be ignored : wrong string
+07.03.2017 16:11:09.393 [main] WARN  com.rtmznk.railway.parser.TrainParametrStringParser - Wrong string will be ignored : wrong string
+07.03.2017 16:11:09.394 [main] FATAL com.rtmznk.railway.parser.TrainParametrStringParser - Wrong parametrs list. Train Type not Defined
+07.03.2017 16:11:09.855 [main] FATAL com.rtmznk.railway.reader.TextFileReader - java.nio.file.NoSuchFileException: badFilePath
+07.03.2017 16:11:09.872 [main] ERROR com.rtmznk.railway.factory.RailwayRollingStockFactory - com.rtmznk.railway.entity.CreatingEntityException: Wrong wagon Type : 100
+07.03.2017 16:11:09.873 [main] ERROR com.rtmznk.railway.factory.RailwayRollingStockFactory - com.rtmznk.railway.entity.CreatingEntityException: Incorrect engine type
+07.03.2017 16:11:18.183 [main] WARN  com.rtmznk.railway.parser.TrainParametrStringParser - Wrong string will be ignored : wrong string
+07.03.2017 16:11:18.189 [main] WARN  com.rtmznk.railway.parser.TrainParametrStringParser - Wrong string will be ignored : wrong string
+07.03.2017 16:11:18.189 [main] WARN  com.rtmznk.railway.parser.TrainParametrStringParser - Wrong string will be ignored : wrong string
+07.03.2017 16:11:18.191 [main] FATAL com.rtmznk.railway.parser.TrainParametrStringParser - Wrong parametrs list. Train Type not Defined
+07.03.2017 16:11:20.723 [main] FATAL com.rtmznk.railway.reader.TextFileReader - java.nio.file.NoSuchFileException: badFilePath
+07.03.2017 16:11:20.732 [main] ERROR com.rtmznk.railway.factory.RailwayRollingStockFactory - com.rtmznk.railway.entity.CreatingEntityException: Wrong wagon Type : 100
+07.03.2017 16:11:20.732 [main] ERROR com.rtmznk.railway.factory.RailwayRollingStockFactory - com.rtmznk.railway.entity.CreatingEntityException: Incorrect engine type
+06.03.2017 22:41:21.977 [main] FATAL com.rtmznk.railway.reader.TextFileReader - java.nio.file.NoSuchFileException: badFilePath
+07.03.2017 13:27:34.205 [main] WARN  com.rtmznk.railway.parser.ParametrStringParser - Wrong string will be ignored : wrong string
+07.03.2017 13:27:34.210 [main] WARN  com.rtmznk.railway.parser.ParametrStringParser - Wrong string will be ignored : wrong string
+07.03.2017 13:27:34.211 [main] WARN  com.rtmznk.railway.parser.ParametrStringParser - Wrong string will be ignored : wrong string
+07.03.2017 13:27:34.211 [main] FATAL com.rtmznk.railway.parser.ParametrStringParser - Wrong parametrs list. Train Type not Defined
+07.03.2017 15:15:04.263 [main] ERROR com.rtmznk.railway.factory.RailwayRollingStockFactory - com.rtmznk.railway.entity.CreatingEntityException: Wrong wagon Type : 100
+07.03.2017 15:19:23.381 [main] ERROR com.rtmznk.railway.factory.RailwayRollingStockFactory - com.rtmznk.railway.entity.CreatingEntityException: passengers amount more than capacity: 300
+07.03.2017 15:19:23.390 [main] ERROR com.rtmznk.railway.factory.RailwayRollingStockFactory - com.rtmznk.railway.entity.CreatingEntityException: Incorrect engine type
+07.03.2017 15:23:27.490 [main] ERROR com.rtmznk.railway.factory.RailwayRollingStockFactory - com.rtmznk.railway.entity.CreatingEntityException: Incorrect engine type
+07.03.2017 15:25:00.180 [main] ERROR com.rtmznk.railway.factory.RailwayRollingStockFactory - com.rtmznk.railway.entity.CreatingEntityException: Wrong wagon Type : 100
+07.03.2017 15:25:00.184 [main] ERROR com.rtmznk.railway.factory.RailwayRollingStockFactory - com.rtmznk.railway.entity.CreatingEntityException: Incorrect engine type
+07.03.2017 15:43:50.441 [main] ERROR com.rtmznk.railway.factory.RailwayRollingStockFactory - com.rtmznk.railway.entity.CreatingEntityException: Wrong wagon Type : 100
+07.03.2017 15:43:50.446 [main] ERROR com.rtmznk.railway.factory.RailwayRollingStockFactory - com.rtmznk.railway.entity.CreatingEntityException: Incorrect engine type
+07.03.2017 16:10:33.882 [main] WARN  com.rtmznk.railway.parser.TrainParametrStringParser - Wrong string will be ignored : wrong string
+07.03.2017 16:10:33.886 [main] WARN  com.rtmznk.railway.parser.TrainParametrStringParser - Wrong string will be ignored : wrong string
+07.03.2017 16:10:33.886 [main] WARN  com.rtmznk.railway.parser.TrainParametrStringParser - Wrong string will be ignored : wrong string
+07.03.2017 16:10:33.886 [main] FATAL com.rtmznk.railway.parser.TrainParametrStringParser - Wrong parametrs list. Train Type not Defined
+07.03.2017 16:10:34.561 [main] FATAL com.rtmznk.railway.reader.TextFileReader - java.nio.file.NoSuchFileException: badFilePath
+07.03.2017 16:10:34.577 [main] ERROR com.rtmznk.railway.factory.RailwayRollingStockFactory - com.rtmznk.railway.entity.CreatingEntityException: Wrong wagon Type : 100
+07.03.2017 16:10:34.578 [main] ERROR com.rtmznk.railway.factory.RailwayRollingStockFactory - com.rtmznk.railway.entity.CreatingEntityException: Incorrect engine type
+07.03.2017 16:10:56.425 [main] WARN  com.rtmznk.railway.parser.TrainParametrStringParser - Wrong string will be ignored : wrong string
+07.03.2017 16:10:56.429 [main] WARN  com.rtmznk.railway.parser.TrainParametrStringParser - Wrong string will be ignored : wrong string
+07.03.2017 16:10:56.429 [main] WARN  com.rtmznk.railway.parser.TrainParametrStringParser - Wrong string will be ignored : wrong string
+07.03.2017 16:10:56.429 [main] FATAL com.rtmznk.railway.parser.TrainParametrStringParser - Wrong parametrs list. Train Type not Defined
+07.03.2017 16:10:58.614 [main] FATAL com.rtmznk.railway.reader.TextFileReader - java.nio.file.NoSuchFileException: badFilePath
+07.03.2017 16:10:58.630 [main] ERROR com.rtmznk.railway.factory.RailwayRollingStockFactory - com.rtmznk.railway.entity.CreatingEntityException: Wrong wagon Type : 100
+07.03.2017 16:10:58.631 [main] ERROR com.rtmznk.railway.factory.RailwayRollingStockFactory - com.rtmznk.railway.entity.CreatingEntityException: Incorrect engine type
+07.03.2017 16:11:09.390 [main] WARN  com.rtmznk.railway.parser.TrainParametrStringParser - Wrong string will be ignored : wrong string
+07.03.2017 16:11:09.393 [main] WARN  com.rtmznk.railway.parser.TrainParametrStringParser - Wrong string will be ignored : wrong string
+07.03.2017 16:11:09.393 [main] WARN  com.rtmznk.railway.parser.TrainParametrStringParser - Wrong string will be ignored : wrong string
+07.03.2017 16:11:09.394 [main] FATAL com.rtmznk.railway.parser.TrainParametrStringParser - Wrong parametrs list. Train Type not Defined
+07.03.2017 16:11:09.855 [main] FATAL com.rtmznk.railway.reader.TextFileReader - java.nio.file.NoSuchFileException: badFilePath
+07.03.2017 16:11:09.872 [main] ERROR com.rtmznk.railway.factory.RailwayRollingStockFactory - com.rtmznk.railway.entity.CreatingEntityException: Wrong wagon Type : 100
+07.03.2017 16:11:09.873 [main] ERROR com.rtmznk.railway.factory.RailwayRollingStockFactory - com.rtmznk.railway.entity.CreatingEntityException: Incorrect engine type
+07.03.2017 16:11:18.183 [main] WARN  com.rtmznk.railway.parser.TrainParametrStringParser - Wrong string will be ignored : wrong string
+07.03.2017 16:11:18.189 [main] WARN  com.rtmznk.railway.parser.TrainParametrStringParser - Wrong string will be ignored : wrong string
+07.03.2017 16:11:18.189 [main] WARN  com.rtmznk.railway.parser.TrainParametrStringParser - Wrong string will be ignored : wrong string
+07.03.2017 16:11:18.191 [main] FATAL com.rtmznk.railway.parser.TrainParametrStringParser - Wrong parametrs list. Train Type not Defined
+07.03.2017 16:11:20.723 [main] FATAL com.rtmznk.railway.reader.TextFileReader - java.nio.file.NoSuchFileException: badFilePath
+07.03.2017 16:11:20.732 [main] ERROR com.rtmznk.railway.factory.RailwayRollingStockFactory - com.rtmznk.railway.entity.CreatingEntityException: Wrong wagon Type : 100
+07.03.2017 16:11:20.732 [main] ERROR com.rtmznk.railway.factory.RailwayRollingStockFactory - com.rtmznk.railway.entity.CreatingEntityException: Incorrect engine type
+06.03.2017 22:41:21.977 [main] FATAL com.rtmznk.railway.reader.TextFileReader - java.nio.file.NoSuchFileException: badFilePath
+07.03.2017 13:27:34.205 [main] WARN  com.rtmznk.railway.parser.ParametrStringParser - Wrong string will be ignored : wrong string
+07.03.2017 13:27:34.210 [main] WARN  com.rtmznk.railway.parser.ParametrStringParser - Wrong string will be ignored : wrong string
+07.03.2017 13:27:34.211 [main] WARN  com.rtmznk.railway.parser.ParametrStringParser - Wrong string will be ignored : wrong string
+07.03.2017 13:27:34.211 [main] FATAL com.rtmznk.railway.parser.ParametrStringParser - Wrong parametrs list. Train Type not Defined
+07.03.2017 15:15:04.263 [main] ERROR com.rtmznk.railway.factory.RailwayRollingStockFactory - com.rtmznk.railway.entity.CreatingEntityException: Wrong wagon Type : 100
+07.03.2017 15:19:23.381 [main] ERROR com.rtmznk.railway.factory.RailwayRollingStockFactory - com.rtmznk.railway.entity.CreatingEntityException: passengers amount more than capacity: 300
+07.03.2017 15:19:23.390 [main] ERROR com.rtmznk.railway.factory.RailwayRollingStockFactory - com.rtmznk.railway.entity.CreatingEntityException: Incorrect engine type
+07.03.2017 15:23:27.490 [main] ERROR com.rtmznk.railway.factory.RailwayRollingStockFactory - com.rtmznk.railway.entity.CreatingEntityException: Incorrect engine type
+07.03.2017 15:25:00.180 [main] ERROR com.rtmznk.railway.factory.RailwayRollingStockFactory - com.rtmznk.railway.entity.CreatingEntityException: Wrong wagon Type : 100
+07.03.2017 15:25:00.184 [main] ERROR com.rtmznk.railway.factory.RailwayRollingStockFactory - com.rtmznk.railway.entity.CreatingEntityException: Incorrect engine type
+07.03.2017 15:43:50.441 [main] ERROR com.rtmznk.railway.factory.RailwayRollingStockFactory - com.rtmznk.railway.entity.CreatingEntityException: Wrong wagon Type : 100
+07.03.2017 15:43:50.446 [main] ERROR com.rtmznk.railway.factory.RailwayRollingStockFactory - com.rtmznk.railway.entity.CreatingEntityException: Incorrect engine type
+07.03.2017 16:10:33.882 [main] WARN  com.rtmznk.railway.parser.TrainParametrStringParser - Wrong string will be ignored : wrong string
+07.03.2017 16:10:33.886 [main] WARN  com.rtmznk.railway.parser.TrainParametrStringParser - Wrong string will be ignored : wrong string
+07.03.2017 16:10:33.886 [main] WARN  com.rtmznk.railway.parser.TrainParametrStringParser - Wrong string will be ignored : wrong string
+07.03.2017 16:10:33.886 [main] FATAL com.rtmznk.railway.parser.TrainParametrStringParser - Wrong parametrs list. Train Type not Defined
+07.03.2017 16:10:34.561 [main] FATAL com.rtmznk.railway.reader.TextFileReader - java.nio.file.NoSuchFileException: badFilePath
+07.03.2017 16:10:34.577 [main] ERROR com.rtmznk.railway.factory.RailwayRollingStockFactory - com.rtmznk.railway.entity.CreatingEntityException: Wrong wagon Type : 100
+07.03.2017 16:10:34.578 [main] ERROR com.rtmznk.railway.factory.RailwayRollingStockFactory - com.rtmznk.railway.entity.CreatingEntityException: Incorrect engine type
+07.03.2017 16:10:56.425 [main] WARN  com.rtmznk.railway.parser.TrainParametrStringParser - Wrong string will be ignored : wrong string
+07.03.2017 16:10:56.429 [main] WARN  com.rtmznk.railway.parser.TrainParametrStringParser - Wrong string will be ignored : wrong string
+07.03.2017 16:10:56.429 [main] WARN  com.rtmznk.railway.parser.TrainParametrStringParser - Wrong string will be ignored : wrong string
+07.03.2017 16:10:56.429 [main] FATAL com.rtmznk.railway.parser.TrainParametrStringParser - Wrong parametrs list. Train Type not Defined
+07.03.2017 16:10:58.614 [main] FATAL com.rtmznk.railway.reader.TextFileReader - java.nio.file.NoSuchFileException: badFilePath
+07.03.2017 16:10:58.630 [main] ERROR com.rtmznk.railway.factory.RailwayRollingStockFactory - com.rtmznk.railway.entity.CreatingEntityException: Wrong wagon Type : 100
+07.03.2017 16:10:58.631 [main] ERROR com.rtmznk.railway.factory.RailwayRollingStockFactory - com.rtmznk.railway.entity.CreatingEntityException: Incorrect engine type
+07.03.2017 16:11:09.390 [main] WARN  com.rtmznk.railway.parser.TrainParametrStringParser - Wrong string will be ignored : wrong string
+07.03.2017 16:11:09.393 [main] WARN  com.rtmznk.railway.parser.TrainParametrStringParser - Wrong string will be ignored : wrong string
+07.03.2017 16:11:09.393 [main] WARN  com.rtmznk.railway.parser.TrainParametrStringParser - Wrong string will be ignored : wrong string
+07.03.2017 16:11:09.394 [main] FATAL com.rtmznk.railway.parser.TrainParametrStringParser - Wrong parametrs list. Train Type not Defined
+07.03.2017 16:11:09.855 [main] FATAL com.rtmznk.railway.reader.TextFileReader - java.nio.file.NoSuchFileException: badFilePath
+07.03.2017 16:11:09.872 [main] ERROR com.rtmznk.railway.factory.RailwayRollingStockFactory - com.rtmznk.railway.entity.CreatingEntityException: Wrong wagon Type : 100
+07.03.2017 16:11:09.873 [main] ERROR com.rtmznk.railway.factory.RailwayRollingStockFactory - com.rtmznk.railway.entity.CreatingEntityException: Incorrect engine type
+07.03.2017 16:11:18.183 [main] WARN  com.rtmznk.railway.parser.TrainParametrStringParser - Wrong string will be ignored : wrong string
+07.03.2017 16:11:18.189 [main] WARN  com.rtmznk.railway.parser.TrainParametrStringParser - Wrong string will be ignored : wrong string
+07.03.2017 16:11:18.189 [main] WARN  com.rtmznk.railway.parser.TrainParametrStringParser - Wrong string will be ignored : wrong string
+07.03.2017 16:11:18.191 [main] FATAL com.rtmznk.railway.parser.TrainParametrStringParser - Wrong parametrs list. Train Type not Defined
+07.03.2017 16:11:20.723 [main] FATAL com.rtmznk.railway.reader.TextFileReader - java.nio.file.NoSuchFileException: badFilePath
+07.03.2017 16:11:20.732 [main] ERROR com.rtmznk.railway.factory.RailwayRollingStockFactory - com.rtmznk.railway.entity.CreatingEntityException: Wrong wagon Type : 100
+07.03.2017 16:11:20.732 [main] ERROR com.rtmznk.railway.factory.RailwayRollingStockFactory - com.rtmznk.railway.entity.CreatingEntityException: Incorrect engine type
+06.03.2017 22:41:21.977 [main] FATAL com.rtmznk.railway.reader.TextFileReader - java.nio.file.NoSuchFileException: badFilePath
+07.03.2017 13:27:34.205 [main] WARN  com.rtmznk.railway.parser.ParametrStringParser - Wrong string will be ignored : wrong string
+07.03.2017 13:27:34.210 [main] WARN  com.rtmznk.railway.parser.ParametrStringParser - Wrong string will be ignored : wrong string
+07.03.2017 13:27:34.211 [main] WARN  com.rtmznk.railway.parser.ParametrStringParser - Wrong string will be ignored : wrong string
+07.03.2017 13:27:34.211 [main] FATAL com.rtmznk.railway.parser.ParametrStringParser - Wrong parametrs list. Train Type not Defined
+07.03.2017 15:15:04.263 [main] ERROR com.rtmznk.railway.factory.RailwayRollingStockFactory - com.rtmznk.railway.entity.CreatingEntityException: Wrong wagon Type : 100
+07.03.2017 15:19:23.381 [main] ERROR com.rtmznk.railway.factory.RailwayRollingStockFactory - com.rtmznk.railway.entity.CreatingEntityException: passengers amount more than capacity: 300
+07.03.2017 15:19:23.390 [main] ERROR com.rtmznk.railway.factory.RailwayRollingStockFactory - com.rtmznk.railway.entity.CreatingEntityException: Incorrect engine type
+07.03.2017 15:23:27.490 [main] ERROR com.rtmznk.railway.factory.RailwayRollingStockFactory - com.rtmznk.railway.entity.CreatingEntityException: Incorrect engine type
+07.03.2017 15:25:00.180 [main] ERROR com.rtmznk.railway.factory.RailwayRollingStockFactory - com.rtmznk.railway.entity.CreatingEntityException: Wrong wagon Type : 100
+07.03.2017 15:25:00.184 [main] ERROR com.rtmznk.railway.factory.RailwayRollingStockFactory - com.rtmznk.railway.entity.CreatingEntityException: Incorrect engine type
+07.03.2017 15:43:50.441 [main] ERROR com.rtmznk.railway.factory.RailwayRollingStockFactory - com.rtmznk.railway.entity.CreatingEntityException: Wrong wagon Type : 100
+07.03.2017 15:43:50.446 [main] ERROR com.rtmznk.railway.factory.RailwayRollingStockFactory - com.rtmznk.railway.entity.CreatingEntityException: Incorrect engine type
+07.03.2017 16:10:33.882 [main] WARN  com.rtmznk.railway.parser.TrainParametrStringParser - Wrong string will be ignored : wrong string
+07.03.2017 16:10:33.886 [main] WARN  com.rtmznk.railway.parser.TrainParametrStringParser - Wrong string will be ignored : wrong string
+07.03.2017 16:10:33.886 [main] WARN  com.rtmznk.railway.parser.TrainParametrStringParser - Wrong string will be ignored : wrong string
+07.03.2017 16:10:33.886 [main] FATAL com.rtmznk.railway.parser.TrainParametrStringParser - Wrong parametrs list. Train Type not Defined
+07.03.2017 16:10:34.561 [main] FATAL com.rtmznk.railway.reader.TextFileReader - java.nio.file.NoSuchFileException: badFilePath
+07.03.2017 16:10:34.577 [main] ERROR com.rtmznk.railway.factory.RailwayRollingStockFactory - com.rtmznk.railway.entity.CreatingEntityException: Wrong wagon Type : 100
+07.03.2017 16:10:34.578 [main] ERROR com.rtmznk.railway.factory.RailwayRollingStockFactory - com.rtmznk.railway.entity.CreatingEntityException: Incorrect engine type
+07.03.2017 16:10:56.425 [main] WARN  com.rtmznk.railway.parser.TrainParametrStringParser - Wrong string will be ignored : wrong string
+07.03.2017 16:10:56.429 [main] WARN  com.rtmznk.railway.parser.TrainParametrStringParser - Wrong string will be ignored : wrong string
+07.03.2017 16:10:56.429 [main] WARN  com.rtmznk.railway.parser.TrainParametrStringParser - Wrong string will be ignored : wrong string
+07.03.2017 16:10:56.429 [main] FATAL com.rtmznk.railway.parser.TrainParametrStringParser - Wrong parametrs list. Train Type not Defined
+07.03.2017 16:10:58.614 [main] FATAL com.rtmznk.railway.reader.TextFileReader - java.nio.file.NoSuchFileException: badFilePath
+07.03.2017 16:10:58.630 [main] ERROR com.rtmznk.railway.factory.RailwayRollingStockFactory - com.rtmznk.railway.entity.CreatingEntityException: Wrong wagon Type : 100
+07.03.2017 16:10:58.631 [main] ERROR com.rtmznk.railway.factory.RailwayRollingStockFactory - com.rtmznk.railway.entity.CreatingEntityException: Incorrect engine type
+07.03.2017 16:11:09.390 [main] WARN  com.rtmznk.railway.parser.TrainParametrStringParser - Wrong string will be ignored : wrong string
+07.03.2017 16:11:09.393 [main] WARN  com.rtmznk.railway.parser.TrainParametrStringParser - Wrong string will be ignored : wrong string
+07.03.2017 16:11:09.393 [main] WARN  com.rtmznk.railway.parser.TrainParametrStringParser - Wrong string will be ignored : wrong string
+07.03.2017 16:11:09.394 [main] FATAL com.rtmznk.railway.parser.TrainParametrStringParser - Wrong parametrs list. Train Type not Defined
+07.03.2017 16:11:09.855 [main] FATAL com.rtmznk.railway.reader.TextFileReader - java.nio.file.NoSuchFileException: badFilePath
+07.03.2017 16:11:09.872 [main] ERROR com.rtmznk.railway.factory.RailwayRollingStockFactory - com.rtmznk.railway.entity.CreatingEntityException: Wrong wagon Type : 100
+07.03.2017 16:11:09.873 [main] ERROR com.rtmznk.railway.factory.RailwayRollingStockFactory - com.rtmznk.railway.entity.CreatingEntityException: Incorrect engine type
+07.03.2017 16:11:18.183 [main] WARN  com.rtmznk.railway.parser.TrainParametrStringParser - Wrong string will be ignored : wrong string
+07.03.2017 16:11:18.189 [main] WARN  com.rtmznk.railway.parser.TrainParametrStringParser - Wrong string will be ignored : wrong string
+07.03.2017 16:11:18.189 [main] WARN  com.rtmznk.railway.parser.TrainParametrStringParser - Wrong string will be ignored : wrong string
+07.03.2017 16:11:18.191 [main] FATAL com.rtmznk.railway.parser.TrainParametrStringParser - Wrong parametrs list. Train Type not Defined
+07.03.2017 16:11:20.723 [main] FATAL com.rtmznk.railway.reader.TextFileReader - java.nio.file.NoSuchFileException: badFilePath
+07.03.2017 16:11:20.732 [main] ERROR com.rtmznk.railway.factory.RailwayRollingStockFactory - com.rtmznk.railway.entity.CreatingEntityException: Wrong wagon Type : 100
+07.03.2017 16:11:20.732 [main] ERROR com.rtmznk.railway.factory.RailwayRollingStockFactory - com.rtmznk.railway.entity.CreatingEntityException: Incorrect engine type
+06.03.2017 22:41:21.977 [main] FATAL com.rtmznk.railway.reader.TextFileReader - java.nio.file.NoSuchFileException: badFilePath
+07.03.2017 13:27:34.205 [main] WARN  com.rtmznk.railway.parser.ParametrStringParser - Wrong string will be ignored : wrong string
+07.03.2017 13:27:34.210 [main] WARN  com.rtmznk.railway.parser.ParametrStringParser - Wrong string will be ignored : wrong string
+07.03.2017 13:27:34.211 [main] WARN  com.rtmznk.railway.parser.ParametrStringParser - Wrong string will be ignored : wrong string
+07.03.2017 13:27:34.211 [main] FATAL com.rtmznk.railway.parser.ParametrStringParser - Wrong parametrs list. Train Type not Defined
+07.03.2017 15:15:04.263 [main] ERROR com.rtmznk.railway.factory.RailwayRollingStockFactory - com.rtmznk.railway.entity.CreatingEntityException: Wrong wagon Type : 100
+07.03.2017 15:19:23.381 [main] ERROR com.rtmznk.railway.factory.RailwayRollingStockFactory - com.rtmznk.railway.entity.CreatingEntityException: passengers amount more than capacity: 300
+07.03.2017 15:19:23.390 [main] ERROR com.rtmznk.railway.factory.RailwayRollingStockFactory - com.rtmznk.railway.entity.CreatingEntityException: Incorrect engine type
+07.03.2017 15:23:27.490 [main] ERROR com.rtmznk.railway.factory.RailwayRollingStockFactory - com.rtmznk.railway.entity.CreatingEntityException: Incorrect engine type
+07.03.2017 15:25:00.180 [main] ERROR com.rtmznk.railway.factory.RailwayRollingStockFactory - com.rtmznk.railway.entity.CreatingEntityException: Wrong wagon Type : 100
+07.03.2017 15:25:00.184 [main] ERROR com.rtmznk.railway.factory.RailwayRollingStockFactory - com.rtmznk.railway.entity.CreatingEntityException: Incorrect engine type
+07.03.2017 15:43:50.441 [main] ERROR com.rtmznk.railway.factory.RailwayRollingStockFactory - com.rtmznk.railway.entity.CreatingEntityException: Wrong wagon Type : 100
+07.03.2017 15:43:50.446 [main] ERROR com.rtmznk.railway.factory.RailwayRollingStockFactory - com.rtmznk.railway.entity.CreatingEntityException: Incorrect engine type
+07.03.2017 16:10:33.882 [main] WARN  com.rtmznk.railway.parser.TrainParametrStringParser - Wrong string will be ignored : wrong string
+07.03.2017 16:10:33.886 [main] WARN  com.rtmznk.railway.parser.TrainParametrStringParser - Wrong string will be ignored : wrong string
+07.03.2017 16:10:33.886 [main] WARN  com.rtmznk.railway.parser.TrainParametrStringParser - Wrong string will be ignored : wrong string
+07.03.2017 16:10:33.886 [main] FATAL com.rtmznk.railway.parser.TrainParametrStringParser - Wrong parametrs list. Train Type not Defined
+07.03.2017 16:10:34.561 [main] FATAL com.rtmznk.railway.reader.TextFileReader - java.nio.file.NoSuchFileException: badFilePath
+07.03.2017 16:10:34.577 [main] ERROR com.rtmznk.railway.factory.RailwayRollingStockFactory - com.rtmznk.railway.entity.CreatingEntityException: Wrong wagon Type : 100
+07.03.2017 16:10:34.578 [main] ERROR com.rtmznk.railway.factory.RailwayRollingStockFactory - com.rtmznk.railway.entity.CreatingEntityException: Incorrect engine type
+07.03.2017 16:10:56.425 [main] WARN  com.rtmznk.railway.parser.TrainParametrStringParser - Wrong string will be ignored : wrong string
+07.03.2017 16:10:56.429 [main] WARN  com.rtmznk.railway.parser.TrainParametrStringParser - Wrong string will be ignored : wrong string
+07.03.2017 16:10:56.429 [main] WARN  com.rtmznk.railway.parser.TrainParametrStringParser - Wrong string will be ignored : wrong string
+07.03.2017 16:10:56.429 [main] FATAL com.rtmznk.railway.parser.TrainParametrStringParser - Wrong parametrs list. Train Type not Defined
+07.03.2017 16:10:58.614 [main] FATAL com.rtmznk.railway.reader.TextFileReader - java.nio.file.NoSuchFileException: badFilePath
+07.03.2017 16:10:58.630 [main] ERROR com.rtmznk.railway.factory.RailwayRollingStockFactory - com.rtmznk.railway.entity.CreatingEntityException: Wrong wagon Type : 100
+07.03.2017 16:10:58.631 [main] ERROR com.rtmznk.railway.factory.RailwayRollingStockFactory - com.rtmznk.railway.entity.CreatingEntityException: Incorrect engine type
+07.03.2017 16:11:09.390 [main] WARN  com.rtmznk.railway.parser.TrainParametrStringParser - Wrong string will be ignored : wrong string
+07.03.2017 16:11:09.393 [main] WARN  com.rtmznk.railway.parser.TrainParametrStringParser - Wrong string will be ignored : wrong string
+07.03.2017 16:11:09.393 [main] WARN  com.rtmznk.railway.parser.TrainParametrStringParser - Wrong string will be ignored : wrong string
+07.03.2017 16:11:09.394 [main] FATAL com.rtmznk.railway.parser.TrainParametrStringParser - Wrong parametrs list. Train Type not Defined
+07.03.2017 16:11:09.855 [main] FATAL com.rtmznk.railway.reader.TextFileReader - java.nio.file.NoSuchFileException: badFilePath
+07.03.2017 16:11:09.872 [main] ERROR com.rtmznk.railway.factory.RailwayRollingStockFactory - com.rtmznk.railway.entity.CreatingEntityException: Wrong wagon Type : 100
+07.03.2017 16:11:09.873 [main] ERROR com.rtmznk.railway.factory.RailwayRollingStockFactory - com.rtmznk.railway.entity.CreatingEntityException: Incorrect engine type
+07.03.2017 16:11:18.183 [main] WARN  com.rtmznk.railway.parser.TrainParametrStringParser - Wrong string will be ignored : wrong string
+07.03.2017 16:11:18.189 [main] WARN  com.rtmznk.railway.parser.TrainParametrStringParser - Wrong string will be ignored : wrong string
+07.03.2017 16:11:18.189 [main] WARN  com.rtmznk.railway.parser.TrainParametrStringParser - Wrong string will be ignored : wrong string
+07.03.2017 16:11:18.191 [main] FATAL com.rtmznk.railway.parser.TrainParametrStringParser - Wrong parametrs list. Train Type not Defined
+07.03.2017 16:11:20.723 [main] FATAL com.rtmznk.railway.reader.TextFileReader - java.nio.file.NoSuchFileException: badFilePath
+07.03.2017 16:11:20.732 [main] ERROR com.rtmznk.railway.factory.RailwayRollingStockFactory - com.rtmznk.railway.entity.CreatingEntityException: Wrong wagon Type : 100
+07.03.2017 16:11:20.732 [main] ERROR com.rtmznk.railway.factory.RailwayRollingStockFactory - com.rtmznk.railway.entity.CreatingEntityException: Incorrect engine type
+06.03.2017 22:41:21.977 [main] FATAL com.rtmznk.railway.reader.TextFileReader - java.nio.file.NoSuchFileException: badFilePath
+07.03.2017 13:27:34.205 [main] WARN  com.rtmznk.railway.parser.ParametrStringParser - Wrong string will be ignored : wrong string
+07.03.2017 13:27:34.210 [main] WARN  com.rtmznk.railway.parser.ParametrStringParser - Wrong string will be ignored : wrong string
+07.03.2017 13:27:34.211 [main] WARN  com.rtmznk.railway.parser.ParametrStringParser - Wrong string will be ignored : wrong string
+07.03.2017 13:27:34.211 [main] FATAL com.rtmznk.railway.parser.ParametrStringParser - Wrong parametrs list. Train Type not Defined
+07.03.2017 15:15:04.263 [main] ERROR com.rtmznk.railway.factory.RailwayRollingStockFactory - com.rtmznk.railway.entity.CreatingEntityException: Wrong wagon Type : 100
+07.03.2017 15:19:23.381 [main] ERROR com.rtmznk.railway.factory.RailwayRollingStockFactory - com.rtmznk.railway.entity.CreatingEntityException: passengers amount more than capacity: 300
+07.03.2017 15:19:23.390 [main] ERROR com.rtmznk.railway.factory.RailwayRollingStockFactory - com.rtmznk.railway.entity.CreatingEntityException: Incorrect engine type
+07.03.2017 15:23:27.490 [main] ERROR com.rtmznk.railway.factory.RailwayRollingStockFactory - com.rtmznk.railway.entity.CreatingEntityException: Incorrect engine type
+07.03.2017 15:25:00.180 [main] ERROR com.rtmznk.railway.factory.RailwayRollingStockFactory - com.rtmznk.railway.entity.CreatingEntityException: Wrong wagon Type : 100
+07.03.2017 15:25:00.184 [main] ERROR com.rtmznk.railway.factory.RailwayRollingStockFactory - com.rtmznk.railway.entity.CreatingEntityException: Incorrect engine type
+07.03.2017 15:43:50.441 [main] ERROR com.rtmznk.railway.factory.RailwayRollingStockFactory - com.rtmznk.railway.entity.CreatingEntityException: Wrong wagon Type : 100
+07.03.2017 15:43:50.446 [main] ERROR com.rtmznk.railway.factory.RailwayRollingStockFactory - com.rtmznk.railway.entity.CreatingEntityException: Incorrect engine type
+07.03.2017 16:10:33.882 [main] WARN  com.rtmznk.railway.parser.TrainParametrStringParser - Wrong string will be ignored : wrong string
+07.03.2017 16:10:33.886 [main] WARN  com.rtmznk.railway.parser.TrainParametrStringParser - Wrong string will be ignored : wrong string
+07.03.2017 16:10:33.886 [main] WARN  com.rtmznk.railway.parser.TrainParametrStringParser - Wrong string will be ignored : wrong string
+07.03.2017 16:10:33.886 [main] FATAL com.rtmznk.railway.parser.TrainParametrStringParser - Wrong parametrs list. Train Type not Defined
+07.03.2017 16:10:34.561 [main] FATAL com.rtmznk.railway.reader.TextFileReader - java.nio.file.NoSuchFileException: badFilePath
+07.03.2017 16:10:34.577 [main] ERROR com.rtmznk.railway.factory.RailwayRollingStockFactory - com.rtmznk.railway.entity.CreatingEntityException: Wrong wagon Type : 100
+07.03.2017 16:10:34.578 [main] ERROR com.rtmznk.railway.factory.RailwayRollingStockFactory - com.rtmznk.railway.entity.CreatingEntityException: Incorrect engine type
+07.03.2017 16:10:56.425 [main] WARN  com.rtmznk.railway.parser.TrainParametrStringParser - Wrong string will be ignored : wrong string
+07.03.2017 16:10:56.429 [main] WARN  com.rtmznk.railway.parser.TrainParametrStringParser - Wrong string will be ignored : wrong string
+07.03.2017 16:10:56.429 [main] WARN  com.rtmznk.railway.parser.TrainParametrStringParser - Wrong string will be ignored : wrong string
+07.03.2017 16:10:56.429 [main] FATAL com.rtmznk.railway.parser.TrainParametrStringParser - Wrong parametrs list. Train Type not Defined
+07.03.2017 16:10:58.614 [main] FATAL com.rtmznk.railway.reader.TextFileReader - java.nio.file.NoSuchFileException: badFilePath
+07.03.2017 16:10:58.630 [main] ERROR com.rtmznk.railway.factory.RailwayRollingStockFactory - com.rtmznk.railway.entity.CreatingEntityException: Wrong wagon Type : 100
+07.03.2017 16:10:58.631 [main] ERROR com.rtmznk.railway.factory.RailwayRollingStockFactory - com.rtmznk.railway.entity.CreatingEntityException: Incorrect engine type
+07.03.2017 16:11:09.390 [main] WARN  com.rtmznk.railway.parser.TrainParametrStringParser - Wrong string will be ignored : wrong string
+07.03.2017 16:11:09.393 [main] WARN  com.rtmznk.railway.parser.TrainParametrStringParser - Wrong string will be ignored : wrong string
+07.03.2017 16:11:09.393 [main] WARN  com.rtmznk.railway.parser.TrainParametrStringParser - Wrong string will be ignored : wrong string
+07.03.2017 16:11:09.394 [main] FATAL com.rtmznk.railway.parser.TrainParametrStringParser - Wrong parametrs list. Train Type not Defined
+07.03.2017 16:11:09.855 [main] FATAL com.rtmznk.railway.reader.TextFileReader - java.nio.file.NoSuchFileException: badFilePath
+07.03.2017 16:11:09.872 [main] ERROR com.rtmznk.railway.factory.RailwayRollingStockFactory - com.rtmznk.railway.entity.CreatingEntityException: Wrong wagon Type : 100
+07.03.2017 16:11:09.873 [main] ERROR com.rtmznk.railway.factory.RailwayRollingStockFactory - com.rtmznk.railway.entity.CreatingEntityException: Incorrect engine type
+07.03.2017 16:11:18.183 [main] WARN  com.rtmznk.railway.parser.TrainParametrStringParser - Wrong string will be ignored : wrong string
+07.03.2017 16:11:18.189 [main] WARN  com.rtmznk.railway.parser.TrainParametrStringParser - Wrong string will be ignored : wrong string
+07.03.2017 16:11:18.189 [main] WARN  com.rtmznk.railway.parser.TrainParametrStringParser - Wrong string will be ignored : wrong string
+07.03.2017 16:11:18.191 [main] FATAL com.rtmznk.railway.parser.TrainParametrStringParser - Wrong parametrs list. Train Type not Defined
+07.03.2017 16:11:20.723 [main] FATAL com.rtmznk.railway.reader.TextFileReader - java.nio.file.NoSuchFileException: badFilePath
+07.03.2017 16:11:20.732 [main] ERROR com.rtmznk.railway.factory.RailwayRollingStockFactory - com.rtmznk.railway.entity.CreatingEntityException: Wrong wagon Type : 100
+07.03.2017 16:11:20.732 [main] ERROR com.rtmznk.railway.factory.RailwayRollingStockFactory - com.rtmznk.railway.entity.CreatingEntityException: Incorrect engine type
+06.03.2017 22:41:21.977 [main] FATAL com.rtmznk.railway.reader.TextFileReader - java.nio.file.NoSuchFileException: badFilePath
+07.03.2017 13:27:34.205 [main] WARN  com.rtmznk.railway.parser.ParametrStringParser - Wrong string will be ignored : wrong string
+07.03.2017 13:27:34.210 [main] WARN  com.rtmznk.railway.parser.ParametrStringParser - Wrong string will be ignored : wrong string
+07.03.2017 13:27:34.211 [main] WARN  com.rtmznk.railway.parser.ParametrStringParser - Wrong string will be ignored : wrong string
+07.03.2017 13:27:34.211 [main] FATAL com.rtmznk.railway.parser.ParametrStringParser - Wrong parametrs list. Train Type not Defined
+07.03.2017 15:15:04.263 [main] ERROR com.rtmznk.railway.factory.RailwayRollingStockFactory - com.rtmznk.railway.entity.CreatingEntityException: Wrong wagon Type : 100
+07.03.2017 15:19:23.381 [main] ERROR com.rtmznk.railway.factory.RailwayRollingStockFactory - com.rtmznk.railway.entity.CreatingEntityException: passengers amount more than capacity: 300
+07.03.2017 15:19:23.390 [main] ERROR com.rtmznk.railway.factory.RailwayRollingStockFactory - com.rtmznk.railway.entity.CreatingEntityException: Incorrect engine type
+07.03.2017 15:23:27.490 [main] ERROR com.rtmznk.railway.factory.RailwayRollingStockFactory - com.rtmznk.railway.entity.CreatingEntityException: Incorrect engine type
+07.03.2017 15:25:00.180 [main] ERROR com.rtmznk.railway.factory.RailwayRollingStockFactory - com.rtmznk.railway.entity.CreatingEntityException: Wrong wagon Type : 100
+07.03.2017 15:25:00.184 [main] ERROR com.rtmznk.railway.factory.RailwayRollingStockFactory - com.rtmznk.railway.entity.CreatingEntityException: Incorrect engine type
+07.03.2017 15:43:50.441 [main] ERROR com.rtmznk.railway.factory.RailwayRollingStockFactory - com.rtmznk.railway.entity.CreatingEntityException: Wrong wagon Type : 100
+07.03.2017 15:43:50.446 [main] ERROR com.rtmznk.railway.factory.RailwayRollingStockFactory - com.rtmznk.railway.entity.CreatingEntityException: Incorrect engine type
+07.03.2017 16:10:33.882 [main] WARN  com.rtmznk.railway.parser.TrainParametrStringParser - Wrong string will be ignored : wrong string
+07.03.2017 16:10:33.886 [main] WARN  com.rtmznk.railway.parser.TrainParametrStringParser - Wrong string will be ignored : wrong string
+07.03.2017 16:10:33.886 [main] WARN  com.rtmznk.railway.parser.TrainParametrStringParser - Wrong string will be ignored : wrong string
+07.03.2017 16:10:33.886 [main] FATAL com.rtmznk.railway.parser.TrainParametrStringParser - Wrong parametrs list. Train Type not Defined
+07.03.2017 16:10:34.561 [main] FATAL com.rtmznk.railway.reader.TextFileReader - java.nio.file.NoSuchFileException: badFilePath
+07.03.2017 16:10:34.577 [main] ERROR com.rtmznk.railway.factory.RailwayRollingStockFactory - com.rtmznk.railway.entity.CreatingEntityException: Wrong wagon Type : 100
+07.03.2017 16:10:34.578 [main] ERROR com.rtmznk.railway.factory.RailwayRollingStockFactory - com.rtmznk.railway.entity.CreatingEntityException: Incorrect engine type
+07.03.2017 16:10:56.425 [main] WARN  com.rtmznk.railway.parser.TrainParametrStringParser - Wrong string will be ignored : wrong string
+07.03.2017 16:10:56.429 [main] WARN  com.rtmznk.railway.parser.TrainParametrStringParser - Wrong string will be ignored : wrong string
+07.03.2017 16:10:56.429 [main] WARN  com.rtmznk.railway.parser.TrainParametrStringParser - Wrong string will be ignored : wrong string
+07.03.2017 16:10:56.429 [main] FATAL com.rtmznk.railway.parser.TrainParametrStringParser - Wrong parametrs list. Train Type not Defined
+07.03.2017 16:10:58.614 [main] FATAL com.rtmznk.railway.reader.TextFileReader - java.nio.file.NoSuchFileException: badFilePath
+07.03.2017 16:10:58.630 [main] ERROR com.rtmznk.railway.factory.RailwayRollingStockFactory - com.rtmznk.railway.entity.CreatingEntityException: Wrong wagon Type : 100
+07.03.2017 16:10:58.631 [main] ERROR com.rtmznk.railway.factory.RailwayRollingStockFactory - com.rtmznk.railway.entity.CreatingEntityException: Incorrect engine type
+07.03.2017 16:11:09.390 [main] WARN  com.rtmznk.railway.parser.TrainParametrStringParser - Wrong string will be ignored : wrong string
+07.03.2017 16:11:09.393 [main] WARN  com.rtmznk.railway.parser.TrainParametrStringParser - Wrong string will be ignored : wrong string
+07.03.2017 16:11:09.393 [main] WARN  com.rtmznk.railway.parser.TrainParametrStringParser - Wrong string will be ignored : wrong string
+07.03.2017 16:11:09.394 [main] FATAL com.rtmznk.railway.parser.TrainParametrStringParser - Wrong parametrs list. Train Type not Defined
+07.03.2017 16:11:09.855 [main] FATAL com.rtmznk.railway.reader.TextFileReader - java.nio.file.NoSuchFileException: badFilePath
+07.03.2017 16:11:09.872 [main] ERROR com.rtmznk.railway.factory.RailwayRollingStockFactory - com.rtmznk.railway.entity.CreatingEntityException: Wrong wagon Type : 100
+07.03.2017 16:11:09.873 [main] ERROR com.rtmznk.railway.factory.RailwayRollingStockFactory - com.rtmznk.railway.entity.CreatingEntityException: Incorrect engine type
+07.03.2017 16:11:18.183 [main] WARN  com.rtmznk.railway.parser.TrainParametrStringParser - Wrong string will be ignored : wrong string
+07.03.2017 16:11:18.189 [main] WARN  com.rtmznk.railway.parser.TrainParametrStringParser - Wrong string will be ignored : wrong string
+07.03.2017 16:11:18.189 [main] WARN  com.rtmznk.railway.parser.TrainParametrStringParser - Wrong string will be ignored : wrong string
+07.03.2017 16:11:18.191 [main] FATAL com.rtmznk.railway.parser.TrainParametrStringParser - Wrong parametrs list. Train Type not Defined
+07.03.2017 16:11:20.723 [main] FATAL com.rtmznk.railway.reader.TextFileReader - java.nio.file.NoSuchFileException: badFilePath
+07.03.2017 16:11:20.732 [main] ERROR com.rtmznk.railway.factory.RailwayRollingStockFactory - com.rtmznk.railway.entity.CreatingEntityException: Wrong wagon Type : 100
+07.03.2017 16:11:20.732 [main] ERROR com.rtmznk.railway.factory.RailwayRollingStockFactory - com.rtmznk.railway.entity.CreatingEntityException: Incorrect engine type
+06.03.2017 22:41:21.977 [main] FATAL com.rtmznk.railway.reader.TextFileReader - java.nio.file.NoSuchFileException: badFilePath
+07.03.2017 13:27:34.205 [main] WARN  com.rtmznk.railway.parser.ParametrStringParser - Wrong string will be ignored : wrong string
+07.03.2017 13:27:34.210 [main] WARN  com.rtmznk.railway.parser.ParametrStringParser - Wrong string will be ignored : wrong string
+07.03.2017 13:27:34.211 [main] WARN  com.rtmznk.railway.parser.ParametrStringParser - Wrong string will be ignored : wrong string
+07.03.2017 13:27:34.211 [main] FATAL com.rtmznk.railway.parser.ParametrStringParser - Wrong parametrs list. Train Type not Defined
+07.03.2017 15:15:04.263 [main] ERROR com.rtmznk.railway.factory.RailwayRollingStockFactory - com.rtmznk.railway.entity.CreatingEntityException: Wrong wagon Type : 100
+07.03.2017 15:19:23.381 [main] ERROR com.rtmznk.railway.factory.RailwayRollingStockFactory - com.rtmznk.railway.entity.CreatingEntityException: passengers amount more than capacity: 300
+07.03.2017 15:19:23.390 [main] ERROR com.rtmznk.railway.factory.RailwayRollingStockFactory - com.rtmznk.railway.entity.CreatingEntityException: Incorrect engine type
+07.03.2017 15:23:27.490 [main] ERROR com.rtmznk.railway.factory.RailwayRollingStockFactory - com.rtmznk.railway.entity.CreatingEntityException: Incorrect engine type
+07.03.2017 15:25:00.180 [main] ERROR com.rtmznk.railway.factory.RailwayRollingStockFactory - com.rtmznk.railway.entity.CreatingEntityException: Wrong wagon Type : 100
+07.03.2017 15:25:00.184 [main] ERROR com.rtmznk.railway.factory.RailwayRollingStockFactory - com.rtmznk.railway.entity.CreatingEntityException: Incorrect engine type
+07.03.2017 15:43:50.441 [main] ERROR com.rtmznk.railway.factory.RailwayRollingStockFactory - com.rtmznk.railway.entity.CreatingEntityException: Wrong wagon Type : 100
+07.03.2017 15:43:50.446 [main] ERROR com.rtmznk.railway.factory.RailwayRollingStockFactory - com.rtmznk.railway.entity.CreatingEntityException: Incorrect engine type
+07.03.2017 16:10:33.882 [main] WARN  com.rtmznk.railway.parser.TrainParametrStringParser - Wrong string will be ignored : wrong string
+07.03.2017 16:10:33.886 [main] WARN  com.rtmznk.railway.parser.TrainParametrStringParser - Wrong string will be ignored : wrong string
+07.03.2017 16:10:33.886 [main] WARN  com.rtmznk.railway.parser.TrainParametrStringParser - Wrong string will be ignored : wrong string
+07.03.2017 16:10:33.886 [main] FATAL com.rtmznk.railway.parser.TrainParametrStringParser - Wrong parametrs list. Train Type not Defined
+07.03.2017 16:10:34.561 [main] FATAL com.rtmznk.railway.reader.TextFileReader - java.nio.file.NoSuchFileException: badFilePath
+07.03.2017 16:10:34.577 [main] ERROR com.rtmznk.railway.factory.RailwayRollingStockFactory - com.rtmznk.railway.entity.CreatingEntityException: Wrong wagon Type : 100
+07.03.2017 16:10:34.578 [main] ERROR com.rtmznk.railway.factory.RailwayRollingStockFactory - com.rtmznk.railway.entity.CreatingEntityException: Incorrect engine type
+07.03.2017 16:10:56.425 [main] WARN  com.rtmznk.railway.parser.TrainParametrStringParser - Wrong string will be ignored : wrong string
+07.03.2017 16:10:56.429 [main] WARN  com.rtmznk.railway.parser.TrainParametrStringParser - Wrong string will be ignored : wrong string
+07.03.2017 16:10:56.429 [main] WARN  com.rtmznk.railway.parser.TrainParametrStringParser - Wrong string will be ignored : wrong string
+07.03.2017 16:10:56.429 [main] FATAL com.rtmznk.railway.parser.TrainParametrStringParser - Wrong parametrs list. Train Type not Defined
+07.03.2017 16:10:58.614 [main] FATAL com.rtmznk.railway.reader.TextFileReader - java.nio.file.NoSuchFileException: badFilePath
+07.03.2017 16:10:58.630 [main] ERROR com.rtmznk.railway.factory.RailwayRollingStockFactory - com.rtmznk.railway.entity.CreatingEntityException: Wrong wagon Type : 100
+07.03.2017 16:10:58.631 [main] ERROR com.rtmznk.railway.factory.RailwayRollingStockFactory - com.rtmznk.railway.entity.CreatingEntityException: Incorrect engine type
+07.03.2017 16:11:09.390 [main] WARN  com.rtmznk.railway.parser.TrainParametrStringParser - Wrong string will be ignored : wrong string
+07.03.2017 16:11:09.393 [main] WARN  com.rtmznk.railway.parser.TrainParametrStringParser - Wrong string will be ignored : wrong string
+07.03.2017 16:11:09.393 [main] WARN  com.rtmznk.railway.parser.TrainParametrStringParser - Wrong string will be ignored : wrong string
+07.03.2017 16:11:09.394 [main] FATAL com.rtmznk.railway.parser.TrainParametrStringParser - Wrong parametrs list. Train Type not Defined
+07.03.2017 16:11:09.855 [main] FATAL com.rtmznk.railway.reader.TextFileReader - java.nio.file.NoSuchFileException: badFilePath
+07.03.2017 16:11:09.872 [main] ERROR com.rtmznk.railway.factory.RailwayRollingStockFactory - com.rtmznk.railway.entity.CreatingEntityException: Wrong wagon Type : 100
+07.03.2017 16:11:09.873 [main] ERROR com.rtmznk.railway.factory.RailwayRollingStockFactory - com.rtmznk.railway.entity.CreatingEntityException: Incorrect engine type
+07.03.2017 16:11:18.183 [main] WARN  com.rtmznk.railway.parser.TrainParametrStringParser - Wrong string will be ignored : wrong string
+07.03.2017 16:11:18.189 [main] WARN  com.rtmznk.railway.parser.TrainParametrStringParser - Wrong string will be ignored : wrong string
+07.03.2017 16:11:18.189 [main] WARN  com.rtmznk.railway.parser.TrainParametrStringParser - Wrong string will be ignored : wrong string
+07.03.2017 16:11:18.191 [main] FATAL com.rtmznk.railway.parser.TrainParametrStringParser - Wrong parametrs list. Train Type not Defined
+07.03.2017 16:11:20.723 [main] FATAL com.rtmznk.railway.reader.TextFileReader - java.nio.file.NoSuchFileException: badFilePath
+07.03.2017 16:11:20.732 [main] ERROR com.rtmznk.railway.factory.RailwayRollingStockFactory - com.rtmznk.railway.entity.CreatingEntityException: Wrong wagon Type : 100
+07.03.2017 16:11:20.732 [main] ERROR com.rtmznk.railway.factory.RailwayRollingStockFactory - com.rtmznk.railway.entity.CreatingEntityException: Incorrect engine type
+06.03.2017 22:41:21.977 [main] FATAL com.rtmznk.railway.reader.TextFileReader - java.nio.file.NoSuchFileException: badFilePath
+07.03.2017 13:27:34.205 [main] WARN  com.rtmznk.railway.parser.ParametrStringParser - Wrong string will be ignored : wrong string
+07.03.2017 13:27:34.210 [main] WARN  com.rtmznk.railway.parser.ParametrStringParser - Wrong string will be ignored : wrong string
+07.03.2017 13:27:34.211 [main] WARN  com.rtmznk.railway.parser.ParametrStringParser - Wrong string will be ignored : wrong string
+07.03.2017 13:27:34.211 [main] FATAL com.rtmznk.railway.parser.ParametrStringParser - Wrong parametrs list. Train Type not Defined
+07.03.2017 15:15:04.263 [main] ERROR com.rtmznk.railway.factory.RailwayRollingStockFactory - com.rtmznk.railway.entity.CreatingEntityException: Wrong wagon Type : 100
+07.03.2017 15:19:23.381 [main] ERROR com.rtmznk.railway.factory.RailwayRollingStockFactory - com.rtmznk.railway.entity.CreatingEntityException: passengers amount more than capacity: 300
+07.03.2017 15:19:23.390 [main] ERROR com.rtmznk.railway.factory.RailwayRollingStockFactory - com.rtmznk.railway.entity.CreatingEntityException: Incorrect engine type
+07.03.2017 15:23:27.490 [main] ERROR com.rtmznk.railway.factory.RailwayRollingStockFactory - com.rtmznk.railway.entity.CreatingEntityException: Incorrect engine type
+07.03.2017 15:25:00.180 [main] ERROR com.rtmznk.railway.factory.RailwayRollingStockFactory - com.rtmznk.railway.entity.CreatingEntityException: Wrong wagon Type : 100
+07.03.2017 15:25:00.184 [main] ERROR com.rtmznk.railway.factory.RailwayRollingStockFactory - com.rtmznk.railway.entity.CreatingEntityException: Incorrect engine type
+07.03.2017 15:43:50.441 [main] ERROR com.rtmznk.railway.factory.RailwayRollingStockFactory - com.rtmznk.railway.entity.CreatingEntityException: Wrong wagon Type : 100
+07.03.2017 15:43:50.446 [main] ERROR com.rtmznk.railway.factory.RailwayRollingStockFactory - com.rtmznk.railway.entity.CreatingEntityException: Incorrect engine type
+07.03.2017 16:10:33.882 [main] WARN  com.rtmznk.railway.parser.TrainParametrStringParser - Wrong string will be ignored : wrong string
+07.03.2017 16:10:33.886 [main] WARN  com.rtmznk.railway.parser.TrainParametrStringParser - Wrong string will be ignored : wrong string
+07.03.2017 16:10:33.886 [main] WARN  com.rtmznk.railway.parser.TrainParametrStringParser - Wrong string will be ignored : wrong string
+07.03.2017 16:10:33.886 [main] FATAL com.rtmznk.railway.parser.TrainParametrStringParser - Wrong parametrs list. Train Type not Defined
+07.03.2017 16:10:34.561 [main] FATAL com.rtmznk.railway.reader.TextFileReader - java.nio.file.NoSuchFileException: badFilePath
+07.03.2017 16:10:34.577 [main] ERROR com.rtmznk.railway.factory.RailwayRollingStockFactory - com.rtmznk.railway.entity.CreatingEntityException: Wrong wagon Type : 100
+07.03.2017 16:10:34.578 [main] ERROR com.rtmznk.railway.factory.RailwayRollingStockFactory - com.rtmznk.railway.entity.CreatingEntityException: Incorrect engine type
+07.03.2017 16:10:56.425 [main] WARN  com.rtmznk.railway.parser.TrainParametrStringParser - Wrong string will be ignored : wrong string
+07.03.2017 16:10:56.429 [main] WARN  com.rtmznk.railway.parser.TrainParametrStringParser - Wrong string will be ignored : wrong string
+07.03.2017 16:10:56.429 [main] WARN  com.rtmznk.railway.parser.TrainParametrStringParser - Wrong string will be ignored : wrong string
+07.03.2017 16:10:56.429 [main] FATAL com.rtmznk.railway.parser.TrainParametrStringParser - Wrong parametrs list. Train Type not Defined
+07.03.2017 16:10:58.614 [main] FATAL com.rtmznk.railway.reader.TextFileReader - java.nio.file.NoSuchFileException: badFilePath
+07.03.2017 16:10:58.630 [main] ERROR com.rtmznk.railway.factory.RailwayRollingStockFactory - com.rtmznk.railway.entity.CreatingEntityException: Wrong wagon Type : 100
+07.03.2017 16:10:58.631 [main] ERROR com.rtmznk.railway.factory.RailwayRollingStockFactory - com.rtmznk.railway.entity.CreatingEntityException: Incorrect engine type
+07.03.2017 16:11:09.390 [main] WARN  com.rtmznk.railway.parser.TrainParametrStringParser - Wrong string will be ignored : wrong string
+07.03.2017 16:11:09.393 [main] WARN  com.rtmznk.railway.parser.TrainParametrStringParser - Wrong string will be ignored : wrong string
+07.03.2017 16:11:09.393 [main] WARN  com.rtmznk.railway.parser.TrainParametrStringParser - Wrong string will be ignored : wrong string
+07.03.2017 16:11:09.394 [main] FATAL com.rtmznk.railway.parser.TrainParametrStringParser - Wrong parametrs list. Train Type not Defined
+07.03.2017 16:11:09.855 [main] FATAL com.rtmznk.railway.reader.TextFileReader - java.nio.file.NoSuchFileException: badFilePath
+07.03.2017 16:11:09.872 [main] ERROR com.rtmznk.railway.factory.RailwayRollingStockFactory - com.rtmznk.railway.entity.CreatingEntityException: Wrong wagon Type : 100
+07.03.2017 16:11:09.873 [main] ERROR com.rtmznk.railway.factory.RailwayRollingStockFactory - com.rtmznk.railway.entity.CreatingEntityException: Incorrect engine type
+07.03.2017 16:11:18.183 [main] WARN  com.rtmznk.railway.parser.TrainParametrStringParser - Wrong string will be ignored : wrong string
+07.03.2017 16:11:18.189 [main] WARN  com.rtmznk.railway.parser.TrainParametrStringParser - Wrong string will be ignored : wrong string
+07.03.2017 16:11:18.189 [main] WARN  com.rtmznk.railway.parser.TrainParametrStringParser - Wrong string will be ignored : wrong string
+07.03.2017 16:11:18.191 [main] FATAL com.rtmznk.railway.parser.TrainParametrStringParser - Wrong parametrs list. Train Type not Defined
+07.03.2017 16:11:20.723 [main] FATAL com.rtmznk.railway.reader.TextFileReader - java.nio.file.NoSuchFileException: badFilePath
+07.03.2017 16:11:20.732 [main] ERROR com.rtmznk.railway.factory.RailwayRollingStockFactory - com.rtmznk.railway.entity.CreatingEntityException: Wrong wagon Type : 100
+07.03.2017 16:11:20.732 [main] ERROR com.rtmznk.railway.factory.RailwayRollingStockFactory - com.rtmznk.railway.entity.CreatingEntityException: Incorrect engine type
+06.03.2017 22:41:21.977 [main] FATAL com.rtmznk.railway.reader.TextFileReader - java.nio.file.NoSuchFileException: badFilePath
+07.03.2017 13:27:34.205 [main] WARN  com.rtmznk.railway.parser.ParametrStringParser - Wrong string will be ignored : wrong string
+07.03.2017 13:27:34.210 [main] WARN  com.rtmznk.railway.parser.ParametrStringParser - Wrong string will be ignored : wrong string
+07.03.2017 13:27:34.211 [main] WARN  com.rtmznk.railway.parser.ParametrStringParser - Wrong string will be ignored : wrong string
+07.03.2017 13:27:34.211 [main] FATAL com.rtmznk.railway.parser.ParametrStringParser - Wrong parametrs list. Train Type not Defined
+07.03.2017 15:15:04.263 [main] ERROR com.rtmznk.railway.factory.RailwayRollingStockFactory - com.rtmznk.railway.entity.CreatingEntityException: Wrong wagon Type : 100
+07.03.2017 15:19:23.381 [main] ERROR com.rtmznk.railway.factory.RailwayRollingStockFactory - com.rtmznk.railway.entity.CreatingEntityException: passengers amount more than capacity: 300
+07.03.2017 15:19:23.390 [main] ERROR com.rtmznk.railway.factory.RailwayRollingStockFactory - com.rtmznk.railway.entity.CreatingEntityException: Incorrect engine type
+07.03.2017 15:23:27.490 [main] ERROR com.rtmznk.railway.factory.RailwayRollingStockFactory - com.rtmznk.railway.entity.CreatingEntityException: Incorrect engine type
+07.03.2017 15:25:00.180 [main] ERROR com.rtmznk.railway.factory.RailwayRollingStockFactory - com.rtmznk.railway.entity.CreatingEntityException: Wrong wagon Type : 100
+07.03.2017 15:25:00.184 [main] ERROR com.rtmznk.railway.factory.RailwayRollingStockFactory - com.rtmznk.railway.entity.CreatingEntityException: Incorrect engine type
+07.03.2017 15:43:50.441 [main] ERROR com.rtmznk.railway.factory.RailwayRollingStockFactory - com.rtmznk.railway.entity.CreatingEntityException: Wrong wagon Type : 100
+07.03.2017 15:43:50.446 [main] ERROR com.rtmznk.railway.factory.RailwayRollingStockFactory - com.rtmznk.railway.entity.CreatingEntityException: Incorrect engine type
+07.03.2017 16:10:33.882 [main] WARN  com.rtmznk.railway.parser.TrainParametrStringParser - Wrong string will be ignored : wrong string
+07.03.2017 16:10:33.886 [main] WARN  com.rtmznk.railway.parser.TrainParametrStringParser - Wrong string will be ignored : wrong string
+07.03.2017 16:10:33.886 [main] WARN  com.rtmznk.railway.parser.TrainParametrStringParser - Wrong string will be ignored : wrong string
+07.03.2017 16:10:33.886 [main] FATAL com.rtmznk.railway.parser.TrainParametrStringParser - Wrong parametrs list. Train Type not Defined
+07.03.2017 16:10:34.561 [main] FATAL com.rtmznk.railway.reader.TextFileReader - java.nio.file.NoSuchFileException: badFilePath
+07.03.2017 16:10:34.577 [main] ERROR com.rtmznk.railway.factory.RailwayRollingStockFactory - com.rtmznk.railway.entity.CreatingEntityException: Wrong wagon Type : 100
+07.03.2017 16:10:34.578 [main] ERROR com.rtmznk.railway.factory.RailwayRollingStockFactory - com.rtmznk.railway.entity.CreatingEntityException: Incorrect engine type
+07.03.2017 16:10:56.425 [main] WARN  com.rtmznk.railway.parser.TrainParametrStringParser - Wrong string will be ignored : wrong string
+07.03.2017 16:10:56.429 [main] WARN  com.rtmznk.railway.parser.TrainParametrStringParser - Wrong string will be ignored : wrong string
+07.03.2017 16:10:56.429 [main] WARN  com.rtmznk.railway.parser.TrainParametrStringParser - Wrong string will be ignored : wrong string
+07.03.2017 16:10:56.429 [main] FATAL com.rtmznk.railway.parser.TrainParametrStringParser - Wrong parametrs list. Train Type not Defined
+07.03.2017 16:10:58.614 [main] FATAL com.rtmznk.railway.reader.TextFileReader - java.nio.file.NoSuchFileException: badFilePath
+07.03.2017 16:10:58.630 [main] ERROR com.rtmznk.railway.factory.RailwayRollingStockFactory - com.rtmznk.railway.entity.CreatingEntityException: Wrong wagon Type : 100
+07.03.2017 16:10:58.631 [main] ERROR com.rtmznk.railway.factory.RailwayRollingStockFactory - com.rtmznk.railway.entity.CreatingEntityException: Incorrect engine type
+07.03.2017 16:11:09.390 [main] WARN  com.rtmznk.railway.parser.TrainParametrStringParser - Wrong string will be ignored : wrong string
+07.03.2017 16:11:09.393 [main] WARN  com.rtmznk.railway.parser.TrainParametrStringParser - Wrong string will be ignored : wrong string
+07.03.2017 16:11:09.393 [main] WARN  com.rtmznk.railway.parser.TrainParametrStringParser - Wrong string will be ignored : wrong string
+07.03.2017 16:11:09.394 [main] FATAL com.rtmznk.railway.parser.TrainParametrStringParser - Wrong parametrs list. Train Type not Defined
+07.03.2017 16:11:09.855 [main] FATAL com.rtmznk.railway.reader.TextFileReader - java.nio.file.NoSuchFileException: badFilePath
+07.03.2017 16:11:09.872 [main] ERROR com.rtmznk.railway.factory.RailwayRollingStockFactory - com.rtmznk.railway.entity.CreatingEntityException: Wrong wagon Type : 100
+07.03.2017 16:11:09.873 [main] ERROR com.rtmznk.railway.factory.RailwayRollingStockFactory - com.rtmznk.railway.entity.CreatingEntityException: Incorrect engine type
+07.03.2017 16:11:18.183 [main] WARN  com.rtmznk.railway.parser.TrainParametrStringParser - Wrong string will be ignored : wrong string
+07.03.2017 16:11:18.189 [main] WARN  com.rtmznk.railway.parser.TrainParametrStringParser - Wrong string will be ignored : wrong string
+07.03.2017 16:11:18.189 [main] WARN  com.rtmznk.railway.parser.TrainParametrStringParser - Wrong string will be ignored : wrong string
+07.03.2017 16:11:18.191 [main] FATAL com.rtmznk.railway.parser.TrainParametrStringParser - Wrong parametrs list. Train Type not Defined
+07.03.2017 16:11:20.723 [main] FATAL com.rtmznk.railway.reader.TextFileReader - java.nio.file.NoSuchFileException: badFilePath
+07.03.2017 16:11:20.732 [main] ERROR com.rtmznk.railway.factory.RailwayRollingStockFactory - com.rtmznk.railway.entity.CreatingEntityException: Wrong wagon Type : 100
+07.03.2017 16:11:20.732 [main] ERROR com.rtmznk.railway.factory.RailwayRollingStockFactory - com.rtmznk.railway.entity.CreatingEntityException: Incorrect engine type
+06.03.2017 22:41:21.977 [main] FATAL com.rtmznk.railway.reader.TextFileReader - java.nio.file.NoSuchFileException: badFilePath
+07.03.2017 13:27:34.205 [main] WARN  com.rtmznk.railway.parser.ParametrStringParser - Wrong string will be ignored : wrong string
+07.03.2017 13:27:34.210 [main] WARN  com.rtmznk.railway.parser.ParametrStringParser - Wrong string will be ignored : wrong string
+07.03.2017 13:27:34.211 [main] WARN  com.rtmznk.railway.parser.ParametrStringParser - Wrong string will be ignored : wrong string
+07.03.2017 13:27:34.211 [main] FATAL com.rtmznk.railway.parser.ParametrStringParser - Wrong parametrs list. Train Type not Defined
+07.03.2017 15:15:04.263 [main] ERROR com.rtmznk.railway.factory.RailwayRollingStockFactory - com.rtmznk.railway.entity.CreatingEntityException: Wrong wagon Type : 100
+07.03.2017 15:19:23.381 [main] ERROR com.rtmznk.railway.factory.RailwayRollingStockFactory - com.rtmznk.railway.entity.CreatingEntityException: passengers amount more than capacity: 300
+07.03.2017 15:19:23.390 [main] ERROR com.rtmznk.railway.factory.RailwayRollingStockFactory - com.rtmznk.railway.entity.CreatingEntityException: Incorrect engine type
+07.03.2017 15:23:27.490 [main] ERROR com.rtmznk.railway.factory.RailwayRollingStockFactory - com.rtmznk.railway.entity.CreatingEntityException: Incorrect engine type
+07.03.2017 15:25:00.180 [main] ERROR com.rtmznk.railway.factory.RailwayRollingStockFactory - com.rtmznk.railway.entity.CreatingEntityException: Wrong wagon Type : 100
+07.03.2017 15:25:00.184 [main] ERROR com.rtmznk.railway.factory.RailwayRollingStockFactory - com.rtmznk.railway.entity.CreatingEntityException: Incorrect engine type
+07.03.2017 15:43:50.441 [main] ERROR com.rtmznk.railway.factory.RailwayRollingStockFactory - com.rtmznk.railway.entity.CreatingEntityException: Wrong wagon Type : 100
+07.03.2017 15:43:50.446 [main] ERROR com.rtmznk.railway.factory.RailwayRollingStockFactory - com.rtmznk.railway.entity.CreatingEntityException: Incorrect engine type
+07.03.2017 16:10:33.882 [main] WARN  com.rtmznk.railway.parser.TrainParametrStringParser - Wrong string will be ignored : wrong string
+07.03.2017 16:10:33.886 [main] WARN  com.rtmznk.railway.parser.TrainParametrStringParser - Wrong string will be ignored : wrong string
+07.03.2017 16:10:33.886 [main] WARN  com.rtmznk.railway.parser.TrainParametrStringParser - Wrong string will be ignored : wrong string
+07.03.2017 16:10:33.886 [main] FATAL com.rtmznk.railway.parser.TrainParametrStringParser - Wrong parametrs list. Train Type not Defined
+07.03.2017 16:10:34.561 [main] FATAL com.rtmznk.railway.reader.TextFileReader - java.nio.file.NoSuchFileException: badFilePath
+07.03.2017 16:10:34.577 [main] ERROR com.rtmznk.railway.factory.RailwayRollingStockFactory - com.rtmznk.railway.entity.CreatingEntityException: Wrong wagon Type : 100
+07.03.2017 16:10:34.578 [main] ERROR com.rtmznk.railway.factory.RailwayRollingStockFactory - com.rtmznk.railway.entity.CreatingEntityException: Incorrect engine type
+07.03.2017 16:10:56.425 [main] WARN  com.rtmznk.railway.parser.TrainParametrStringParser - Wrong string will be ignored : wrong string
+07.03.2017 16:10:56.429 [main] WARN  com.rtmznk.railway.parser.TrainParametrStringParser - Wrong string will be ignored : wrong string
+07.03.2017 16:10:56.429 [main] WARN  com.rtmznk.railway.parser.TrainParametrStringParser - Wrong string will be ignored : wrong string
+07.03.2017 16:10:56.429 [main] FATAL com.rtmznk.railway.parser.TrainParametrStringParser - Wrong parametrs list. Train Type not Defined
+07.03.2017 16:10:58.614 [main] FATAL com.rtmznk.railway.reader.TextFileReader - java.nio.file.NoSuchFileException: badFilePath
+07.03.2017 16:10:58.630 [main] ERROR com.rtmznk.railway.factory.RailwayRollingStockFactory - com.rtmznk.railway.entity.CreatingEntityException: Wrong wagon Type : 100
+07.03.2017 16:10:58.631 [main] ERROR com.rtmznk.railway.factory.RailwayRollingStockFactory - com.rtmznk.railway.entity.CreatingEntityException: Incorrect engine type
+07.03.2017 16:11:09.390 [main] WARN  com.rtmznk.railway.parser.TrainParametrStringParser - Wrong string will be ignored : wrong string
+07.03.2017 16:11:09.393 [main] WARN  com.rtmznk.railway.parser.TrainParametrStringParser - Wrong string will be ignored : wrong string
+07.03.2017 16:11:09.393 [main] WARN  com.rtmznk.railway.parser.TrainParametrStringParser - Wrong string will be ignored : wrong string
+07.03.2017 16:12:35.704 [main] WARN  com.rtmznk.railway.parser.TrainParametrStringParser - Wrong string will be ignored : wrong string
+07.03.2017 16:12:35.708 [main] WARN  com.rtmznk.railway.parser.TrainParametrStringParser - Wrong string will be ignored : wrong string
+07.03.2017 16:12:35.708 [main] WARN  com.rtmznk.railway.parser.TrainParametrStringParser - Wrong string will be ignored : wrong string
+07.03.2017 16:12:35.708 [main] FATAL com.rtmznk.railway.parser.TrainParametrStringParser - Wrong parametrs list. Train Type not Defined
+07.03.2017 16:12:39.814 [main] FATAL com.rtmznk.railway.reader.TextFileReader - java.nio.file.NoSuchFileException: badFilePath
+07.03.2017 16:12:39.825 [main] ERROR com.rtmznk.railway.factory.RailwayRollingStockFactory - com.rtmznk.railway.entity.CreatingEntityException: Wrong wagon Type : 100
+07.03.2017 16:12:39.825 [main] ERROR com.rtmznk.railway.factory.RailwayRollingStockFactory - com.rtmznk.railway.entity.CreatingEntityException: Incorrect engine type
+07.03.2017 16:13:02.561 [main] WARN  com.rtmznk.railway.parser.TrainParametrStringParser - Wrong string will be ignored : wrong string
+07.03.2017 16:13:02.571 [main] WARN  com.rtmznk.railway.parser.TrainParametrStringParser - Wrong string will be ignored : wrong string

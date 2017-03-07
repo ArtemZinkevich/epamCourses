@@ -1,9 +1,9 @@
-package com.rtmznk.railway.fabric;
+package com.rtmznk.railway.factory;
 
 import com.rtmznk.railway.entity.Locomotive;
 import com.rtmznk.railway.entity.Train;
 import com.rtmznk.railway.entity.Wagon;
-import com.rtmznk.railway.entity.exception.CreatingEntityException;
+import com.rtmznk.railway.entity.CreatingEntityException;
 import com.rtmznk.railway.generator.WagonNumberGen;
 import com.rtmznk.railway.parser.ParametrsType;
 import org.apache.logging.log4j.Level;
@@ -17,12 +17,11 @@ import java.util.List;
 /**
  * Created by RTM on 03.03.2017.
  */
-public class RailwayRollingStockFabric {
-    private static Logger logger = LogManager.getLogger(RailwayRollingStockFabric.class);
+public class RailwayRollingStockFactory {
+    private static Logger logger = LogManager.getLogger(RailwayRollingStockFactory.class);
 
     public Wagon createWagon(int... args) throws CreatingEntityException {
-        Wagon result=new Wagon(args);
-        result.setWagonNumber(WagonNumberGen.getNextWagonNumber());
+        Wagon result = new Wagon(args);
         return result;
     }
 
@@ -30,7 +29,7 @@ public class RailwayRollingStockFabric {
         List<Wagon> wagonList = new ArrayList<>();
         for (int[] params : paramList) {
             try {
-                wagonList.add(new Wagon(params));
+                wagonList.add(createWagon(params));
             } catch (CreatingEntityException e) {
                 logger.log(Level.ERROR, e);
             }
@@ -60,6 +59,6 @@ public class RailwayRollingStockFabric {
         List<Wagon> wagonList = createWagonList(wagonParamList);
         List<int[]> locomotiveParamList = paramMap.get(ParametrsType.LOCOMOTIVE);
         List<Locomotive> locomotives = createLocomotiveList(locomotiveParamList);
-        return new Train(trainType,locomotives,wagonList);
+        return new Train(trainType, locomotives, wagonList);
     }
 }
