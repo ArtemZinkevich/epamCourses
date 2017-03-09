@@ -2,6 +2,7 @@ package test.com.rtmznk.railway.suite;
 
 import org.junit.runner.RunWith;
 import org.junit.runners.Suite;
+import test.com.rtmznk.railway.comparator.ChainedComparatorTest;
 import test.com.rtmznk.railway.factory.RailwayRollingStockFactoryTest;
 import test.com.rtmznk.railway.operator.TrainOperatorTest;
 import test.com.rtmznk.railway.parser.TrainParametrStringParserTest;
@@ -12,6 +13,6 @@ import test.com.rtmznk.railway.reader.TextFileReaderTest;
  */
 @RunWith(Suite.class)
 @Suite.SuiteClasses({TrainOperatorTest.class, TrainParametrStringParserTest.class,
-        TextFileReaderTest.class, RailwayRollingStockFactoryTest.class})
+        TextFileReaderTest.class, RailwayRollingStockFactoryTest.class, ChainedComparatorTest.class})
 public class SuiteTest {
 }

@@ -11,6 +11,6 @@ public class WagonPassengerComparator implements Comparator<Wagon> {
     @Override
     public int compare(Wagon o1, Wagon o2) {
         return o1.getPassengerAmount() > o2.getPassengerAmount() ? 1 :
-                o1.getPassengerAmount() > o2.getPassengerAmount() ? -1 : 0;
+                o1.getPassengerAmount() < o2.getPassengerAmount() ? -1 : 0;
     }
 }

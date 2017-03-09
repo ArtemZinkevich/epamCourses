@@ -2,6 +2,7 @@ package com.rtmznk.railway.operator;
 
 import com.rtmznk.railway.entity.Train;
 import com.rtmznk.railway.entity.Wagon;
+import com.rtmznk.railway.generator.WagonNumberGen;
 
 import java.util.ArrayList;
 import java.util.Collections;
@@ -43,5 +44,13 @@ public class TrainOperator {
         Collections.sort(train.getWagons(), comparator);
     }
 
-
+    public static void numerateWagons(Train train) {
+        if (train.getWagons()!= null) {
+            WagonNumberGen.refreshNumber();
+            for (Wagon wagon : train.getWagons()) {
+                wagon.setWagonNumber(WagonNumberGen.getNextWagonNumber());
+            }
+            WagonNumberGen.refreshNumber();
+        }
+    }
 }

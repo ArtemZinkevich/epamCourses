@@ -1,6 +1,7 @@
 package com.rtmznk.railway.entity;
 
 import com.rtmznk.railway.generator.WagonNumberGen;
+import com.rtmznk.railway.operator.TrainOperator;
 
 import java.util.List;
 
@@ -20,7 +21,7 @@ public class Train extends RailwayRollingStock {
         }
         this.locomotive = locomotive;
         this.wagons = wagons;
-        numerateWagons();
+        TrainOperator.numerateWagons(this);
     }
 
     public TrainType getTrainType() {
@@ -93,13 +94,5 @@ public class Train extends RailwayRollingStock {
                 '}';
     }
 
-    private void numerateWagons() {
-        if (wagons != null) {
-            WagonNumberGen.refreshNumber();
-            for (Wagon wagon : wagons) {
-                wagon.setWagonNumber(WagonNumberGen.getNextWagonNumber());
-            }
-            WagonNumberGen.refreshNumber();
-        }
-    }
+
 }

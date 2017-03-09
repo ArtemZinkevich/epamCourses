@@ -11,7 +11,7 @@ public class WagonTypeComparator implements Comparator<Wagon> {
     @Override
     public int compare(Wagon o1, Wagon o2) {
         return o1.getWagonType().ordinal() > o2.getWagonType().ordinal() ? 1 :
-                o1.getWagonType().ordinal() > o2.getWagonType().ordinal() ? -1 : 0;
+                o1.getWagonType().ordinal() < o2.getWagonType().ordinal() ? -1 : 0;
 
     }
 }
