@@ -5,7 +5,11 @@ import org.apache.logging.log4j.Level;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
-import java.util.*;
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+import java.util.Scanner;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
@@ -13,12 +17,12 @@ import java.util.regex.Pattern;
  * Created by RTM on 17.02.2017.
  */
 public class TrainParametrStringParser {
-    private static final String TRAIN_TYPE_TEMPLATE = "(?i)^\\s*train\\s*\\{\\s*type\\s*:\\s*[0-1]\\s*\\}\\s*$";
+    private static final String TRAIN_TYPE_TEMPLATE = "(?i)^\\s*train\\s*\\{\\s*type\\s*:\\s*[0-1]\\s*}\\s*$";
     private static final String WAGON_TEMPLATE = "(?i)^\\s*wagon\\s*\\{\\s*type\\s*:\\s*[0-9]\\s*" +
             "(,\\s*passenger\\s*:\\s*\\d{1,2}\\s*)?" +
-            "(,\\s*(ba|lu)ggage\\s*:\\s*\\d{1,5}\\s*)?\\}\\s*$";
+            "(,\\s*(ba|lu)ggage\\s*:\\s*\\d{1,5}\\s*)?}\\s*$";
     private static final String LOCOMOTIVE_TEMPLATE = "(?i)^\\s*locomotive\\s*\\{\\s*enginetype\\s*:\\s*[0-3]\\s*" +
-            ",\\s*enginepower\\s*:\\s*\\d{1,4}\\s*\\}\\s*$";
+            ",\\s*enginepower\\s*:\\s*\\d{1,4}\\s*}\\s*$";
     private static Logger logger = LogManager.getLogger(TrainParametrStringParser.class);
 
     public Map<ParametrsType, List<int[]>> getParsingResultMap(List<String> list) {
@@ -42,13 +46,10 @@ public class TrainParametrStringParser {
                 } else {
                     logger.log(Level.WARN, "Another line with train type definition will be ignored : " + string);
                 }
-                continue;
             } else if (wagonMatcher.matches()) {
                 wagons.add(getAllIntFromString(string));
-                continue;
             } else if (locomotiveMatcher.matches()) {
                 locomotives.add(getAllIntFromString(string));
-                continue;
             } else {
                 logger.log(Level.WARN, "Wrong string will be ignored : " + string);
             }
@@ -65,8 +66,9 @@ public class TrainParametrStringParser {
 
     private int[] getAllIntFromString(String string) {
         Scanner scanner = new Scanner(string);
+        Pattern notDigits = Pattern.compile("\\D+");
         List<Integer> paramlist = new ArrayList<>();
-        scanner.useDelimiter("\\D+");
+        scanner.useDelimiter(notDigits);
         while (scanner.hasNextInt()) {
             paramlist.add(scanner.nextInt());
         }

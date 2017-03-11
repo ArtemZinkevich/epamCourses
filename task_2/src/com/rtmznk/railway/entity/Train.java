@@ -1,6 +1,5 @@
 package com.rtmznk.railway.entity;
 
-import com.rtmznk.railway.generator.WagonNumberGen;
 import com.rtmznk.railway.operator.TrainOperator;
 
 import java.util.List;
@@ -28,39 +27,13 @@ public class Train extends RailwayRollingStock {
         return trainType;
     }
 
-    public List<Locomotive> getLocomotive() {
-        return locomotive;
-    }
-
     public List<Wagon> getWagons() {
         return wagons;
-    }
-
-    public boolean addLocomotive(Locomotive locomotive) {
-
-        if (this.locomotive != null) {
-            return this.locomotive.add(locomotive);
-        }
-        return false;
     }
 
     public boolean addWagon(Wagon wagon) {
         if (wagons != null) {
             return wagons.add(wagon);
-        }
-        return false;
-    }
-
-    public boolean removeLocomotive(Locomotive locomotive) {
-        if (this.locomotive != null) {
-            return this.locomotive.remove(locomotive);
-        }
-        return false;
-    }
-
-    public boolean removeWagon(Wagon wagon) {
-        if (this.wagons != null) {
-            return wagons.remove(wagon);
         }
         return false;
     }

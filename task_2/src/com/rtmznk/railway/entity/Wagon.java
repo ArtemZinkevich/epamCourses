@@ -36,7 +36,7 @@ public class Wagon extends RailwayRollingStock {
 
     }
 
-    public Wagon(int... args) throws CreatingEntityException {
+    public Wagon(int[] args) throws CreatingEntityException {
         if (args != null && args.length <= 3 && args.length >= 0) {
             if (args[0] >= 0 && args[0] < WagonType.values().length) {
                 this.wagonType = WagonType.values()[args[0]];
@@ -68,16 +68,8 @@ public class Wagon extends RailwayRollingStock {
         return passengerAmount;
     }
 
-    public void setPassengerAmount(int passengerAmount) {
-        this.passengerAmount = passengerAmount;
-    }
-
     public int getLuggageWeight() {
         return luggageWeight;
-    }
-
-    public void setLuggageWeight(int luggageWeight) {
-        this.luggageWeight = luggageWeight;
     }
 
     public WagonType getWagonType() {

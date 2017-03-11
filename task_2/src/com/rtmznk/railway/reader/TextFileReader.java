@@ -8,7 +8,6 @@ import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.InvalidPathException;
 import java.nio.file.Paths;
-import java.util.ArrayList;
 import java.util.List;
 import java.util.stream.Collectors;
 
@@ -20,7 +19,7 @@ public class TextFileReader {
     private static Logger logger = LogManager.getLogger(TextFileReader.class);
 
     public List<String> readFileToStringList(String filePath) {
-        List<String> list = new ArrayList<>();
+        List<String> list;
         try (BufferedReader br = Files.newBufferedReader(Paths.get(filePath))) {
 
             list = br.lines().collect(Collectors.toList());

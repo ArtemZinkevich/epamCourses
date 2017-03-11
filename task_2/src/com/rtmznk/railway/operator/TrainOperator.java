@@ -1,11 +1,11 @@
 package com.rtmznk.railway.operator;
 
 import com.rtmznk.railway.entity.Train;
+import com.rtmznk.railway.entity.TrainType;
 import com.rtmznk.railway.entity.Wagon;
 import com.rtmznk.railway.generator.WagonNumberGen;
 
 import java.util.ArrayList;
-import java.util.Collections;
 import java.util.Comparator;
 import java.util.List;
 
@@ -14,7 +14,7 @@ import java.util.List;
  */
 public class TrainOperator {
 
-    public static List<Wagon> getWagonsWithPassengersIn(Train train, int begin, int end) {
+    public static List<Wagon> getWagonsWithPassengersInRange(Train train, int begin, int end) {
         List<Wagon> resultList = new ArrayList<>();
         for (Wagon wagon : train.getWagons()) {
             if (wagon.getPassengerAmount() >= begin && wagon.getPassengerAmount() <= end) {
@@ -41,16 +41,24 @@ public class TrainOperator {
     }
 
     public static void sortTrainWagons(Train train, Comparator<Wagon> comparator) {
-        Collections.sort(train.getWagons(), comparator);
+        (train.getWagons()).sort(comparator);
     }
 
     public static void numerateWagons(Train train) {
-        if (train.getWagons()!= null) {
+        if (train.getWagons() != null) {
             WagonNumberGen.refreshNumber();
             for (Wagon wagon : train.getWagons()) {
                 wagon.setWagonNumber(WagonNumberGen.getNextWagonNumber());
             }
             WagonNumberGen.refreshNumber();
         }
+    }
+
+    public static void removeAllIncorrectTypeWagons(Train train) {
+        train.getWagons().removeIf(wagon -> (wagon.getWagonType().isPassengerTrainWagon() &&
+                train.getTrainType().equals(TrainType.FREIGHT)) ||
+                ((!wagon.getWagonType().isPassengerTrainWagon()) &&
+                        train.getTrainType().equals(TrainType.PASSANGER)));
+
     }
 }

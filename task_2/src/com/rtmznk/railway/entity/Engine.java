@@ -20,19 +20,6 @@ public class Engine {
         }
     }
 
-    public Engine(EngineType type, int powerKW) {
-        this.type = type;
-        this.powerKW = powerKW;
-    }
-
-    public EngineType getType() {
-        return type;
-    }
-
-    public int getPowerKW() {
-        return powerKW;
-    }
-
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;

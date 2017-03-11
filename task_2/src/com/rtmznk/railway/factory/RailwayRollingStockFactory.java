@@ -4,7 +4,7 @@ import com.rtmznk.railway.entity.Locomotive;
 import com.rtmznk.railway.entity.Train;
 import com.rtmznk.railway.entity.Wagon;
 import com.rtmznk.railway.entity.CreatingEntityException;
-import com.rtmznk.railway.generator.WagonNumberGen;
+import com.rtmznk.railway.operator.TrainOperator;
 import com.rtmznk.railway.parser.ParametrsType;
 import org.apache.logging.log4j.Level;
 import org.apache.logging.log4j.LogManager;
@@ -21,8 +21,7 @@ public class RailwayRollingStockFactory {
     private static Logger logger = LogManager.getLogger(RailwayRollingStockFactory.class);
 
     public Wagon createWagon(int... args) throws CreatingEntityException {
-        Wagon result = new Wagon(args);
-        return result;
+        return new Wagon(args);
     }
 
     public List<Wagon> createWagonList(List<int[]> paramList) {
@@ -59,6 +58,8 @@ public class RailwayRollingStockFactory {
         List<Wagon> wagonList = createWagonList(wagonParamList);
         List<int[]> locomotiveParamList = paramMap.get(ParametrsType.LOCOMOTIVE);
         List<Locomotive> locomotives = createLocomotiveList(locomotiveParamList);
+        Train train = new Train(trainType, locomotives, wagonList);
+        TrainOperator.removeAllIncorrectTypeWagons(train);
         return new Train(trainType, locomotives, wagonList);
     }
 }

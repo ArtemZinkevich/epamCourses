@@ -6,7 +6,10 @@ import com.rtmznk.railway.entity.Locomotive;
 import com.rtmznk.railway.entity.Train;
 import com.rtmznk.railway.entity.Wagon;
 import com.rtmznk.railway.generator.WagonNumberGen;
-import org.junit.*;
+import org.junit.AfterClass;
+import org.junit.Assert;
+import org.junit.BeforeClass;
+import org.junit.Test;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -27,7 +30,8 @@ public class ChainedComparatorTest {
 
     @BeforeClass
     public static void initTrain() throws CreatingEntityException {
-        List<Wagon> wagonList = new ArrayList<>(Arrays.asList(new Wagon(2, 50, 900),
+        List<Wagon> wagonList = new ArrayList<>(Arrays.asList(
+                new Wagon(2, 50, 900),
                 new Wagon(2, 30, 900),
                 new Wagon(2, 40, 800),
                 new Wagon(1, 30, 400),
@@ -60,10 +64,10 @@ public class ChainedComparatorTest {
         firstWagonExpected.setWagonNumber(4);
         Wagon lastWagonExpected = new Wagon(3, 80, 2000);
         lastWagonExpected.setWagonNumber(11);
-        Assert.assertEquals("First wagon must be wagon with min wagon type. If exist few - with min number",
-                firstWagonExpected, testTrain.getWagons().get(0));
-        Assert.assertEquals("First wagon must be wagon with max wagon type. If exist few - with max number",
-                lastWagonExpected, testTrain.getWagons().get(testTrain.getWagons().size() - 1));
+        Assert.assertTrue("First or last wagon not equals to expected.",
+                firstWagonExpected.equals(testTrain.getWagons().get(0)) &&
+                        lastWagonExpected.equals(testTrain.getWagons().get(testTrain.getWagons().size() - 1)));
+
     }
 
     @Test
@@ -75,26 +79,13 @@ public class ChainedComparatorTest {
         firstWagonExpected.setWagonNumber(6);
         Wagon lastWagonExpected = new Wagon(3, 50, 4000);
         lastWagonExpected.setWagonNumber(9);
-        Assert.assertEquals("First wagon must be wagon with min luggage weight." +
-                        "If exist few - with min passengers amount",
-                firstWagonExpected, testTrain.getWagons().get(0));
-        Assert.assertEquals("First wagon must be wagon with min luggage weight." +
-                        "If exist few - with min passengers amount",
-                lastWagonExpected, testTrain.getWagons().get(testTrain.getWagons().size() - 1));
-    }
-
-    @Before
-    public void addAdditionalTestWagonsToTestTrain() throws CreatingEntityException {
-        Wagon equalToFirstDifferentInNumber = new Wagon(1, 20, 300);
-        equalToFirstDifferentInNumber.setWagonNumber(10);
-        Wagon equalToLastDifferentInNumber = new Wagon(3, 80, 2000);
-        equalToLastDifferentInNumber.setWagonNumber(11);
-        testTrain.getWagons().add(equalToFirstDifferentInNumber);
-        testTrain.getWagons().add(equalToLastDifferentInNumber);
+        Assert.assertTrue("First or last wagon not equals to expected.",
+                firstWagonExpected.equals(testTrain.getWagons().get(0)) &&
+                        lastWagonExpected.equals(testTrain.getWagons().get(testTrain.getWagons().size() - 1)));
     }
 
     @Test
-    public void PassengersThanLuggageThanTypeThanNumberComparatorChainTest() throws CreatingEntityException {
+    public void passengersThanLuggageThanTypeThanNumberComparatorChainTest() throws CreatingEntityException {
         Comparator<Wagon> current = chainedComparator.getChainedComparator(new WagonPassengerComparator(),
                 new WagonLuggageComparator(), new WagonTypeComparator(), new WagonNumberComparator());
         testTrain.getWagons().sort(current);
@@ -102,10 +93,9 @@ public class ChainedComparatorTest {
         firstWagonExpected.setWagonNumber(6);
         Wagon lastWagonExpected = new Wagon(3, 80, 2000);
         lastWagonExpected.setWagonNumber(7);
-        Assert.assertEquals("First wagon must be wagon : " + firstWagonExpected,
-                firstWagonExpected, testTrain.getWagons().get(0));
-        Assert.assertEquals("Lasst wagon must be wagon : " + lastWagonExpected,
-                lastWagonExpected, testTrain.getWagons().get(testTrain.getWagons().size() - 1));
+        Assert.assertTrue("First or last wagon not equals to expected.",
+                firstWagonExpected.equals(testTrain.getWagons().get(0)) &&
+                        lastWagonExpected.equals(testTrain.getWagons().get(testTrain.getWagons().size() - 1)));
     }
 }
 

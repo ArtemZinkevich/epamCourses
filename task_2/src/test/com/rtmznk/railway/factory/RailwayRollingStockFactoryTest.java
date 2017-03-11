@@ -57,7 +57,6 @@ public class RailwayRollingStockFactoryTest {
         Wagon firstExpected = new Wagon(1, 2, 3);
         Wagon secondExpected = new Wagon(1, 2, 3);
         List<Wagon> actual = rollingStockFactory.createWagonList(testWagonParametrs);
-        Assert.assertThat(actual.size(), equalTo(2));
         Assert.assertThat(actual, hasItems(firstExpected, secondExpected));
     }
 
@@ -76,7 +75,6 @@ public class RailwayRollingStockFactoryTest {
         Locomotive firstExpected = new Locomotive(1, 2000);
         Locomotive secondExpected = new Locomotive(1, 3000);
         List<Locomotive> actual = rollingStockFactory.createLocomotiveList(testLocomotiveParametrs);
-        Assert.assertEquals("Size of list doesn't match expected", actual.size(), 2);
         Assert.assertThat(actual, hasItems(firstExpected, secondExpected));
     }
 
@@ -101,19 +99,16 @@ public class RailwayRollingStockFactoryTest {
     @Test(expected = CreatingEntityException.class)
     public void createWagonFromInvalidWagonTypeParametrs() throws CreatingEntityException {
         rollingStockFactory.createWagon(100, 10, 300);
-        Assert.fail("Exception must occure");
     }
 
     @Test(expected = CreatingEntityException.class)
     public void createWagonFromInvalidPassengersParametrs() throws CreatingEntityException {
         rollingStockFactory.createWagon(1, 200, 300);
-        Assert.fail("Exception must occure");
     }
 
     @Test(expected = CreatingEntityException.class)
     public void createLocomotiveFromInvalidParametrs() throws CreatingEntityException {
         rollingStockFactory.createLocomotive(100, 20000);
-        Assert.fail("Exception must occure");
     }
 
     @Test(expected = CreatingEntityException.class)
@@ -123,7 +118,6 @@ public class RailwayRollingStockFactoryTest {
         invalidMap.put(ParametrsType.LOCOMOTIVE, Arrays.asList(new int[]{12, 1000}));
         invalidMap.put(ParametrsType.WAGON, Arrays.asList(new int[]{100, 120, 20}));
         rollingStockFactory.createTrain(invalidMap);
-        Assert.fail("Exception must occure");
     }
 
 }

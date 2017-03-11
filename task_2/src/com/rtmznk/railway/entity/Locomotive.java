@@ -6,10 +6,6 @@ package com.rtmznk.railway.entity;
 public class Locomotive extends RailwayRollingStock {
     private Engine engine;
 
-    public Locomotive(Engine engine) {
-        this.engine = engine;
-    }
-
     public Locomotive(int engineType, int enginePowerKw) throws CreatingEntityException {
         this.engine = new Engine(engineType, enginePowerKw);
     }
@@ -18,12 +14,8 @@ public class Locomotive extends RailwayRollingStock {
         if (args.length == 2) {
             this.engine = new Engine(args[0], args[1]);
         } else {
-            throw new CreatingEntityException("Wrong parametrs length : "+args.length);
+            throw new CreatingEntityException("Wrong parametrs length : " + args.length);
         }
-    }
-
-    public Engine getEngine() {
-        return engine;
     }
 
     @Override

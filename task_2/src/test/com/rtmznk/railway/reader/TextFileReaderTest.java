@@ -2,7 +2,12 @@ package test.com.rtmznk.railway.reader;
 
 
 import com.rtmznk.railway.reader.TextFileReader;
-import org.junit.*;
+import org.junit.AfterClass;
+import org.junit.Assert;
+import org.junit.Before;
+import org.junit.BeforeClass;
+import org.junit.Rule;
+import org.junit.Test;
 import org.junit.rules.TemporaryFolder;
 
 import java.io.File;
@@ -45,13 +50,11 @@ public class TextFileReaderTest {
         List<String> list = textFileReader.readFileToStringList(tempFile.getPath());
         String firstExpected = "First string";
         String secondExpected = "Second string";
-        Assert.assertThat("Wrong list size :", list.size(), equalTo(2));
         Assert.assertThat("List hasn't expected strings: ", list, hasItems(firstExpected, secondExpected));
     }
 
     @Test(expected = RuntimeException.class)
     public void readFileToStringListWithWrongFileNameTest() {
         textFileReader.readFileToStringList("badFilePath");
-        Assert.fail("Exception must occure");
     }
 }
