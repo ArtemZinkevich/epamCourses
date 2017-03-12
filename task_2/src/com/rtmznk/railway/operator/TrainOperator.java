@@ -58,7 +58,7 @@ public class TrainOperator {
         train.getWagons().removeIf(wagon -> (wagon.getWagonType().isPassengerTrainWagon() &&
                 train.getTrainType().equals(TrainType.FREIGHT)) ||
                 ((!wagon.getWagonType().isPassengerTrainWagon()) &&
-                        train.getTrainType().equals(TrainType.PASSANGER)));
+                        train.getTrainType().equals(TrainType.PASSENGER)));
 
     }
 }

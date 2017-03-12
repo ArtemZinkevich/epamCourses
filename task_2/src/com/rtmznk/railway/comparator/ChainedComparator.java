@@ -8,12 +8,14 @@ import java.util.Comparator;
  */
 public class ChainedComparator<T> {
     public Comparator<T> getChainedComparator(Comparator<T>... args) {
-        Comparator<T> comparator=null;
+        Comparator<T> comparator = null;
         if (args.length > 0) {
             comparator = args[0];
         }
         for (int i = 1; i < args.length; i++) {
-            comparator=comparator.thenComparing(args[i]);
+            if (args[i] != null && comparator != null) {
+                comparator = comparator.thenComparing(args[i]);
+            }
         }
         return comparator;
     }

@@ -6,7 +6,7 @@ package com.rtmznk.railway.entity;
 public enum WagonType {
     LIT(18, true), COMPARTMENT(36, true), PLATZKART(54, true), DAY(81, true),
     SITTING(62, true), BAGGAGE(0, true), BUFFET(0, true),
-    UNIVERSAL_FREIGTH(0, false), SPECIALIZED_FREIGHT(0, false);
+    UNIVERSAL_FREIGHT(0, false), SPECIALIZED_FREIGHT(0, false);
 
     private int maxPassengers;
     private boolean isPassengerTrainWagon;
