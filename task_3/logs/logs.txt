@@ -1,0 +1,270 @@
+21.03.2017 00:53:27.373 [main] WARN  com.rtmznk.port.entity.Ship - Trying to create ship with containersToLoad amount more than max containers amount. Containers to load amount is set equal to MaxContainersAmount.
+21.03.2017 00:53:27.377 [main] WARN  com.rtmznk.port.entity.Ship - Trying to create ship with containersToLoad amount more than max containers amount. Containers to load amount is set equal to MaxContainersAmount.
+21.03.2017 00:53:27.377 [main] WARN  com.rtmznk.port.entity.Ship - Trying to create ship with containersToLoad amount more than max containers amount. Containers to load amount is set equal to MaxContainersAmount.
+21.03.2017 00:53:27.378 [main] WARN  com.rtmznk.port.entity.Ship - Trying to create ship with containersToLoad amount more than max containers amount. Containers to load amount is set equal to MaxContainersAmount.
+21.03.2017 00:53:27.378 [main] WARN  com.rtmznk.port.entity.Ship - Trying to create ship with containersToLoad amount more than max containers amount. Containers to load amount is set equal to MaxContainersAmount.
+21.03.2017 00:55:20.786 [main] WARN  com.rtmznk.port.entity.Ship - Trying to create ship with containersToLoad amount more than max containers amount. Containers to load amount is set equal to MaxContainersAmount.
+21.03.2017 00:55:20.790 [main] WARN  com.rtmznk.port.entity.Ship - Trying to create ship with containersToLoad amount more than max containers amount. Containers to load amount is set equal to MaxContainersAmount.
+21.03.2017 00:55:20.790 [main] WARN  com.rtmznk.port.entity.Ship - Trying to create ship with containersToLoad amount more than max containers amount. Containers to load amount is set equal to MaxContainersAmount.
+21.03.2017 00:55:20.791 [main] WARN  com.rtmznk.port.entity.Ship - Trying to create ship with containersToLoad amount more than max containers amount. Containers to load amount is set equal to MaxContainersAmount.
+21.03.2017 00:55:20.791 [main] WARN  com.rtmznk.port.entity.Ship - Trying to create ship with containersToLoad amount more than max containers amount. Containers to load amount is set equal to MaxContainersAmount.
+21.03.2017 00:55:20.792 [main] WARN  com.rtmznk.port.entity.Ship - Trying to create ship with containersToLoad amount more than max containers amount. Containers to load amount is set equal to MaxContainersAmount.
+21.03.2017 00:55:20.792 [main] WARN  com.rtmznk.port.entity.Ship - Trying to create ship with containersToLoad amount more than max containers amount. Containers to load amount is set equal to MaxContainersAmount.
+21.03.2017 00:55:20.792 [main] WARN  com.rtmznk.port.entity.Ship - Trying to create ship with containersToLoad amount more than max containers amount. Containers to load amount is set equal to MaxContainersAmount.
+21.03.2017 00:58:24.111 [main] WARN  com.rtmznk.port.entity.Ship - Trying to create ship with containersToLoad amount more than max containers amount. Containers to load amount is set equal to MaxContainersAmount.
+21.03.2017 00:58:24.116 [main] WARN  com.rtmznk.port.entity.Ship - Trying to create ship with containersToLoad amount more than max containers amount. Containers to load amount is set equal to MaxContainersAmount.
+21.03.2017 00:58:24.116 [main] WARN  com.rtmznk.port.entity.Ship - Trying to create ship with containersToLoad amount more than max containers amount. Containers to load amount is set equal to MaxContainersAmount.
+21.03.2017 00:58:24.117 [main] WARN  com.rtmznk.port.entity.Ship - Trying to create ship with containersToLoad amount more than max containers amount. Containers to load amount is set equal to MaxContainersAmount.
+21.03.2017 00:58:24.118 [main] WARN  com.rtmznk.port.entity.Ship - Trying to create ship with containersToLoad amount more than max containers amount. Containers to load amount is set equal to MaxContainersAmount.
+21.03.2017 00:58:24.118 [main] WARN  com.rtmznk.port.entity.Ship - Trying to create ship with containersToLoad amount more than max containers amount. Containers to load amount is set equal to MaxContainersAmount.
+21.03.2017 00:58:24.119 [main] WARN  com.rtmznk.port.entity.Ship - Trying to create ship with containersToLoad amount more than max containers amount. Containers to load amount is set equal to MaxContainersAmount.
+21.03.2017 00:58:24.121 [main] WARN  com.rtmznk.port.entity.Ship - Trying to create ship with containersToLoad amount more than max containers amount. Containers to load amount is set equal to MaxContainersAmount.
+21.03.2017 00:58:24.121 [main] WARN  com.rtmznk.port.entity.Ship - Trying to create ship with containersToLoad amount more than max containers amount. Containers to load amount is set equal to MaxContainersAmount.
+21.03.2017 10:15:59.393 [main] WARN  com.rtmznk.port.entity.Ship - Trying to create ship with containersToLoad amount more than max containers amount. Containers to load amount is set equal to MaxContainersAmount.
+21.03.2017 10:15:59.398 [main] WARN  com.rtmznk.port.entity.Ship - Trying to create ship with containersToLoad amount more than max containers amount. Containers to load amount is set equal to MaxContainersAmount.
+21.03.2017 10:15:59.399 [main] WARN  com.rtmznk.port.entity.Ship - Trying to create ship with containersToLoad amount more than max containers amount. Containers to load amount is set equal to MaxContainersAmount.
+21.03.2017 10:15:59.400 [main] WARN  com.rtmznk.port.entity.Ship - Trying to create ship with containersToLoad amount more than max containers amount. Containers to load amount is set equal to MaxContainersAmount.
+21.03.2017 10:15:59.400 [main] WARN  com.rtmznk.port.entity.Ship - Trying to create ship with containersToLoad amount more than max containers amount. Containers to load amount is set equal to MaxContainersAmount.
+21.03.2017 10:15:59.400 [main] WARN  com.rtmznk.port.entity.Ship - Trying to create ship with containersToLoad amount more than max containers amount. Containers to load amount is set equal to MaxContainersAmount.
+21.03.2017 10:15:59.401 [main] WARN  com.rtmznk.port.entity.Ship - Trying to create ship with containersToLoad amount more than max containers amount. Containers to load amount is set equal to MaxContainersAmount.
+21.03.2017 10:15:59.401 [main] WARN  com.rtmznk.port.entity.Ship - Trying to create ship with containersToLoad amount more than max containers amount. Containers to load amount is set equal to MaxContainersAmount.
+21.03.2017 10:15:59.401 [main] WARN  com.rtmznk.port.entity.Ship - Trying to create ship with containersToLoad amount more than max containers amount. Containers to load amount is set equal to MaxContainersAmount.
+21.03.2017 10:25:51.750 [main] WARN  com.rtmznk.port.entity.Ship - Trying to create ship with containersToLoad amount more than max containers amount. Containers to load amount is set equal to MaxContainersAmount.
+21.03.2017 10:25:51.755 [main] WARN  com.rtmznk.port.entity.Ship - Trying to create ship with containersToLoad amount more than max containers amount. Containers to load amount is set equal to MaxContainersAmount.
+21.03.2017 10:25:51.755 [main] WARN  com.rtmznk.port.entity.Ship - Trying to create ship with containersToLoad amount more than max containers amount. Containers to load amount is set equal to MaxContainersAmount.
+21.03.2017 10:25:51.755 [main] WARN  com.rtmznk.port.entity.Ship - Trying to create ship with containersToLoad amount more than max containers amount. Containers to load amount is set equal to MaxContainersAmount.
+21.03.2017 10:25:51.756 [main] WARN  com.rtmznk.port.entity.Ship - Trying to create ship with containersToLoad amount more than max containers amount. Containers to load amount is set equal to MaxContainersAmount.
+21.03.2017 10:25:51.757 [main] WARN  com.rtmznk.port.entity.Ship - Trying to create ship with containersToLoad amount more than max containers amount. Containers to load amount is set equal to MaxContainersAmount.
+21.03.2017 10:25:51.757 [main] WARN  com.rtmznk.port.entity.Ship - Trying to create ship with containersToLoad amount more than max containers amount. Containers to load amount is set equal to MaxContainersAmount.
+21.03.2017 10:31:16.924 [main] WARN  com.rtmznk.port.entity.Ship - Trying to create ship with containersToLoad amount more than max containers amount. Containers to load amount is set equal to MaxContainersAmount.
+21.03.2017 10:31:16.930 [main] WARN  com.rtmznk.port.entity.Ship - Trying to create ship with containersToLoad amount more than max containers amount. Containers to load amount is set equal to MaxContainersAmount.
+21.03.2017 10:31:16.931 [main] WARN  com.rtmznk.port.entity.Ship - Trying to create ship with containersToLoad amount more than max containers amount. Containers to load amount is set equal to MaxContainersAmount.
+21.03.2017 10:31:16.931 [main] WARN  com.rtmznk.port.entity.Ship - Trying to create ship with containersToLoad amount more than max containers amount. Containers to load amount is set equal to MaxContainersAmount.
+21.03.2017 10:31:16.932 [main] WARN  com.rtmznk.port.entity.Ship - Trying to create ship with containersToLoad amount more than max containers amount. Containers to load amount is set equal to MaxContainersAmount.
+21.03.2017 10:31:16.932 [main] WARN  com.rtmznk.port.entity.Ship - Trying to create ship with containersToLoad amount more than max containers amount. Containers to load amount is set equal to MaxContainersAmount.
+21.03.2017 10:31:16.933 [main] WARN  com.rtmznk.port.entity.Ship - Trying to create ship with containersToLoad amount more than max containers amount. Containers to load amount is set equal to MaxContainersAmount.
+21.03.2017 10:31:16.934 [main] WARN  com.rtmznk.port.entity.Ship - Trying to create ship with containersToLoad amount more than max containers amount. Containers to load amount is set equal to MaxContainersAmount.
+21.03.2017 10:33:45.870 [main] WARN  com.rtmznk.port.entity.Ship - Trying to create ship with containersToLoad amount more than max containers amount. Containers to load amount is set equal to MaxContainersAmount.
+21.03.2017 10:33:45.874 [main] WARN  com.rtmznk.port.entity.Ship - Trying to create ship with containersToLoad amount more than max containers amount. Containers to load amount is set equal to MaxContainersAmount.
+21.03.2017 10:33:45.874 [main] WARN  com.rtmznk.port.entity.Ship - Trying to create ship with containersToLoad amount more than max containers amount. Containers to load amount is set equal to MaxContainersAmount.
+21.03.2017 10:33:45.874 [main] WARN  com.rtmznk.port.entity.Ship - Trying to create ship with containersToLoad amount more than max containers amount. Containers to load amount is set equal to MaxContainersAmount.
+21.03.2017 10:33:45.875 [main] WARN  com.rtmznk.port.entity.Ship - Trying to create ship with containersToLoad amount more than max containers amount. Containers to load amount is set equal to MaxContainersAmount.
+21.03.2017 10:33:45.876 [main] WARN  com.rtmznk.port.entity.Ship - Trying to create ship with containersToLoad amount more than max containers amount. Containers to load amount is set equal to MaxContainersAmount.
+21.03.2017 10:35:27.650 [main] WARN  com.rtmznk.port.entity.Ship - Trying to create ship with containersToLoad amount more than max containers amount. Containers to load amount is set equal to MaxContainersAmount.
+21.03.2017 10:35:27.654 [main] WARN  com.rtmznk.port.entity.Ship - Trying to create ship with containersToLoad amount more than max containers amount. Containers to load amount is set equal to MaxContainersAmount.
+21.03.2017 10:35:27.654 [main] WARN  com.rtmznk.port.entity.Ship - Trying to create ship with containersToLoad amount more than max containers amount. Containers to load amount is set equal to MaxContainersAmount.
+21.03.2017 10:35:27.655 [main] WARN  com.rtmznk.port.entity.Ship - Trying to create ship with containersToLoad amount more than max containers amount. Containers to load amount is set equal to MaxContainersAmount.
+21.03.2017 10:35:27.655 [main] WARN  com.rtmznk.port.entity.Ship - Trying to create ship with containersToLoad amount more than max containers amount. Containers to load amount is set equal to MaxContainersAmount.
+21.03.2017 10:35:27.655 [main] WARN  com.rtmznk.port.entity.Ship - Trying to create ship with containersToLoad amount more than max containers amount. Containers to load amount is set equal to MaxContainersAmount.
+21.03.2017 10:35:27.655 [main] WARN  com.rtmznk.port.entity.Ship - Trying to create ship with containersToLoad amount more than max containers amount. Containers to load amount is set equal to MaxContainersAmount.
+21.03.2017 10:35:27.656 [main] WARN  com.rtmznk.port.entity.Ship - Trying to create ship with containersToLoad amount more than max containers amount. Containers to load amount is set equal to MaxContainersAmount.
+21.03.2017 10:35:27.656 [main] WARN  com.rtmznk.port.entity.Ship - Trying to create ship with containersToLoad amount more than max containers amount. Containers to load amount is set equal to MaxContainersAmount.
+21.03.2017 10:35:27.696 [pool-2-thread-2] FATAL com.rtmznk.port.entity.Ship - com.rtmznk.port.exception.PortResourceException: Try to load incorrect containers.
+21.03.2017 10:35:27.702 [pool-2-thread-2] FATAL com.rtmznk.port.entity.Ship - com.rtmznk.port.exception.PortResourceException: Try to load incorrect containers.
+21.03.2017 10:35:27.711 [pool-2-thread-2] FATAL com.rtmznk.port.entity.Ship - com.rtmznk.port.exception.PortResourceException: Try to load incorrect containers.
+21.03.2017 10:35:27.720 [pool-2-thread-2] FATAL com.rtmznk.port.entity.Ship - com.rtmznk.port.exception.PortResourceException: Try to load incorrect containers.
+21.03.2017 10:35:27.738 [pool-2-thread-2] FATAL com.rtmznk.port.entity.Ship - com.rtmznk.port.exception.PortResourceException: Try to load incorrect containers.
+21.03.2017 10:37:08.388 [main] WARN  com.rtmznk.port.entity.Ship - Trying to create ship with containersToLoad amount more than max containers amount. Containers to load amount is set equal to MaxContainersAmount.
+21.03.2017 10:37:08.452 [main] WARN  com.rtmznk.port.entity.Ship - Trying to create ship with containersToLoad amount more than max containers amount. Containers to load amount is set equal to MaxContainersAmount.
+21.03.2017 10:37:08.452 [main] WARN  com.rtmznk.port.entity.Ship - Trying to create ship with containersToLoad amount more than max containers amount. Containers to load amount is set equal to MaxContainersAmount.
+21.03.2017 10:37:08.453 [main] WARN  com.rtmznk.port.entity.Ship - Trying to create ship with containersToLoad amount more than max containers amount. Containers to load amount is set equal to MaxContainersAmount.
+21.03.2017 10:37:08.453 [main] WARN  com.rtmznk.port.entity.Ship - Trying to create ship with containersToLoad amount more than max containers amount. Containers to load amount is set equal to MaxContainersAmount.
+21.03.2017 10:37:08.453 [main] WARN  com.rtmznk.port.entity.Ship - Trying to create ship with containersToLoad amount more than max containers amount. Containers to load amount is set equal to MaxContainersAmount.
+21.03.2017 10:37:08.454 [main] WARN  com.rtmznk.port.entity.Ship - Trying to create ship with containersToLoad amount more than max containers amount. Containers to load amount is set equal to MaxContainersAmount.
+21.03.2017 10:37:08.454 [main] WARN  com.rtmznk.port.entity.Ship - Trying to create ship with containersToLoad amount more than max containers amount. Containers to load amount is set equal to MaxContainersAmount.
+21.03.2017 10:37:08.505 [pool-2-thread-1] FATAL com.rtmznk.port.entity.Ship - com.rtmznk.port.exception.PortResourceException: Try to load incorrect containers.
+21.03.2017 10:37:08.519 [pool-2-thread-2] FATAL com.rtmznk.port.entity.Ship - com.rtmznk.port.exception.PortResourceException: Try to load incorrect containers.
+21.03.2017 10:45:55.472 [main] WARN  com.rtmznk.port.entity.Ship - Trying to create ship with containersToLoad amount more than max containers amount. Containers to load amount is set equal to MaxContainersAmount.
+21.03.2017 10:45:55.477 [main] WARN  com.rtmznk.port.entity.Ship - Trying to create ship with containersToLoad amount more than max containers amount. Containers to load amount is set equal to MaxContainersAmount.
+21.03.2017 10:45:55.477 [main] WARN  com.rtmznk.port.entity.Ship - Trying to create ship with containersToLoad amount more than max containers amount. Containers to load amount is set equal to MaxContainersAmount.
+21.03.2017 10:45:55.477 [main] WARN  com.rtmznk.port.entity.Ship - Trying to create ship with containersToLoad amount more than max containers amount. Containers to load amount is set equal to MaxContainersAmount.
+21.03.2017 10:45:55.479 [main] WARN  com.rtmznk.port.entity.Ship - Trying to create ship with containersToLoad amount more than max containers amount. Containers to load amount is set equal to MaxContainersAmount.
+21.03.2017 10:45:55.479 [main] WARN  com.rtmznk.port.entity.Ship - Trying to create ship with containersToLoad amount more than max containers amount. Containers to load amount is set equal to MaxContainersAmount.
+21.03.2017 10:45:55.489 [pool-2-thread-2] FATAL com.rtmznk.port.entity.Ship - com.rtmznk.port.exception.PortResourceException: Try to load incorrect containers.
+21.03.2017 10:45:55.501 [pool-2-thread-2] FATAL com.rtmznk.port.entity.Ship - com.rtmznk.port.exception.PortResourceException: Try to load incorrect containers.
+21.03.2017 10:45:55.511 [pool-2-thread-2] FATAL com.rtmznk.port.entity.Ship - com.rtmznk.port.exception.PortResourceException: Try to load incorrect containers.
+21.03.2017 10:47:45.156 [main] WARN  com.rtmznk.port.entity.Ship - Trying to create ship with containersToLoad amount more than max containers amount. Containers to load amount is set equal to MaxContainersAmount.
+21.03.2017 10:47:45.161 [main] WARN  com.rtmznk.port.entity.Ship - Trying to create ship with containersToLoad amount more than max containers amount. Containers to load amount is set equal to MaxContainersAmount.
+21.03.2017 10:47:45.161 [main] WARN  com.rtmznk.port.entity.Ship - Trying to create ship with containersToLoad amount more than max containers amount. Containers to load amount is set equal to MaxContainersAmount.
+21.03.2017 10:47:45.162 [main] WARN  com.rtmznk.port.entity.Ship - Trying to create ship with containersToLoad amount more than max containers amount. Containers to load amount is set equal to MaxContainersAmount.
+21.03.2017 10:47:45.163 [main] WARN  com.rtmznk.port.entity.Ship - Trying to create ship with containersToLoad amount more than max containers amount. Containers to load amount is set equal to MaxContainersAmount.
+21.03.2017 10:47:45.163 [main] WARN  com.rtmznk.port.entity.Ship - Trying to create ship with containersToLoad amount more than max containers amount. Containers to load amount is set equal to MaxContainersAmount.
+21.03.2017 10:47:45.163 [main] WARN  com.rtmznk.port.entity.Ship - Trying to create ship with containersToLoad amount more than max containers amount. Containers to load amount is set equal to MaxContainersAmount.
+21.03.2017 10:47:45.165 [main] WARN  com.rtmznk.port.entity.Ship - Trying to create ship with containersToLoad amount more than max containers amount. Containers to load amount is set equal to MaxContainersAmount.
+21.03.2017 10:47:45.179 [pool-2-thread-2] FATAL com.rtmznk.port.entity.Ship - com.rtmznk.port.exception.PortResourceException: Try to load incorrect containers.
+21.03.2017 10:47:45.183 [pool-2-thread-2] FATAL com.rtmznk.port.entity.Ship - com.rtmznk.port.exception.PortResourceException: Try to load incorrect containers.
+21.03.2017 10:47:45.191 [pool-2-thread-2] FATAL com.rtmznk.port.entity.Ship - com.rtmznk.port.exception.PortResourceException: Try to load incorrect containers.
+21.03.2017 10:47:45.197 [pool-2-thread-2] FATAL com.rtmznk.port.entity.Ship - com.rtmznk.port.exception.PortResourceException: Try to load incorrect containers.
+21.03.2017 10:55:09.201 [main] WARN  com.rtmznk.port.entity.Ship - Trying to create ship with containersToLoad amount more than max containers amount. Containers to load amount is set equal to MaxContainersAmount.
+21.03.2017 10:55:09.207 [main] WARN  com.rtmznk.port.entity.Ship - Trying to create ship with containersToLoad amount more than max containers amount. Containers to load amount is set equal to MaxContainersAmount.
+21.03.2017 10:55:09.207 [main] WARN  com.rtmznk.port.entity.Ship - Trying to create ship with containersToLoad amount more than max containers amount. Containers to load amount is set equal to MaxContainersAmount.
+21.03.2017 10:55:09.207 [main] WARN  com.rtmznk.port.entity.Ship - Trying to create ship with containersToLoad amount more than max containers amount. Containers to load amount is set equal to MaxContainersAmount.
+21.03.2017 10:55:09.208 [main] WARN  com.rtmznk.port.entity.Ship - Trying to create ship with containersToLoad amount more than max containers amount. Containers to load amount is set equal to MaxContainersAmount.
+21.03.2017 10:55:09.209 [main] WARN  com.rtmznk.port.entity.Ship - Trying to create ship with containersToLoad amount more than max containers amount. Containers to load amount is set equal to MaxContainersAmount.
+21.03.2017 10:55:09.224 [pool-2-thread-2] FATAL com.rtmznk.port.entity.Ship - com.rtmznk.port.exception.PortResourceException: Try to load incorrect containers.
+21.03.2017 10:55:09.237 [pool-2-thread-2] FATAL com.rtmznk.port.entity.Ship - com.rtmznk.port.exception.PortResourceException: Try to load incorrect containers.
+21.03.2017 10:55:09.254 [pool-2-thread-2] FATAL com.rtmznk.port.entity.Ship - com.rtmznk.port.exception.PortResourceException: Try to load incorrect containers.
+21.03.2017 10:55:09.259 [pool-2-thread-2] FATAL com.rtmznk.port.entity.Ship - com.rtmznk.port.exception.PortResourceException: Try to load incorrect containers.
+21.03.2017 11:10:04.245 [main] WARN  com.rtmznk.port.entity.Ship - Trying to create ship with containersToLoad amount more than max containers amount. Containers to load amount is set equal to MaxContainersAmount.
+21.03.2017 11:10:04.248 [main] WARN  com.rtmznk.port.entity.Ship - Trying to create ship with containersToLoad amount more than max containers amount. Containers to load amount is set equal to MaxContainersAmount.
+21.03.2017 11:10:04.249 [main] WARN  com.rtmznk.port.entity.Ship - Trying to create ship with containersToLoad amount more than max containers amount. Containers to load amount is set equal to MaxContainersAmount.
+21.03.2017 11:10:04.249 [main] WARN  com.rtmznk.port.entity.Ship - Trying to create ship with containersToLoad amount more than max containers amount. Containers to load amount is set equal to MaxContainersAmount.
+21.03.2017 11:10:04.249 [main] WARN  com.rtmznk.port.entity.Ship - Trying to create ship with containersToLoad amount more than max containers amount. Containers to load amount is set equal to MaxContainersAmount.
+21.03.2017 11:10:21.481 [pool-2-thread-1] FATAL com.rtmznk.port.entity.Ship - com.rtmznk.port.exception.PortResourceException: No available port for this ship.
+21.03.2017 11:10:21.491 [pool-2-thread-4] FATAL com.rtmznk.port.entity.Ship - com.rtmznk.port.exception.PortResourceException: No available port for this ship.
+21.03.2017 11:10:21.492 [pool-2-thread-5] FATAL com.rtmznk.port.entity.Ship - com.rtmznk.port.exception.PortResourceException: No available port for this ship.
+21.03.2017 11:10:22.759 [pool-2-thread-2] FATAL com.rtmznk.port.entity.Ship - com.rtmznk.port.exception.PortResourceException: No available port for this ship.
+21.03.2017 11:15:04.579 [main] WARN  com.rtmznk.port.entity.Ship - Trying to create ship with containersToLoad amount more than max containers amount. Containers to load amount is set equal to MaxContainersAmount.
+21.03.2017 11:15:04.585 [main] WARN  com.rtmznk.port.entity.Ship - Trying to create ship with containersToLoad amount more than max containers amount. Containers to load amount is set equal to MaxContainersAmount.
+21.03.2017 11:15:04.585 [main] WARN  com.rtmznk.port.entity.Ship - Trying to create ship with containersToLoad amount more than max containers amount. Containers to load amount is set equal to MaxContainersAmount.
+21.03.2017 11:15:04.585 [main] WARN  com.rtmznk.port.entity.Ship - Trying to create ship with containersToLoad amount more than max containers amount. Containers to load amount is set equal to MaxContainersAmount.
+21.03.2017 11:15:04.587 [main] WARN  com.rtmznk.port.entity.Ship - Trying to create ship with containersToLoad amount more than max containers amount. Containers to load amount is set equal to MaxContainersAmount.
+21.03.2017 11:15:04.634 [pool-2-thread-4] FATAL com.rtmznk.port.entity.Ship - com.rtmznk.port.exception.PortResourceException: Try to load incorrect containers.
+21.03.2017 11:16:03.434 [main] WARN  com.rtmznk.port.entity.Ship - Trying to create ship with containersToLoad amount more than max containers amount. Containers to load amount is set equal to MaxContainersAmount.
+21.03.2017 11:16:03.438 [main] WARN  com.rtmznk.port.entity.Ship - Trying to create ship with containersToLoad amount more than max containers amount. Containers to load amount is set equal to MaxContainersAmount.
+21.03.2017 11:16:03.438 [main] WARN  com.rtmznk.port.entity.Ship - Trying to create ship with containersToLoad amount more than max containers amount. Containers to load amount is set equal to MaxContainersAmount.
+21.03.2017 11:16:03.438 [main] WARN  com.rtmznk.port.entity.Ship - Trying to create ship with containersToLoad amount more than max containers amount. Containers to load amount is set equal to MaxContainersAmount.
+21.03.2017 11:16:03.473 [main] WARN  com.rtmznk.port.entity.Ship - Trying to create ship with containersToLoad amount more than max containers amount. Containers to load amount is set equal to MaxContainersAmount.
+21.03.2017 11:16:03.473 [main] WARN  com.rtmznk.port.entity.Ship - Trying to create ship with containersToLoad amount more than max containers amount. Containers to load amount is set equal to MaxContainersAmount.
+21.03.2017 11:16:03.473 [main] WARN  com.rtmznk.port.entity.Ship - Trying to create ship with containersToLoad amount more than max containers amount. Containers to load amount is set equal to MaxContainersAmount.
+21.03.2017 11:16:03.473 [main] WARN  com.rtmznk.port.entity.Ship - Trying to create ship with containersToLoad amount more than max containers amount. Containers to load amount is set equal to MaxContainersAmount.
+21.03.2017 11:16:03.556 [pool-2-thread-4] FATAL com.rtmznk.port.entity.Ship - com.rtmznk.port.exception.PortResourceException: Try to load incorrect containers.
+21.03.2017 11:16:03.567 [pool-2-thread-4] FATAL com.rtmznk.port.entity.Ship - com.rtmznk.port.exception.PortResourceException: Try to load incorrect containers.
+21.03.2017 11:16:03.570 [pool-2-thread-4] FATAL com.rtmznk.port.entity.Ship - com.rtmznk.port.exception.PortResourceException: Try to load incorrect containers.
+21.03.2017 11:16:03.583 [pool-2-thread-4] FATAL com.rtmznk.port.entity.Ship - com.rtmznk.port.exception.PortResourceException: Try to load incorrect containers.
+21.03.2017 11:17:47.222 [main] WARN  com.rtmznk.port.entity.Ship - Trying to create ship with containersToLoad amount more than max containers amount. Containers to load amount is set equal to MaxContainersAmount.
+21.03.2017 11:17:47.226 [main] WARN  com.rtmznk.port.entity.Ship - Trying to create ship with containersToLoad amount more than max containers amount. Containers to load amount is set equal to MaxContainersAmount.
+21.03.2017 11:17:47.227 [main] WARN  com.rtmznk.port.entity.Ship - Trying to create ship with containersToLoad amount more than max containers amount. Containers to load amount is set equal to MaxContainersAmount.
+21.03.2017 11:17:47.227 [main] WARN  com.rtmznk.port.entity.Ship - Trying to create ship with containersToLoad amount more than max containers amount. Containers to load amount is set equal to MaxContainersAmount.
+21.03.2017 11:17:47.227 [main] WARN  com.rtmznk.port.entity.Ship - Trying to create ship with containersToLoad amount more than max containers amount. Containers to load amount is set equal to MaxContainersAmount.
+21.03.2017 11:17:47.228 [main] WARN  com.rtmznk.port.entity.Ship - Trying to create ship with containersToLoad amount more than max containers amount. Containers to load amount is set equal to MaxContainersAmount.
+21.03.2017 11:17:47.228 [main] WARN  com.rtmznk.port.entity.Ship - Trying to create ship with containersToLoad amount more than max containers amount. Containers to load amount is set equal to MaxContainersAmount.
+21.03.2017 11:17:47.228 [main] WARN  com.rtmznk.port.entity.Ship - Trying to create ship with containersToLoad amount more than max containers amount. Containers to load amount is set equal to MaxContainersAmount.
+21.03.2017 11:17:47.229 [main] WARN  com.rtmznk.port.entity.Ship - Trying to create ship with containersToLoad amount more than max containers amount. Containers to load amount is set equal to MaxContainersAmount.
+21.03.2017 11:18:19.120 [main] WARN  com.rtmznk.port.entity.Ship - Trying to create ship with containersToLoad amount more than max containers amount. Containers to load amount is set equal to MaxContainersAmount.
+21.03.2017 11:18:19.123 [main] WARN  com.rtmznk.port.entity.Ship - Trying to create ship with containersToLoad amount more than max containers amount. Containers to load amount is set equal to MaxContainersAmount.
+21.03.2017 11:18:19.124 [main] WARN  com.rtmznk.port.entity.Ship - Trying to create ship with containersToLoad amount more than max containers amount. Containers to load amount is set equal to MaxContainersAmount.
+21.03.2017 11:18:19.124 [main] WARN  com.rtmznk.port.entity.Ship - Trying to create ship with containersToLoad amount more than max containers amount. Containers to load amount is set equal to MaxContainersAmount.
+21.03.2017 11:18:19.124 [main] WARN  com.rtmznk.port.entity.Ship - Trying to create ship with containersToLoad amount more than max containers amount. Containers to load amount is set equal to MaxContainersAmount.
+21.03.2017 11:18:19.124 [main] WARN  com.rtmznk.port.entity.Ship - Trying to create ship with containersToLoad amount more than max containers amount. Containers to load amount is set equal to MaxContainersAmount.
+21.03.2017 11:18:19.125 [main] WARN  com.rtmznk.port.entity.Ship - Trying to create ship with containersToLoad amount more than max containers amount. Containers to load amount is set equal to MaxContainersAmount.
+21.03.2017 11:23:48.050 [main] WARN  com.rtmznk.port.entity.Ship - Trying to create ship with containersToLoad amount more than max containers amount. Containers to load amount is set equal to MaxContainersAmount.
+21.03.2017 11:23:48.053 [main] WARN  com.rtmznk.port.entity.Ship - Trying to create ship with containersToLoad amount more than max containers amount. Containers to load amount is set equal to MaxContainersAmount.
+21.03.2017 11:23:48.055 [main] WARN  com.rtmznk.port.entity.Ship - Trying to create ship with containersToLoad amount more than max containers amount. Containers to load amount is set equal to MaxContainersAmount.
+21.03.2017 11:23:48.055 [main] WARN  com.rtmznk.port.entity.Ship - Trying to create ship with containersToLoad amount more than max containers amount. Containers to load amount is set equal to MaxContainersAmount.
+21.03.2017 11:23:48.055 [main] WARN  com.rtmznk.port.entity.Ship - Trying to create ship with containersToLoad amount more than max containers amount. Containers to load amount is set equal to MaxContainersAmount.
+21.03.2017 11:23:48.056 [main] WARN  com.rtmznk.port.entity.Ship - Trying to create ship with containersToLoad amount more than max containers amount. Containers to load amount is set equal to MaxContainersAmount.
+21.03.2017 11:23:48.056 [main] WARN  com.rtmznk.port.entity.Ship - Trying to create ship with containersToLoad amount more than max containers amount. Containers to load amount is set equal to MaxContainersAmount.
+21.03.2017 11:23:48.056 [main] WARN  com.rtmznk.port.entity.Ship - Trying to create ship with containersToLoad amount more than max containers amount. Containers to load amount is set equal to MaxContainersAmount.
+21.03.2017 11:23:48.056 [main] WARN  com.rtmznk.port.entity.Ship - Trying to create ship with containersToLoad amount more than max containers amount. Containers to load amount is set equal to MaxContainersAmount.
+21.03.2017 11:23:48.075 [pool-2-thread-2] FATAL com.rtmznk.port.entity.Ship - com.rtmznk.port.exception.PortResourceException: Try to load incorrect containers.
+21.03.2017 11:23:48.083 [pool-2-thread-2] FATAL com.rtmznk.port.entity.Ship - com.rtmznk.port.exception.PortResourceException: Try to load incorrect containers.
+21.03.2017 11:27:19.571 [main] WARN  com.rtmznk.port.entity.Ship - Trying to create ship with containersToLoad amount more than max containers amount. Containers to load amount is set equal to MaxContainersAmount.
+21.03.2017 11:27:19.610 [main] WARN  com.rtmznk.port.entity.Ship - Trying to create ship with containersToLoad amount more than max containers amount. Containers to load amount is set equal to MaxContainersAmount.
+21.03.2017 11:27:19.610 [main] WARN  com.rtmznk.port.entity.Ship - Trying to create ship with containersToLoad amount more than max containers amount. Containers to load amount is set equal to MaxContainersAmount.
+21.03.2017 11:27:19.610 [main] WARN  com.rtmznk.port.entity.Ship - Trying to create ship with containersToLoad amount more than max containers amount. Containers to load amount is set equal to MaxContainersAmount.
+21.03.2017 11:27:19.611 [main] WARN  com.rtmznk.port.entity.Ship - Trying to create ship with containersToLoad amount more than max containers amount. Containers to load amount is set equal to MaxContainersAmount.
+21.03.2017 11:27:19.611 [main] WARN  com.rtmznk.port.entity.Ship - Trying to create ship with containersToLoad amount more than max containers amount. Containers to load amount is set equal to MaxContainersAmount.
+21.03.2017 11:27:19.611 [main] WARN  com.rtmznk.port.entity.Ship - Trying to create ship with containersToLoad amount more than max containers amount. Containers to load amount is set equal to MaxContainersAmount.
+21.03.2017 11:27:19.612 [main] WARN  com.rtmznk.port.entity.Ship - Trying to create ship with containersToLoad amount more than max containers amount. Containers to load amount is set equal to MaxContainersAmount.
+21.03.2017 12:22:37.705 [main] WARN  com.rtmznk.port.entity.Ship - Trying to create ship with containersToLoad amount more than max containers amount. Containers to load amount is set equal to MaxContainersAmount.
+21.03.2017 12:22:37.709 [main] WARN  com.rtmznk.port.entity.Ship - Trying to create ship with containersToLoad amount more than max containers amount. Containers to load amount is set equal to MaxContainersAmount.
+21.03.2017 12:22:37.709 [main] WARN  com.rtmznk.port.entity.Ship - Trying to create ship with containersToLoad amount more than max containers amount. Containers to load amount is set equal to MaxContainersAmount.
+21.03.2017 12:22:37.710 [main] WARN  com.rtmznk.port.entity.Ship - Trying to create ship with containersToLoad amount more than max containers amount. Containers to load amount is set equal to MaxContainersAmount.
+21.03.2017 12:22:37.710 [main] WARN  com.rtmznk.port.entity.Ship - Trying to create ship with containersToLoad amount more than max containers amount. Containers to load amount is set equal to MaxContainersAmount.
+21.03.2017 12:22:37.710 [main] WARN  com.rtmznk.port.entity.Ship - Trying to create ship with containersToLoad amount more than max containers amount. Containers to load amount is set equal to MaxContainersAmount.
+21.03.2017 12:22:37.711 [main] WARN  com.rtmznk.port.entity.Ship - Trying to create ship with containersToLoad amount more than max containers amount. Containers to load amount is set equal to MaxContainersAmount.
+21.03.2017 12:22:37.711 [main] WARN  com.rtmznk.port.entity.Ship - Trying to create ship with containersToLoad amount more than max containers amount. Containers to load amount is set equal to MaxContainersAmount.
+21.03.2017 12:22:37.711 [main] WARN  com.rtmznk.port.entity.Ship - Trying to create ship with containersToLoad amount more than max containers amount. Containers to load amount is set equal to MaxContainersAmount.
+21.03.2017 12:22:37.711 [main] WARN  com.rtmznk.port.entity.Ship - Trying to create ship with containersToLoad amount more than max containers amount. Containers to load amount is set equal to MaxContainersAmount.
+21.03.2017 12:22:37.712 [main] WARN  com.rtmznk.port.entity.Ship - Trying to create ship with containersToLoad amount more than max containers amount. Containers to load amount is set equal to MaxContainersAmount.
+21.03.2017 12:31:57.315 [main] WARN  com.rtmznk.port.entity.Ship - Trying to create ship with containersToLoad amount more than max containers amount. Containers to load amount is set equal to MaxContainersAmount.
+21.03.2017 12:31:57.320 [main] WARN  com.rtmznk.port.entity.Ship - Trying to create ship with containersToLoad amount more than max containers amount. Containers to load amount is set equal to MaxContainersAmount.
+21.03.2017 12:31:57.320 [main] WARN  com.rtmznk.port.entity.Ship - Trying to create ship with containersToLoad amount more than max containers amount. Containers to load amount is set equal to MaxContainersAmount.
+21.03.2017 12:31:57.321 [main] WARN  com.rtmznk.port.entity.Ship - Trying to create ship with containersToLoad amount more than max containers amount. Containers to load amount is set equal to MaxContainersAmount.
+21.03.2017 12:31:57.322 [main] WARN  com.rtmznk.port.entity.Ship - Trying to create ship with containersToLoad amount more than max containers amount. Containers to load amount is set equal to MaxContainersAmount.
+21.03.2017 12:31:57.322 [main] WARN  com.rtmznk.port.entity.Ship - Trying to create ship with containersToLoad amount more than max containers amount. Containers to load amount is set equal to MaxContainersAmount.
+21.03.2017 12:31:57.322 [main] WARN  com.rtmznk.port.entity.Ship - Trying to create ship with containersToLoad amount more than max containers amount. Containers to load amount is set equal to MaxContainersAmount.
+22.03.2017 19:52:28.512 [main] WARN  com.rtmznk.port.entity.Ship - Trying to create ship with containersToLoad amount more than max containers amount. Containers to load amount is set equal to MaxContainersAmount.
+22.03.2017 19:52:28.585 [main] WARN  com.rtmznk.port.entity.Ship - Trying to create ship with containersToLoad amount more than max containers amount. Containers to load amount is set equal to MaxContainersAmount.
+22.03.2017 19:52:28.585 [main] WARN  com.rtmznk.port.entity.Ship - Trying to create ship with containersToLoad amount more than max containers amount. Containers to load amount is set equal to MaxContainersAmount.
+22.03.2017 19:52:28.585 [main] WARN  com.rtmznk.port.entity.Ship - Trying to create ship with containersToLoad amount more than max containers amount. Containers to load amount is set equal to MaxContainersAmount.
+22.03.2017 19:52:28.586 [main] WARN  com.rtmznk.port.entity.Ship - Trying to create ship with containersToLoad amount more than max containers amount. Containers to load amount is set equal to MaxContainersAmount.
+22.03.2017 19:52:28.586 [main] WARN  com.rtmznk.port.entity.Ship - Trying to create ship with containersToLoad amount more than max containers amount. Containers to load amount is set equal to MaxContainersAmount.
+22.03.2017 19:54:02.743 [main] WARN  com.rtmznk.port.entity.Ship - Trying to create ship with containersToLoad amount more than max containers amount. Containers to load amount is set equal to MaxContainersAmount.
+22.03.2017 19:54:02.746 [main] WARN  com.rtmznk.port.entity.Ship - Trying to create ship with containersToLoad amount more than max containers amount. Containers to load amount is set equal to MaxContainersAmount.
+22.03.2017 19:54:02.746 [main] WARN  com.rtmznk.port.entity.Ship - Trying to create ship with containersToLoad amount more than max containers amount. Containers to load amount is set equal to MaxContainersAmount.
+22.03.2017 19:54:02.747 [main] WARN  com.rtmznk.port.entity.Ship - Trying to create ship with containersToLoad amount more than max containers amount. Containers to load amount is set equal to MaxContainersAmount.
+22.03.2017 19:54:02.747 [main] WARN  com.rtmznk.port.entity.Ship - Trying to create ship with containersToLoad amount more than max containers amount. Containers to load amount is set equal to MaxContainersAmount.
+22.03.2017 19:54:51.725 [main] WARN  com.rtmznk.port.entity.Ship - Trying to create ship with containersToLoad amount more than max containers amount. Containers to load amount is set equal to MaxContainersAmount.
+22.03.2017 19:54:51.730 [main] WARN  com.rtmznk.port.entity.Ship - Trying to create ship with containersToLoad amount more than max containers amount. Containers to load amount is set equal to MaxContainersAmount.
+22.03.2017 19:54:51.730 [main] WARN  com.rtmznk.port.entity.Ship - Trying to create ship with containersToLoad amount more than max containers amount. Containers to load amount is set equal to MaxContainersAmount.
+22.03.2017 19:54:51.730 [main] WARN  com.rtmznk.port.entity.Ship - Trying to create ship with containersToLoad amount more than max containers amount. Containers to load amount is set equal to MaxContainersAmount.
+22.03.2017 20:49:46.827 [main] WARN  com.rtmznk.port.entity.Ship - Trying to create ship with containersToLoad amount more than max containers amount. Containers to load amount is set equal to MaxContainersAmount.
+22.03.2017 20:49:46.836 [main] WARN  com.rtmznk.port.entity.Ship - Trying to create ship with containersToLoad amount more than max containers amount. Containers to load amount is set equal to MaxContainersAmount.
+22.03.2017 20:50:32.859 [main] WARN  com.rtmznk.port.entity.Ship - Trying to create ship with containersToLoad amount more than max containers amount. Containers to load amount is set equal to MaxContainersAmount.
+22.03.2017 20:50:32.866 [main] WARN  com.rtmznk.port.entity.Ship - Trying to create ship with containersToLoad amount more than max containers amount. Containers to load amount is set equal to MaxContainersAmount.
+22.03.2017 20:50:32.866 [main] WARN  com.rtmznk.port.entity.Ship - Trying to create ship with containersToLoad amount more than max containers amount. Containers to load amount is set equal to MaxContainersAmount.
+22.03.2017 20:50:32.866 [main] WARN  com.rtmznk.port.entity.Ship - Trying to create ship with containersToLoad amount more than max containers amount. Containers to load amount is set equal to MaxContainersAmount.
+22.03.2017 20:50:32.867 [main] WARN  com.rtmznk.port.entity.Ship - Trying to create ship with containersToLoad amount more than max containers amount. Containers to load amount is set equal to MaxContainersAmount.
+22.03.2017 21:45:24.599 [main] WARN  com.rtmznk.port.parser.ShipStringParser - Incorrect string
+22.03.2017 21:45:24.604 [main] WARN  com.rtmznk.port.parser.ShipStringParser - Incorrect string
+22.03.2017 21:45:24.604 [main] WARN  com.rtmznk.port.parser.ShipStringParser - Incorrect string
+22.03.2017 21:45:24.604 [main] WARN  com.rtmznk.port.parser.ShipStringParser - Incorrect string
+22.03.2017 21:45:24.605 [main] WARN  com.rtmznk.port.parser.ShipStringParser - Incorrect string
+22.03.2017 21:45:24.605 [main] WARN  com.rtmznk.port.parser.ShipStringParser - Incorrect string
+22.03.2017 21:45:24.605 [main] WARN  com.rtmznk.port.parser.ShipStringParser - Incorrect string
+22.03.2017 21:45:24.606 [main] WARN  com.rtmznk.port.parser.ShipStringParser - Incorrect string
+22.03.2017 21:45:24.606 [main] WARN  com.rtmznk.port.parser.ShipStringParser - Incorrect string
+22.03.2017 21:45:24.606 [main] WARN  com.rtmznk.port.parser.ShipStringParser - Incorrect string
+22.03.2017 21:45:24.606 [main] WARN  com.rtmznk.port.parser.ShipStringParser - Incorrect string
+22.03.2017 21:45:24.607 [main] WARN  com.rtmznk.port.parser.ShipStringParser - Incorrect string
+22.03.2017 21:45:24.607 [main] WARN  com.rtmznk.port.parser.ShipStringParser - Incorrect string
+22.03.2017 21:45:24.608 [main] WARN  com.rtmznk.port.parser.ShipStringParser - Incorrect string
+22.03.2017 21:45:24.608 [main] WARN  com.rtmznk.port.parser.ShipStringParser - Incorrect string
+22.03.2017 21:45:24.608 [main] WARN  com.rtmznk.port.parser.ShipStringParser - Incorrect string
+22.03.2017 21:45:24.609 [main] WARN  com.rtmznk.port.parser.ShipStringParser - Incorrect string
+22.03.2017 21:45:24.609 [main] WARN  com.rtmznk.port.parser.ShipStringParser - Incorrect string
+22.03.2017 21:45:24.609 [main] WARN  com.rtmznk.port.parser.ShipStringParser - Incorrect string
+22.03.2017 21:45:24.609 [main] WARN  com.rtmznk.port.parser.ShipStringParser - Incorrect string
+22.03.2017 21:45:24.610 [main] WARN  com.rtmznk.port.parser.ShipStringParser - Incorrect string
+22.03.2017 21:45:24.610 [main] WARN  com.rtmznk.port.parser.ShipStringParser - Incorrect string
+22.03.2017 21:45:24.610 [main] WARN  com.rtmznk.port.parser.ShipStringParser - Incorrect string
+22.03.2017 21:45:24.610 [main] WARN  com.rtmznk.port.parser.ShipStringParser - Incorrect string
+22.03.2017 21:45:24.611 [main] WARN  com.rtmznk.port.parser.ShipStringParser - Incorrect string
+22.03.2017 21:45:24.611 [main] WARN  com.rtmznk.port.parser.ShipStringParser - Incorrect string
+22.03.2017 21:45:24.612 [main] WARN  com.rtmznk.port.parser.ShipStringParser - Incorrect string
+22.03.2017 21:45:24.612 [main] WARN  com.rtmznk.port.parser.ShipStringParser - Incorrect string
+22.03.2017 21:45:24.613 [main] WARN  com.rtmznk.port.parser.ShipStringParser - Incorrect string
+22.03.2017 21:45:24.613 [main] WARN  com.rtmznk.port.parser.ShipStringParser - Incorrect string
+22.03.2017 21:45:24.613 [main] WARN  com.rtmznk.port.parser.ShipStringParser - Incorrect string
+22.03.2017 21:45:24.614 [main] WARN  com.rtmznk.port.parser.ShipStringParser - Incorrect string
+22.03.2017 21:45:24.614 [main] WARN  com.rtmznk.port.parser.ShipStringParser - Incorrect string
+22.03.2017 21:45:24.614 [main] WARN  com.rtmznk.port.parser.ShipStringParser - Incorrect string
+22.03.2017 21:45:24.614 [main] WARN  com.rtmznk.port.parser.ShipStringParser - Incorrect string
+22.03.2017 21:45:24.615 [main] WARN  com.rtmznk.port.parser.ShipStringParser - Incorrect string
+22.03.2017 21:45:24.615 [main] WARN  com.rtmznk.port.parser.ShipStringParser - Incorrect string
+22.03.2017 21:45:24.615 [main] WARN  com.rtmznk.port.parser.ShipStringParser - Incorrect string
+22.03.2017 21:45:24.616 [main] WARN  com.rtmznk.port.parser.ShipStringParser - Incorrect string
+22.03.2017 21:45:24.616 [main] WARN  com.rtmznk.port.parser.ShipStringParser - Incorrect string
+22.03.2017 21:45:24.616 [main] WARN  com.rtmznk.port.parser.ShipStringParser - Incorrect string
+22.03.2017 21:45:24.617 [main] WARN  com.rtmznk.port.parser.ShipStringParser - Incorrect string
+22.03.2017 21:45:24.617 [main] WARN  com.rtmznk.port.parser.ShipStringParser - Incorrect string
+22.03.2017 21:45:24.617 [main] WARN  com.rtmznk.port.parser.ShipStringParser - Incorrect string
+22.03.2017 21:45:24.617 [main] WARN  com.rtmznk.port.parser.ShipStringParser - Incorrect string
+22.03.2017 21:45:24.618 [main] WARN  com.rtmznk.port.parser.ShipStringParser - Incorrect string
+22.03.2017 21:45:24.618 [main] WARN  com.rtmznk.port.parser.ShipStringParser - Incorrect string
+22.03.2017 21:50:21.404 [main] WARN  com.rtmznk.port.parser.ShipStringParser - Incorrect string : bad string to check parser
+22.03.2017 21:50:21.461 [main] WARN  com.rtmznk.port.entity.Ship - Trying to create ship with containersToLoad amount more than max containers amount. Containers to load amount is set equal to MaxContainersAmount.
+22.03.2017 21:52:37.658 [main] WARN  com.rtmznk.port.parser.ShipStringParser - Incorrect string : bad string to check parser
+22.03.2017 21:52:37.689 [main] WARN  com.rtmznk.port.entity.Ship - Trying to create ship with containersToLoad amount more than max containers amount.
+ Containers to load amount is set equal to MaxContainersAmount.
+22.03.2017 22:07:47.953 [main] WARN  com.rtmznk.port.parser.ShipStringParser - Incorrect string : bad string to check parser
+22.03.2017 22:07:48.011 [main] WARN  com.rtmznk.port.entity.Ship - Trying to create ship with containersToLoad amount more than max containers amount.
+Containers to load amount is set equal to MaxContainersAmount.
+22.03.2017 22:08:20.328 [main] WARN  com.rtmznk.port.parser.ShipStringParser - Incorrect string : bad string to check parser
+22.03.2017 22:08:20.361 [main] WARN  com.rtmznk.port.entity.Ship - Trying to create ship with containersToLoad amount more than max containers amount.
+Containers to load amount is set equal to MaxContainersAmount.
+22.03.2017 22:10:08.867 [main] WARN  com.rtmznk.port.parser.ShipStringParser - Incorrect string : bad string to check parser
+22.03.2017 22:10:08.900 [main] WARN  com.rtmznk.port.entity.Ship - Trying to create ship with containersToLoad amount more than max containers amount.
+Containers to load amount is set equal to MaxContainersAmount.

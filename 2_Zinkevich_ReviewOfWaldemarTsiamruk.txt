@@ -1,0 +1,24 @@
+﻿Review на Waldemar Tsiamruk.
+Review сделал Artem Zinkevich.
+
+REVIEW:
+
+1.public class TariffDataReader.
+LOGGER.log(Level.FATAL, "Can't read data from file, use the default path")- Неверный Level.
+После Level.FATAL предполагается, что программа завершит работу.
+
+2.class TariffFactory :
+ A)default:
+                LOGGER.log(Level.ERROR, "Tariff doesn't exist");
+                throw new TariffException("Tariff doesn't exist");
+Либо логгировать, либо кидать исключение.Для исключения дублирования лога.
+ B) 9 констант описывающих ожидаемую позицию конкретных данных в списке типа List<String>. 
+В данном случае удобнее использовать структуру данных типа Map и вынести константы в Enum.
+
+3.A)class TariffMinSubFeeComparator & class TariffMinMbPriceComparator:
+return.... - Java Code Convention(Line length).
+  B)abstract class Tariff & class PhysicalPersonTarff:
+Tariff(TariffType tariffType ,double minutePrice, double messagePrice, double subscriptionFee, double
+            megabytePrice) { - Code Convention (Wrapping Lines).
+
+4.class PhysicalPersonTarff - описка в имени класса.

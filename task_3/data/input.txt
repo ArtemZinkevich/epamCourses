@@ -1,0 +1,11 @@
+ship{20 20 20}
+ship{15 10 7}
+bad string to check parser
+ship{30 25 15}
+ship{10 0 5}
+ship{33 10 20}
+ship{10 10 10}
+ship{20 20 20}
+ship{5 5 2}
+ship{10 20 15}
+ship{0 0 0}

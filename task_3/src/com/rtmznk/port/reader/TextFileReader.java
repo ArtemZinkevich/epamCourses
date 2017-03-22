@@ -1,4 +1,4 @@
-package com.rtmznk.railway.reader;
+package com.rtmznk.port.reader;
 
 import org.apache.logging.log4j.Level;
 import org.apache.logging.log4j.LogManager;
@@ -16,7 +16,6 @@ import java.util.stream.Collectors;
  * Created by RTM on 17.02.2017.
  */
 public class TextFileReader {
-    private final static String DEFAULT_FILE_PATH = "data/input.txt";
     private static Logger logger = LogManager.getLogger(TextFileReader.class);
 
     public List<String> readFileToStringList(String filePath) {
@@ -26,7 +25,7 @@ public class TextFileReader {
             list = br.lines().collect(Collectors.toList());
 
         } catch (IOException | InvalidPathException e) {
-            logger.fatal(e);
+            logger.log(Level.FATAL, e);
             throw new RuntimeException(e);
         }
 
