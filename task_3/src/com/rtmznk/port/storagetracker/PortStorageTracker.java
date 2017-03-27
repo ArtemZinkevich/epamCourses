@@ -1,6 +1,7 @@
-package com.rtmznk.port.entity;
+package com.rtmznk.port.storagetracker;
 
 import com.rtmznk.port.creator.ContainerCreator;
+import com.rtmznk.port.entity.Port;
 import org.apache.logging.log4j.Level;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
@@ -15,7 +16,7 @@ public class PortStorageTracker extends Thread {
     private Port trackedPort;
 
     public PortStorageTracker() {
-        this.trackedPort = Port.getInstance();
+        this.trackedPort = Port.getCreated();
         this.setDaemon(true);
     }
 

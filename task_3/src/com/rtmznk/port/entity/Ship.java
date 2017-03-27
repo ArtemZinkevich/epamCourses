@@ -16,14 +16,14 @@ import java.util.concurrent.TimeUnit;
  */
 public class Ship implements Callable<Ship> {
     private static Logger logger = LogManager.getLogger(Ship.class);
-    private final int ID;
-    private final int maxContainersAmount;
+    private int id;
+    private int maxContainersAmount;
     private List<Container> containers;
     private int containersToLoadAmount;
     private Port port;
 
     public Ship(int maxContainersAmount, List<Container> containers, int containersToLoadAmount) {
-        this.ID = ShipIdGenerator.getNextId();
+        this.id = ShipIdGenerator.getNextId();
         this.maxContainersAmount = maxContainersAmount;
         if (maxContainersAmount < 0) {
             maxContainersAmount = 0;
@@ -44,7 +44,7 @@ public class Ship implements Callable<Ship> {
 
     private void enterPortArea() {
         System.out.println(this + " : entered port area.");
-        this.port = Port.getInstance();
+        this.port = Port.getCreated();
     }
 
     private void exitPortArea() {
@@ -94,7 +94,7 @@ public class Ship implements Callable<Ship> {
 
     @Override
     public String toString() {
-        return "Ship{" + ID + '}';
+        return "Ship{" + id + '}';
     }
 
     @Override
@@ -104,7 +104,7 @@ public class Ship implements Callable<Ship> {
             TimeUnit.SECONDS.sleep(1);
             enterPortArea();
             Dock freeDock = moor();
-            System.out.println(this + " : Succesfully moored to "+ freeDock);
+            System.out.println(this + " : Succesfully moored to " + freeDock);
             if (containers.size() > 0) {
                 System.out.println(this + " : Trying to unload containers in number of " + containers.size());
                 TimeUnit.SECONDS.sleep(1);
@@ -119,8 +119,7 @@ public class Ship implements Callable<Ship> {
             unMoor(freeDock);
             exitPortArea();
         } catch (PortResourceException | InterruptedException e) {
-            logger.log(Level.FATAL, e);
-            throw new RuntimeException(e);
+            logger.log(Level.ERROR, e);
         }
         return this;
     }

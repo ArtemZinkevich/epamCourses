@@ -19,15 +19,15 @@ import java.util.concurrent.locks.ReentrantLock;
 public class Port {
     private final static int MAX_STORAGE_SIZE = 100;
     private final static int DOCK_AMOUNT = 3;
-    private final static AtomicBoolean INSTANCE_CREATED = new AtomicBoolean(false);
-    private final static Lock PORT_LOCK = new ReentrantLock(true);
-    private static Port instance = null;
     private static Logger logger = LogManager.getLogger(Port.class);
-    private final Lock docksLock;
-    private final Condition docksEmptyCondition;
-    private final Lock storageLock;
-    private final Condition storageFullCondition;
-    private final Condition storageEmptyCondition;
+    private static AtomicBoolean created = new AtomicBoolean(false);
+    private static Lock portLock = new ReentrantLock(true);
+    private static Port instance = null;
+    private Lock docksLock;
+    private Condition docksEmptyCondition;
+    private Lock storageLock;
+    private Condition storageFullCondition;
+    private Condition storageEmptyCondition;
 
     private Queue<Dock> docks;
     private ArrayList<Container> storage;
@@ -45,16 +45,16 @@ public class Port {
         storage = new ArrayList<>();
     }
 
-    public static Port getInstance() {
-        if (!INSTANCE_CREATED.get()) {
-            PORT_LOCK.lock();
+    public static Port getCreated() {
+        if (!created.get()) {
+            portLock.lock();
             try {
-                if (!INSTANCE_CREATED.get()) {
+                if (!created.get()) {
                     instance = new Port();
-                    INSTANCE_CREATED.set(true);
+                    created.set(true);
                 }
             } finally {
-                PORT_LOCK.unlock();
+                portLock.unlock();
             }
         }
         return instance;

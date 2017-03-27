@@ -25,7 +25,7 @@ public class ShipStringParser {
             if (matcher.matches()) {
                 result.add(recieveAllIntFromString(string));
             } else {
-                logger.log(Level.WARN, "Incorrect string : "+ string);
+                logger.log(Level.WARN, "Incorrect string : " + string);
             }
         }
         return result;

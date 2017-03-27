@@ -1,6 +1,5 @@
 package com.rtmznk.port.dispatcher;
 
-import com.rtmznk.port.entity.Port;
 import com.rtmznk.port.entity.Ship;
 import org.apache.logging.log4j.Level;
 import org.apache.logging.log4j.LogManager;
@@ -20,11 +19,11 @@ import java.util.concurrent.Future;
  */
 public class PortDispatcher {
     private static Logger logger = LogManager.getLogger(PortDispatcher.class);
-    private final ExecutorService executorService;
+    private ExecutorService executorService;
     private List<Future<Ship>> ships;
 
     public PortDispatcher() {
-        executorService = Executors.newFixedThreadPool(Port.getDockAmount());
+        executorService = Executors.newCachedThreadPool();
         ships = new ArrayList<>();
     }
 
@@ -32,8 +31,8 @@ public class PortDispatcher {
         try {
             ships = executorService.invokeAll(shipQueue);
         } catch (InterruptedException e) {
-            logger.log(Level.FATAL, "Not all ship was serviced", shipQueue);
-            throw new RuntimeException(e);
+            logger.log(Level.ERROR, "Not all ship was serviced", shipQueue);
+
         }
     }
 
@@ -52,8 +51,7 @@ public class PortDispatcher {
                 try {
                     result.add(shipFuture.get());
                 } catch (InterruptedException | ExecutionException e) {
-                    logger.log(Level.FATAL,"Every ship must be served by task." );
-                    throw new RuntimeException(e);
+                    logger.log(Level.ERROR, "Every ship must be served by task.");
                 }
             }
         }

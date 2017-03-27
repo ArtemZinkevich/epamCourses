@@ -14,7 +14,7 @@ import java.util.Queue;
  * Created by RTM on 22.03.2017.
  */
 public class ShipCreator {
-    private Logger logger = LogManager.getLogger(ShipCreator.class);
+    private static Logger logger = LogManager.getLogger(ShipCreator.class);
 
     public Queue<Ship> createShipQueue(List<int[]> params) {
         Queue<Ship> shipQueue = new LinkedList<>();
@@ -26,7 +26,7 @@ public class ShipCreator {
                 nextShip = new Ship(paramArray[0], shipContainers, paramArray[2]);
                 shipQueue.add(nextShip);
             } else {
-                logger.log(Level.WARN, "Incorrect parametrs.");
+                logger.log(Level.WARN, "Incorrect parametrs.Will be ignored.");
             }
         }
         return shipQueue;

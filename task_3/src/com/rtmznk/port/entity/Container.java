@@ -6,15 +6,14 @@ import com.rtmznk.port.generator.ContainerIdGenerator;
  * Created by RTM on 20.03.2017.
  */
 public class Container {
-    //TODO
-    private final int ID;
+    private int id;
 
     public Container() {
-        ID = ContainerIdGenerator.getNextId();
+        id = ContainerIdGenerator.getNextId();
     }
 
     @Override
     public String toString() {
-        return "Container{" + ID + "}";
+        return "Container{" + id + "}";
     }
 }

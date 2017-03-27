@@ -2,7 +2,7 @@ package com.rtmznk.port.runner;
 
 import com.rtmznk.port.creator.ShipCreator;
 import com.rtmznk.port.dispatcher.PortDispatcher;
-import com.rtmznk.port.entity.PortStorageTracker;
+import com.rtmznk.port.storagetracker.PortStorageTracker;
 import com.rtmznk.port.entity.Ship;
 import com.rtmznk.port.parser.ShipStringParser;
 import com.rtmznk.port.reader.TextFileReader;
@@ -37,8 +37,7 @@ public class PortRunner {
         try {
             TimeUnit.SECONDS.sleep(20);
         } catch (InterruptedException e) {
-            logger.log(Level.FATAL, e);
-            throw new RuntimeException(e);
+            logger.log(Level.WARN, e);
         }
         List<Ship> finishedShips = dispatcher.recieveFinishedShipList();
         System.out.println("Finished ships : " + finishedShips);
