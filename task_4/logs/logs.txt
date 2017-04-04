@@ -1,0 +1,175 @@
+03.04.2017 09:23:55.749 [main] WARN  com.rtmznk.texthandler.parser.IntoMathAndLexemParser - Wrong sentence.Won't be parsed : 
+ typesetting,
+03.04.2017 09:23:55.758 [main] WARN  com.rtmznk.texthandler.parser.IntoMathAndLexemParser - Wrong sentence.Won't be parsed : 
+ in
+03.04.2017 09:23:55.769 [main] WARN  com.rtmznk.texthandler.parser.IntoMathAndLexemParser - Wrong sentence.Won't be parsed : 
+ Lorem
+03.04.2017 09:23:55.778 [main] WARN  com.rtmznk.texthandler.parser.IntoMathAndLexemParser - Wrong sentence.Won't be parsed : 
+ PageMaker
+03.04.2017 09:23:55.791 [main] WARN  com.rtmznk.texthandler.parser.IntoMathAndLexemParser - Wrong sentence.Won't be parsed : 
+ content
+03.04.2017 09:23:55.810 [main] WARN  com.rtmznk.texthandler.parser.IntoMathAndLexemParser - Wrong sentence.Won't be parsed : 
+ opposed
+03.04.2017 09:23:55.820 [main] WARN  com.rtmznk.texthandler.parser.IntoMathAndLexemParser - Wrong sentence.Won't be parsed : 
+ when
+03.04.2017 09:29:33.128 [main] WARN  com.rtmznk.texthandler.parser.IntoMathAndLexemParser - Wrong sentence.Won't be parsed : 
+ typesetting,
+03.04.2017 09:29:33.135 [main] WARN  com.rtmznk.texthandler.parser.IntoMathAndLexemParser - Wrong sentence.Won't be parsed : 
+ in
+03.04.2017 09:29:33.146 [main] WARN  com.rtmznk.texthandler.parser.IntoMathAndLexemParser - Wrong sentence.Won't be parsed : 
+ Lorem
+03.04.2017 09:29:33.154 [main] WARN  com.rtmznk.texthandler.parser.IntoMathAndLexemParser - Wrong sentence.Won't be parsed : 
+ PageMaker
+03.04.2017 09:29:33.175 [main] WARN  com.rtmznk.texthandler.parser.IntoMathAndLexemParser - Wrong sentence.Won't be parsed : 
+ content
+03.04.2017 09:29:33.231 [main] WARN  com.rtmznk.texthandler.parser.IntoMathAndLexemParser - Wrong sentence.Won't be parsed : 
+ opposed
+03.04.2017 09:29:33.238 [main] WARN  com.rtmznk.texthandler.parser.IntoMathAndLexemParser - Wrong sentence.Won't be parsed : 
+ when
+03.04.2017 09:41:44.947 [main] WARN  com.rtmznk.texthandler.parser.IntoMathAndLexemParser - Wrong sentence.Won't be parsed : 
+ typesetting,
+03.04.2017 09:41:44.955 [main] WARN  com.rtmznk.texthandler.parser.IntoMathAndLexemParser - Wrong sentence.Won't be parsed : 
+ in
+03.04.2017 09:41:44.966 [main] WARN  com.rtmznk.texthandler.parser.IntoMathAndLexemParser - Wrong sentence.Won't be parsed : 
+ Lorem
+03.04.2017 09:41:44.975 [main] WARN  com.rtmznk.texthandler.parser.IntoMathAndLexemParser - Wrong sentence.Won't be parsed : 
+ PageMaker
+03.04.2017 09:41:44.988 [main] WARN  com.rtmznk.texthandler.parser.IntoMathAndLexemParser - Wrong sentence.Won't be parsed : 
+ content
+03.04.2017 09:41:45.008 [main] WARN  com.rtmznk.texthandler.parser.IntoMathAndLexemParser - Wrong sentence.Won't be parsed : 
+ opposed
+03.04.2017 09:41:45.017 [main] WARN  com.rtmznk.texthandler.parser.IntoMathAndLexemParser - Wrong sentence.Won't be parsed : 
+ when
+03.04.2017 09:58:04.708 [main] WARN  com.rtmznk.texthandler.parser.IntoMathAndLexemParser - Wrong sentence.Won't be parsed : 
+ typesetting,
+03.04.2017 09:58:04.955 [main] WARN  com.rtmznk.texthandler.parser.IntoMathAndLexemParser - Wrong sentence.Won't be parsed : 
+ in
+03.04.2017 09:58:05.011 [main] WARN  com.rtmznk.texthandler.parser.IntoMathAndLexemParser - Wrong sentence.Won't be parsed : 
+ Lorem
+03.04.2017 09:58:05.029 [main] WARN  com.rtmznk.texthandler.parser.IntoMathAndLexemParser - Wrong sentence.Won't be parsed : 
+ PageMaker
+03.04.2017 09:58:05.056 [main] WARN  com.rtmznk.texthandler.parser.IntoMathAndLexemParser - Wrong sentence.Won't be parsed : 
+ content
+03.04.2017 09:58:05.064 [main] WARN  com.rtmznk.texthandler.parser.IntoMathAndLexemParser - Wrong sentence.Won't be parsed : 
+ opposed
+03.04.2017 09:58:05.071 [main] WARN  com.rtmznk.texthandler.parser.IntoMathAndLexemParser - Wrong sentence.Won't be parsed : 
+ when
+03.04.2017 10:05:08.495 [main] WARN  com.rtmznk.texthandler.parser.IntoMathAndLexemParser - Wrong sentence.Won't be parsed : It
+03.04.2017 10:05:08.502 [main] WARN  com.rtmznk.texthandler.parser.IntoMathAndLexemParser - Wrong sentence.Won't be parsed : has
+03.04.2017 10:05:08.504 [main] WARN  com.rtmznk.texthandler.parser.IntoMathAndLexemParser - Wrong sentence.Won't be parsed : survived
+03.04.2017 10:05:08.505 [main] WARN  com.rtmznk.texthandler.parser.IntoMathAndLexemParser - Wrong sentence.Won't be parsed : not
+03.04.2017 10:05:08.518 [main] WARN  com.rtmznk.texthandler.parser.IntoMathAndLexemParser - Wrong sentence.Won't be parsed : only
+03.04.2017 10:05:08.520 [main] WARN  com.rtmznk.texthandler.parser.IntoMathAndLexemParser - Wrong sentence.Won't be parsed : five
+03.04.2017 10:05:08.522 [main] WARN  com.rtmznk.texthandler.parser.IntoMathAndLexemParser - Wrong sentence.Won't be parsed : centuries,
+03.04.2017 10:05:08.524 [main] WARN  com.rtmznk.texthandler.parser.IntoMathAndLexemParser - Wrong sentence.Won't be parsed : but
+03.04.2017 10:05:08.533 [main] WARN  com.rtmznk.texthandler.parser.IntoMathAndLexemParser - Wrong sentence.Won't be parsed : also
+03.04.2017 10:05:08.544 [main] WARN  com.rtmznk.texthandler.parser.IntoMathAndLexemParser - Wrong sentence.Won't be parsed : the
+03.04.2017 10:05:08.545 [main] WARN  com.rtmznk.texthandler.parser.IntoMathAndLexemParser - Wrong sentence.Won't be parsed : leap
+03.04.2017 10:05:08.550 [main] WARN  com.rtmznk.texthandler.parser.IntoMathAndLexemParser - Wrong sentence.Won't be parsed : into
+03.04.2017 10:05:08.839 [main] WARN  com.rtmznk.texthandler.parser.IntoMathAndLexemParser - Wrong sentence.Won't be parsed : electronic
+03.04.2017 10:05:08.840 [main] WARN  com.rtmznk.texthandler.parser.IntoMathAndLexemParser - Wrong sentence.Won't be parsed : typesetting,
+03.04.2017 10:05:08.844 [main] WARN  com.rtmznk.texthandler.parser.IntoMathAndLexemParser - Wrong sentence.Won't be parsed : remaining
+03.04.2017 10:05:08.848 [main] WARN  com.rtmznk.texthandler.parser.IntoMathAndLexemParser - Wrong sentence.Won't be parsed : essentially
+03.04.2017 10:05:08.850 [main] WARN  com.rtmznk.texthandler.parser.IntoMathAndLexemParser - Wrong sentence.Won't be parsed : unchanged.
+03.04.2017 10:05:08.852 [main] WARN  com.rtmznk.texthandler.parser.IntoMathAndLexemParser - Wrong sentence.Won't be parsed : It
+03.04.2017 10:05:08.853 [main] WARN  com.rtmznk.texthandler.parser.IntoMathAndLexemParser - Wrong sentence.Won't be parsed : was
+03.04.2017 10:05:08.858 [main] WARN  com.rtmznk.texthandler.parser.IntoMathAndLexemParser - Wrong sentence.Won't be parsed : popularised
+03.04.2017 10:05:08.868 [main] WARN  com.rtmznk.texthandler.parser.IntoMathAndLexemParser - Wrong sentence.Won't be parsed : in
+03.04.2017 10:05:08.870 [main] WARN  com.rtmznk.texthandler.parser.IntoMathAndLexemParser - Wrong sentence.Won't be parsed : the
+03.04.2017 10:05:08.872 [main] WARN  com.rtmznk.texthandler.parser.IntoMathAndLexemParser - Wrong sentence.Won't be parsed : with
+03.04.2017 10:05:08.874 [main] WARN  com.rtmznk.texthandler.parser.IntoMathAndLexemParser - Wrong sentence.Won't be parsed : the
+03.04.2017 10:05:08.876 [main] WARN  com.rtmznk.texthandler.parser.IntoMathAndLexemParser - Wrong sentence.Won't be parsed : release
+03.04.2017 10:05:08.880 [main] WARN  com.rtmznk.texthandler.parser.IntoMathAndLexemParser - Wrong sentence.Won't be parsed : of
+03.04.2017 10:05:08.881 [main] WARN  com.rtmznk.texthandler.parser.IntoMathAndLexemParser - Wrong sentence.Won't be parsed : Letraset
+03.04.2017 10:05:08.882 [main] WARN  com.rtmznk.texthandler.parser.IntoMathAndLexemParser - Wrong sentence.Won't be parsed : sheets
+03.04.2017 10:05:08.883 [main] WARN  com.rtmznk.texthandler.parser.IntoMathAndLexemParser - Wrong sentence.Won't be parsed : containing
+03.04.2017 10:05:08.884 [main] WARN  com.rtmznk.texthandler.parser.IntoMathAndLexemParser - Wrong sentence.Won't be parsed : Lorem
+03.04.2017 10:05:08.884 [main] WARN  com.rtmznk.texthandler.parser.IntoMathAndLexemParser - Wrong sentence.Won't be parsed : Ipsum
+03.04.2017 10:05:08.922 [main] WARN  com.rtmznk.texthandler.parser.IntoMathAndLexemParser - Wrong sentence.Won't be parsed : passages,
+03.04.2017 10:05:08.930 [main] WARN  com.rtmznk.texthandler.parser.IntoMathAndLexemParser - Wrong sentence.Won't be parsed : and
+03.04.2017 10:05:08.930 [main] WARN  com.rtmznk.texthandler.parser.IntoMathAndLexemParser - Wrong sentence.Won't be parsed : more
+03.04.2017 10:05:08.932 [main] WARN  com.rtmznk.texthandler.parser.IntoMathAndLexemParser - Wrong sentence.Won't be parsed : recently
+03.04.2017 10:05:08.932 [main] WARN  com.rtmznk.texthandler.parser.IntoMathAndLexemParser - Wrong sentence.Won't be parsed : with
+03.04.2017 10:05:08.936 [main] WARN  com.rtmznk.texthandler.parser.IntoMathAndLexemParser - Wrong sentence.Won't be parsed : desktop
+03.04.2017 10:05:08.937 [main] WARN  com.rtmznk.texthandler.parser.IntoMathAndLexemParser - Wrong sentence.Won't be parsed : publishing
+03.04.2017 10:05:08.938 [main] WARN  com.rtmznk.texthandler.parser.IntoMathAndLexemParser - Wrong sentence.Won't be parsed : software
+03.04.2017 10:05:08.938 [main] WARN  com.rtmznk.texthandler.parser.IntoMathAndLexemParser - Wrong sentence.Won't be parsed : like
+03.04.2017 10:05:08.939 [main] WARN  com.rtmznk.texthandler.parser.IntoMathAndLexemParser - Wrong sentence.Won't be parsed : Aldus
+03.04.2017 10:05:08.939 [main] WARN  com.rtmznk.texthandler.parser.IntoMathAndLexemParser - Wrong sentence.Won't be parsed : PageMaker
+03.04.2017 10:05:08.941 [main] WARN  com.rtmznk.texthandler.parser.IntoMathAndLexemParser - Wrong sentence.Won't be parsed : including
+03.04.2017 10:05:08.946 [main] WARN  com.rtmznk.texthandler.parser.IntoMathAndLexemParser - Wrong sentence.Won't be parsed : versions
+03.04.2017 10:05:08.946 [main] WARN  com.rtmznk.texthandler.parser.IntoMathAndLexemParser - Wrong sentence.Won't be parsed : of
+03.04.2017 10:05:08.946 [main] WARN  com.rtmznk.texthandler.parser.IntoMathAndLexemParser - Wrong sentence.Won't be parsed : Lorem
+03.04.2017 10:05:08.947 [main] WARN  com.rtmznk.texthandler.parser.IntoMathAndLexemParser - Wrong sentence.Won't be parsed : Ipsum.
+03.04.2017 10:05:08.951 [main] WARN  com.rtmznk.texthandler.parser.IntoMathAndLexemParser - Wrong sentence.Won't be parsed : It
+03.04.2017 10:05:08.952 [main] WARN  com.rtmznk.texthandler.parser.IntoMathAndLexemParser - Wrong sentence.Won't be parsed : is
+03.04.2017 10:05:08.953 [main] WARN  com.rtmznk.texthandler.parser.IntoMathAndLexemParser - Wrong sentence.Won't be parsed : a
+03.04.2017 10:05:08.953 [main] WARN  com.rtmznk.texthandler.parser.IntoMathAndLexemParser - Wrong sentence.Won't be parsed : long
+03.04.2017 10:05:08.953 [main] WARN  com.rtmznk.texthandler.parser.IntoMathAndLexemParser - Wrong sentence.Won't be parsed : established
+03.04.2017 10:05:09.023 [main] WARN  com.rtmznk.texthandler.parser.IntoMathAndLexemParser - Wrong sentence.Won't be parsed : fact
+03.04.2017 10:05:09.027 [main] WARN  com.rtmznk.texthandler.parser.IntoMathAndLexemParser - Wrong sentence.Won't be parsed : that
+03.04.2017 10:05:09.028 [main] WARN  com.rtmznk.texthandler.parser.IntoMathAndLexemParser - Wrong sentence.Won't be parsed : a
+03.04.2017 10:05:09.032 [main] WARN  com.rtmznk.texthandler.parser.IntoMathAndLexemParser - Wrong sentence.Won't be parsed : reader
+03.04.2017 10:05:09.033 [main] WARN  com.rtmznk.texthandler.parser.IntoMathAndLexemParser - Wrong sentence.Won't be parsed : will
+03.04.2017 10:05:09.034 [main] WARN  com.rtmznk.texthandler.parser.IntoMathAndLexemParser - Wrong sentence.Won't be parsed : be
+03.04.2017 10:05:09.035 [main] WARN  com.rtmznk.texthandler.parser.IntoMathAndLexemParser - Wrong sentence.Won't be parsed : distracted
+03.04.2017 10:05:09.036 [main] WARN  com.rtmznk.texthandler.parser.IntoMathAndLexemParser - Wrong sentence.Won't be parsed : by
+03.04.2017 10:05:09.037 [main] WARN  com.rtmznk.texthandler.parser.IntoMathAndLexemParser - Wrong sentence.Won't be parsed : the
+03.04.2017 10:05:09.038 [main] WARN  com.rtmznk.texthandler.parser.IntoMathAndLexemParser - Wrong sentence.Won't be parsed : readable
+03.04.2017 10:05:09.038 [main] WARN  com.rtmznk.texthandler.parser.IntoMathAndLexemParser - Wrong sentence.Won't be parsed : content
+03.04.2017 10:05:09.039 [main] WARN  com.rtmznk.texthandler.parser.IntoMathAndLexemParser - Wrong sentence.Won't be parsed : of
+03.04.2017 10:05:09.042 [main] WARN  com.rtmznk.texthandler.parser.IntoMathAndLexemParser - Wrong sentence.Won't be parsed : a
+03.04.2017 10:05:09.043 [main] WARN  com.rtmznk.texthandler.parser.IntoMathAndLexemParser - Wrong sentence.Won't be parsed : page
+03.04.2017 10:05:09.043 [main] WARN  com.rtmznk.texthandler.parser.IntoMathAndLexemParser - Wrong sentence.Won't be parsed : when
+03.04.2017 10:05:09.043 [main] WARN  com.rtmznk.texthandler.parser.IntoMathAndLexemParser - Wrong sentence.Won't be parsed : looking
+03.04.2017 10:05:09.044 [main] WARN  com.rtmznk.texthandler.parser.IntoMathAndLexemParser - Wrong sentence.Won't be parsed : at
+03.04.2017 10:05:09.044 [main] WARN  com.rtmznk.texthandler.parser.IntoMathAndLexemParser - Wrong sentence.Won't be parsed : its
+03.04.2017 10:05:09.044 [main] WARN  com.rtmznk.texthandler.parser.IntoMathAndLexemParser - Wrong sentence.Won't be parsed : layout.
+03.04.2017 10:05:09.045 [main] WARN  com.rtmznk.texthandler.parser.IntoMathAndLexemParser - Wrong sentence.Won't be parsed : The
+03.04.2017 10:05:09.081 [main] WARN  com.rtmznk.texthandler.parser.IntoMathAndLexemParser - Wrong sentence.Won't be parsed : point
+03.04.2017 10:05:09.081 [main] WARN  com.rtmznk.texthandler.parser.IntoMathAndLexemParser - Wrong sentence.Won't be parsed : of
+03.04.2017 10:05:09.082 [main] WARN  com.rtmznk.texthandler.parser.IntoMathAndLexemParser - Wrong sentence.Won't be parsed : using
+03.04.2017 10:05:09.082 [main] WARN  com.rtmznk.texthandler.parser.IntoMathAndLexemParser - Wrong sentence.Won't be parsed : Ipsum
+03.04.2017 10:05:09.083 [main] WARN  com.rtmznk.texthandler.parser.IntoMathAndLexemParser - Wrong sentence.Won't be parsed : is
+03.04.2017 10:05:09.085 [main] WARN  com.rtmznk.texthandler.parser.IntoMathAndLexemParser - Wrong sentence.Won't be parsed : that
+03.04.2017 10:05:09.086 [main] WARN  com.rtmznk.texthandler.parser.IntoMathAndLexemParser - Wrong sentence.Won't be parsed : it
+03.04.2017 10:05:09.086 [main] WARN  com.rtmznk.texthandler.parser.IntoMathAndLexemParser - Wrong sentence.Won't be parsed : has
+03.04.2017 10:05:09.086 [main] WARN  com.rtmznk.texthandler.parser.IntoMathAndLexemParser - Wrong sentence.Won't be parsed : a
+03.04.2017 10:05:09.087 [main] WARN  com.rtmznk.texthandler.parser.IntoMathAndLexemParser - Wrong sentence.Won't be parsed : more-or-less
+03.04.2017 10:05:09.087 [main] WARN  com.rtmznk.texthandler.parser.IntoMathAndLexemParser - Wrong sentence.Won't be parsed : normal
+03.04.2017 10:05:09.087 [main] WARN  com.rtmznk.texthandler.parser.IntoMathAndLexemParser - Wrong sentence.Won't be parsed : distribution
+03.04.2017 10:05:09.088 [main] WARN  com.rtmznk.texthandler.parser.IntoMathAndLexemParser - Wrong sentence.Won't be parsed : of
+03.04.2017 10:05:09.088 [main] WARN  com.rtmznk.texthandler.parser.IntoMathAndLexemParser - Wrong sentence.Won't be parsed : letters,
+03.04.2017 10:05:09.091 [main] WARN  com.rtmznk.texthandler.parser.IntoMathAndLexemParser - Wrong sentence.Won't be parsed : as
+03.04.2017 10:05:09.092 [main] WARN  com.rtmznk.texthandler.parser.IntoMathAndLexemParser - Wrong sentence.Won't be parsed : opposed
+03.04.2017 10:05:09.092 [main] WARN  com.rtmznk.texthandler.parser.IntoMathAndLexemParser - Wrong sentence.Won't be parsed : to
+03.04.2017 10:05:09.093 [main] WARN  com.rtmznk.texthandler.parser.IntoMathAndLexemParser - Wrong sentence.Won't be parsed : using
+03.04.2017 10:05:09.093 [main] WARN  com.rtmznk.texthandler.parser.IntoMathAndLexemParser - Wrong sentence.Won't be parsed : 'Content
+03.04.2017 10:05:09.094 [main] WARN  com.rtmznk.texthandler.parser.IntoMathAndLexemParser - Wrong sentence.Won't be parsed : here,
+03.04.2017 10:05:09.094 [main] WARN  com.rtmznk.texthandler.parser.IntoMathAndLexemParser - Wrong sentence.Won't be parsed : content
+03.04.2017 10:05:09.094 [main] WARN  com.rtmznk.texthandler.parser.IntoMathAndLexemParser - Wrong sentence.Won't be parsed : here',
+03.04.2017 10:05:09.096 [main] WARN  com.rtmznk.texthandler.parser.IntoMathAndLexemParser - Wrong sentence.Won't be parsed : making
+03.04.2017 10:05:09.096 [main] WARN  com.rtmznk.texthandler.parser.IntoMathAndLexemParser - Wrong sentence.Won't be parsed : it
+03.04.2017 10:05:09.097 [main] WARN  com.rtmznk.texthandler.parser.IntoMathAndLexemParser - Wrong sentence.Won't be parsed : look
+03.04.2017 10:05:09.097 [main] WARN  com.rtmznk.texthandler.parser.IntoMathAndLexemParser - Wrong sentence.Won't be parsed : like
+03.04.2017 10:05:09.097 [main] WARN  com.rtmznk.texthandler.parser.IntoMathAndLexemParser - Wrong sentence.Won't be parsed : readable
+03.04.2017 10:05:09.099 [main] WARN  com.rtmznk.texthandler.parser.IntoMathAndLexemParser - Wrong sentence.Won't be parsed : English.
+03.04.2017 10:05:09.102 [main] WARN  com.rtmznk.texthandler.parser.IntoMathAndLexemParser - Wrong sentence.Won't be parsed : It
+03.04.2017 10:05:09.102 [main] WARN  com.rtmznk.texthandler.parser.IntoMathAndLexemParser - Wrong sentence.Won't be parsed : is
+03.04.2017 10:05:09.102 [main] WARN  com.rtmznk.texthandler.parser.IntoMathAndLexemParser - Wrong sentence.Won't be parsed : a
+03.04.2017 10:05:09.107 [main] WARN  com.rtmznk.texthandler.parser.IntoMathAndLexemParser - Wrong sentence.Won't be parsed : established
+03.04.2017 10:05:09.119 [main] WARN  com.rtmznk.texthandler.parser.IntoMathAndLexemParser - Wrong sentence.Won't be parsed : fact
+03.04.2017 10:05:09.120 [main] WARN  com.rtmznk.texthandler.parser.IntoMathAndLexemParser - Wrong sentence.Won't be parsed : that
+03.04.2017 10:05:09.121 [main] WARN  com.rtmznk.texthandler.parser.IntoMathAndLexemParser - Wrong sentence.Won't be parsed : a
+03.04.2017 10:05:09.124 [main] WARN  com.rtmznk.texthandler.parser.IntoMathAndLexemParser - Wrong sentence.Won't be parsed : reader
+03.04.2017 10:05:09.124 [main] WARN  com.rtmznk.texthandler.parser.IntoMathAndLexemParser - Wrong sentence.Won't be parsed : will
+03.04.2017 10:05:09.125 [main] WARN  com.rtmznk.texthandler.parser.IntoMathAndLexemParser - Wrong sentence.Won't be parsed : be
+03.04.2017 10:05:09.125 [main] WARN  com.rtmznk.texthandler.parser.IntoMathAndLexemParser - Wrong sentence.Won't be parsed : of
+03.04.2017 10:05:09.126 [main] WARN  com.rtmznk.texthandler.parser.IntoMathAndLexemParser - Wrong sentence.Won't be parsed : a
+03.04.2017 10:05:09.126 [main] WARN  com.rtmznk.texthandler.parser.IntoMathAndLexemParser - Wrong sentence.Won't be parsed : page
+03.04.2017 10:05:09.127 [main] WARN  com.rtmznk.texthandler.parser.IntoMathAndLexemParser - Wrong sentence.Won't be parsed : when
+03.04.2017 10:05:09.127 [main] WARN  com.rtmznk.texthandler.parser.IntoMathAndLexemParser - Wrong sentence.Won't be parsed : looking
+03.04.2017 10:05:09.127 [main] WARN  com.rtmznk.texthandler.parser.IntoMathAndLexemParser - Wrong sentence.Won't be parsed : at
+03.04.2017 10:05:09.128 [main] WARN  com.rtmznk.texthandler.parser.IntoMathAndLexemParser - Wrong sentence.Won't be parsed : its
+03.04.2017 10:05:09.130 [main] WARN  com.rtmznk.texthandler.parser.IntoMathAndLexemParser - Wrong sentence.Won't be parsed : layout.
+03.04.2017 10:05:09.131 [main] WARN  com.rtmznk.texthandler.parser.IntoMathAndLexemParser - Wrong sentence.Won't be parsed : Bye.
