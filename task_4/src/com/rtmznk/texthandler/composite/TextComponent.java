@@ -8,11 +8,18 @@ import java.util.List;
 public interface TextComponent {
     String recieveText();
 
-    List<TextComponent> recieveChilds();
+    default List<TextComponent> recieveChilds() {
+        throw new UnsupportedOperationException();
+    }
 
-    boolean hasChilds();
+
+    default boolean hasChilds() {
+        return false;
+    }
 
     TextChildLevel level();
 
-    List<TextComponent> recieveComponents(TextChildLevel level);
+    default List<TextComponent> recieveComponents(TextChildLevel level) {
+        throw new UnsupportedOperationException();
+    }
 }

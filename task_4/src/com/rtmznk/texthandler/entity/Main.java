@@ -1,5 +1,6 @@
 package com.rtmznk.texthandler.entity;
 
+import com.rtmznk.texthandler.composite.TextChildLevel;
 import com.rtmznk.texthandler.composite.TextComponent;
 import com.rtmznk.texthandler.parser.IntoParagraphParser;
 
@@ -10,6 +11,10 @@ import java.util.regex.Pattern;
  * Created by RTM on 02.04.2017.
  */
 public class Main {
+    public Main() {
+        throw new RuntimeException();
+    }
+
     public static void main(String[] args) {
         Pattern pattern = Pattern.compile("(?<=[\\s-])\\p{Punct}*\\b\\w*\\b\\p{Punct}*");
         String text = "\tIt has survived not only five centuries, but also the leap into 13+ i-- electronic\n" +
@@ -28,9 +33,12 @@ public class Main {
                 "\n" +
                 "\tBye.";
         IntoParagraphParser textParser = new IntoParagraphParser();
-        TextComponent components = textParser.parse(text);
+        TextComponent components = textParser.doChain(text);
         String completedText =components.recieveText();
         System.out.println(completedText);
+//       for(TextComponent c:components.recieveComponents(TextChildLevel.MATH)){
+//           System.out.println(c.recieveText());
+//       }
 
 
        /* Matcher matcher = pattern.matcher(text);

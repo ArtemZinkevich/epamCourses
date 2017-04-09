@@ -11,13 +11,17 @@ import java.util.regex.Pattern;
 /**
  * Created by RTM on 02.04.2017.
  */
-class IntoWordAndPunctuationParser {
+class IntoWordAndPunctuationParser extends ChainParser {
     private static final String WORD_OR_PUNCTUATION_REGEX = "(\\w+|\\p{Punct}+)";
     private static final String WORD_REGEX = "\\w+";
     private static final String PUNCTUATION_REGEX = "\\p{Punct}+";
     private static final String WORD_WITH_PUNCTUATION_REGEX = "\\w+\\p{Punct}+";
     private static final String PUNCTUATION_WITH_WORD_REGEX = "\\p{Punct}+\\w+";
-    private IntoSymbolParser symbolParser = new IntoSymbolParser();
+    private ChainParser symbolParser ;
+
+    public IntoWordAndPunctuationParser() {
+        symbolParser = new IntoSymbolParser();
+    }
 
     TextComponent parse(String lexem) {
         Pattern wordAndPunctuationPattern = Pattern.compile(WORD_OR_PUNCTUATION_REGEX);
@@ -35,7 +39,7 @@ class IntoWordAndPunctuationParser {
                 String wordString = matcher.group();
                 CompositeText word = new CompositeText();
                 word.setLevel(TextChildLevel.WORD);
-                symbolParser.parse(wordString).forEach(word::add);
+                symbolParser.parse(wordString).recieveChilds().forEach(word::add);
                 wordsAndPunctuation.add(word);
                 if (spaceAfterWordNeeded) {
                     wordsAndPunctuation.add(new Symbol(" "));
@@ -44,7 +48,7 @@ class IntoWordAndPunctuationParser {
                 String punctuationString = matcher.group();
                 CompositeText punctuation = new CompositeText();
                 punctuation.setLevel(TextChildLevel.PUNCTUATION);
-                symbolParser.parse(punctuationString).forEach(punctuation::add);
+                symbolParser.parse(punctuationString).recieveChilds().forEach(punctuation::add);
                 wordsAndPunctuation.add(punctuation);
                 if (spaceAfterPunctuationNeeded) {
                     wordsAndPunctuation.add(new Symbol(" "));

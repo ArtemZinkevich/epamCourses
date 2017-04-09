@@ -1,5 +1,6 @@
 package com.rtmznk.texthandler.composite;
 
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -57,7 +58,7 @@ public class CompositeText implements TextComponent {
         List<TextComponent> allComponents = recieveChilds();
         List<TextComponent> result = new ArrayList<>();
         for (TextComponent component : allComponents) {
-            if (component.level().equals(level)) {
+            if (component.level()!=null&&component.level().equals(level)) {
                 result.add(component);
             }
         }

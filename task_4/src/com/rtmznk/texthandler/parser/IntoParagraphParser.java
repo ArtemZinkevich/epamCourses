@@ -2,6 +2,7 @@ package com.rtmznk.texthandler.parser;
 
 import com.rtmznk.texthandler.composite.CompositeText;
 import com.rtmznk.texthandler.composite.TextChildLevel;
+import com.rtmznk.texthandler.composite.TextComponent;
 import com.rtmznk.texthandler.entity.Symbol;
 
 import java.util.ArrayList;
@@ -11,11 +12,15 @@ import java.util.regex.Pattern;
 /**
  * Created by RTM on 01.04.2017.
  */
-public class IntoParagraphParser {
+public class IntoParagraphParser extends ChainParser {
     private static final String PARAGRAPH_REGEX = "(?s)\\t[\\p{Upper}+\\-(](.(?!\\r?\\n\\r?\\n))*.";
-    private IntoSentenceParser sentenceParser = new IntoSentenceParser();
+    private ChainParser sentenceParser;
 
-    public CompositeText parse(String text) {
+    public IntoParagraphParser() {
+        sentenceParser = new IntoSentenceParser();
+    }
+
+    TextComponent parse(String text) {
         CompositeText allParagraphs = new CompositeText();
         ArrayList<CompositeText> paragraphList = new ArrayList<>();
         Pattern paragraphPattern = Pattern.compile(PARAGRAPH_REGEX);
@@ -38,4 +43,7 @@ public class IntoParagraphParser {
         return allParagraphs;
     }
 
+    public TextComponent doChain(String text) {
+        return parse(text);
+    }
 }
