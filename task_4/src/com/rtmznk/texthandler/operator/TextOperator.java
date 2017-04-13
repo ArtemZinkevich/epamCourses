@@ -15,7 +15,7 @@ public class TextOperator {
         receiveMathExpressions(text).forEach((TextComponent component) -> {
             String expression = component.receiveText().trim();
             System.out.println(expression);
-            List<String> rpnList = ExpressionOperator.reciveRpnList(expression);
+            List<String> rpnList = ExpressionOperator.receiveRpnList(expression);
             System.out.println(rpnList);
             TextComponent result = interpreter.executeInterpretation(rpnList, context);
             component.removeChilds();

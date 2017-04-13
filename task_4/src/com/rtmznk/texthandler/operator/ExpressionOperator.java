@@ -1,13 +1,19 @@
 package com.rtmznk.texthandler.operator;
 
-import java.util.*;
+import java.util.ArrayList;
+import java.util.Deque;
+import java.util.HashMap;
+import java.util.LinkedList;
+import java.util.List;
+import java.util.Map;
+import java.util.Scanner;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 /**
  * Created by RTM on 06.04.2017.
  */
-public class ExpressionOperator {
+class ExpressionOperator {
     private static final String DECREMENT_BEFORE_PATTERN = "--(?=[ij])";
     private static final String DECREMENT_AFTER_PATTERN = "(?<=[ij])--";
     private static final String INCREMENT_BEFORE_PATTERN = "\\+\\+(?=[ij])";
@@ -28,13 +34,8 @@ public class ExpressionOperator {
         priorityMap.put('&', 3);
     }
 
-    public static void main(String[] args) {
-        String mathExpression = "(-5+1/2*(2+5*2- --j))*1200";
 
-        System.out.println(reciveRpnList(mathExpression));
-    }
-
-    public static List<String> reciveRpnList(String mathExpression) {
+    static List<String> receiveRpnList(String mathExpression) {
         List<String> result = new ArrayList<>();
         Deque<Character> deque = new LinkedList<>();
         List<String> negativeDigits = new ArrayList<>();

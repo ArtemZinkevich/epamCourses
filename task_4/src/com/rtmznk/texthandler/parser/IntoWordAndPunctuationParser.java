@@ -1,9 +1,9 @@
 package com.rtmznk.texthandler.parser;
 
 import com.rtmznk.texthandler.composite.CompositeText;
+import com.rtmznk.texthandler.composite.Symbol;
 import com.rtmznk.texthandler.composite.TextChildLevel;
 import com.rtmznk.texthandler.composite.TextComponent;
-import com.rtmznk.texthandler.composite.Symbol;
 
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
@@ -19,18 +19,18 @@ class IntoWordAndPunctuationParser extends ChainParser {
     private static final String PUNCTUATION_WITH_WORD_REGEX = "\\p{Punct}+\\w+";
     private ChainParser symbolParser;
 
-    public IntoWordAndPunctuationParser() {
+    IntoWordAndPunctuationParser() {
         symbolParser = new IntoSymbolParser();
     }
 
-    TextComponent parse(String lexem) {
+    TextComponent parse(String lexeme) {
         Pattern wordAndPunctuationPattern = Pattern.compile(WORD_OR_PUNCTUATION_REGEX);
         Pattern wordPattern = Pattern.compile(WORD_REGEX);
         Pattern punctuationPattern = Pattern.compile(PUNCTUATION_REGEX);
-        Matcher matcher = wordAndPunctuationPattern.matcher(lexem);
+        Matcher matcher = wordAndPunctuationPattern.matcher(lexeme);
         CompositeText wordsAndPunctuation = new CompositeText();
-        boolean spaceAfterWordNeeded = !Pattern.matches(WORD_WITH_PUNCTUATION_REGEX, lexem);
-        boolean spaceAfterPunctuationNeeded = !Pattern.matches(PUNCTUATION_WITH_WORD_REGEX, lexem);
+        boolean spaceAfterWordNeeded = !Pattern.matches(WORD_WITH_PUNCTUATION_REGEX, lexeme);
+        boolean spaceAfterPunctuationNeeded = !Pattern.matches(PUNCTUATION_WITH_WORD_REGEX, lexeme);
         while (matcher.find()) {
             String current = matcher.group();
             Matcher wordMatcher = wordPattern.matcher(current);

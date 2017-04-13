@@ -10,12 +10,12 @@ import java.util.regex.Pattern;
 /**
  * Created by RTM on 02.04.2017.
  */
-class IntoSentenceParser extends ChainParser{
+class IntoSentenceParser extends ChainParser {
     private static final String SENTENCE_REGEX = "(?s)\\s[\\p{Upper}+\\-(](.(?!\\.))*..";
-    private ChainParser mathAndLexemParser;
+    private ChainParser mathAndLexemeParser;
 
-    public IntoSentenceParser() {
-        mathAndLexemParser  = new IntoMathAndLexemParser();
+    IntoSentenceParser() {
+        mathAndLexemeParser = new IntoMathAndLexemeParser();
     }
 
     TextComponent parse(String paragraph) {
@@ -26,7 +26,7 @@ class IntoSentenceParser extends ChainParser{
             CompositeText sentence = new CompositeText();
             sentence.setLevel(TextChildLevel.SENTENCE);
             String current = sentenceMatcher.group();
-            sentence.add(mathAndLexemParser.parse(current));
+            sentence.add(mathAndLexemeParser.parse(current));
             allSentences.add(sentence);
         }
         return allSentences;

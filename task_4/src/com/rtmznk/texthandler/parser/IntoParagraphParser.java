@@ -1,17 +1,14 @@
 package com.rtmznk.texthandler.parser;
 
 import com.rtmznk.texthandler.composite.CompositeText;
+import com.rtmznk.texthandler.composite.Symbol;
 import com.rtmznk.texthandler.composite.TextChildLevel;
 import com.rtmznk.texthandler.composite.TextComponent;
-import com.rtmznk.texthandler.composite.Symbol;
 
 import java.util.ArrayList;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-/**
- * Created by RTM on 01.04.2017.
- */
 public class IntoParagraphParser extends ChainParser {
     private static final String PARAGRAPH_REGEX = "(?s)\\t[\\p{Upper}+\\-(](.(?!\\r?\\n\\r?\\n))*.";
     private ChainParser sentenceParser;

@@ -1,8 +1,7 @@
 package com.rtmznk.texthandler.interpreter;
 
-import com.rtmznk.texthandler.composite.TextComponent;
 import com.rtmznk.texthandler.composite.Symbol;
-import com.rtmznk.texthandler.operator.ExpressionOperator;
+import com.rtmznk.texthandler.composite.TextComponent;
 import org.apache.logging.log4j.Level;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
@@ -17,16 +16,8 @@ import java.util.Scanner;
 public class Interpreter {
     private static Logger logger = LogManager.getLogger(Interpreter.class);
 
-    public static void main(String[] args) {
-        String mathExpression = "5*(1*2*(3*(4*(5- --j + 4)-(--j-2))-2)-1)";
-        List<String> rpn = ExpressionOperator.reciveRpnList(mathExpression);
-        System.out.println(rpn);
-        Interpreter interpreter = new Interpreter();
-        TextComponent c = interpreter.executeInterpretation(rpn,new Context(5,2));
-    }
-
-    public TextComponent executeInterpretation(List<String> rpnParts,Context context) {
-        List<Operation> operations = recieveOperationsList(rpnParts);
+    public TextComponent executeInterpretation(List<String> rpnParts, Context context) {
+        List<Operation> operations = receiveOperationsList(rpnParts);
         for (Operation o : operations) {
             o.interpret(context);
         }
@@ -34,7 +25,7 @@ public class Interpreter {
         return new Symbol(result);
     }
 
-    private List<Operation> recieveOperationsList(List<String> rpnParts) {
+    private List<Operation> receiveOperationsList(List<String> rpnParts) {
         List<Operation> operations = new ArrayList<>();
         for (String lexeme : rpnParts) {
             char temp = lexeme.charAt(0);
@@ -51,16 +42,16 @@ public class Interpreter {
                     break;
                 case '+':
                     operations.add((Context context) -> {
-                        double firstAddendum = reciveDouble(context);
-                        double secondAddendum = reciveDouble(context);
+                        double firstAddendum = receiveDouble(context);
+                        double secondAddendum = receiveDouble(context);
                         context.pushValue(String.valueOf(firstAddendum + secondAddendum));
                     });
                     break;
                 case '-':
                     if (lexeme.length() == 1) {
                         operations.add((Context context) -> {
-                            double subtrahend = reciveDouble(context);
-                            double minuend = reciveDouble(context);
+                            double subtrahend = receiveDouble(context);
+                            double minuend = receiveDouble(context);
                             context.pushValue(String.valueOf(minuend - subtrahend));
                         });
                     } else {
@@ -74,13 +65,13 @@ public class Interpreter {
                     break;
                 case '*':
                     operations.add((Context context) -> {
-                        context.pushValue(String.valueOf(reciveDouble(context) * reciveDouble(context)));
+                        context.pushValue(String.valueOf(receiveDouble(context) * receiveDouble(context)));
                     });
                     break;
                 case '/':
                     operations.add((Context context) -> {
-                        double divider = reciveDouble(context);
-                        double dividend = reciveDouble(context);
+                        double divider = receiveDouble(context);
+                        double dividend = receiveDouble(context);
                         context.pushValue(String.valueOf(dividend / divider));
                     });
                     break;
@@ -148,7 +139,7 @@ public class Interpreter {
         return operations;
     }
 
-    private double reciveDouble(Context c) {
+    private double receiveDouble(Context c) {
         String contextTop = c.popValue();
         double result;
         if (contextTop.equals("i")) {
