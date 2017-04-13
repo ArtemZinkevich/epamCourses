@@ -3,7 +3,7 @@ package com.rtmznk.texthandler.parser;
 import com.rtmznk.texthandler.composite.CompositeText;
 import com.rtmznk.texthandler.composite.TextChildLevel;
 import com.rtmznk.texthandler.composite.TextComponent;
-import com.rtmznk.texthandler.entity.Symbol;
+import com.rtmznk.texthandler.composite.Symbol;
 import org.apache.logging.log4j.Level;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
@@ -39,7 +39,7 @@ class IntoMathAndLexemParser extends ChainParser {
             if (Pattern.matches(MATH_REGEX, current)) {
                 CompositeText math = new CompositeText();
                 math.setLevel(TextChildLevel.MATH);
-                symbolParser.parse(current.trim()).recieveChilds().forEach(math::add);
+                symbolParser.parse(current.trim()).receiveChilds().forEach(math::add);
                 mathAndLexem.add(math);
                 mathAndLexem.add(new Symbol(" "));
             } else if (Pattern.matches(LEXEM_REGEX, current)) {

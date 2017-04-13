@@ -3,7 +3,7 @@ package com.rtmznk.texthandler.parser;
 import com.rtmznk.texthandler.composite.CompositeText;
 import com.rtmznk.texthandler.composite.TextChildLevel;
 import com.rtmznk.texthandler.composite.TextComponent;
-import com.rtmznk.texthandler.entity.Symbol;
+import com.rtmznk.texthandler.composite.Symbol;
 
 import java.util.ArrayList;
 import java.util.regex.Matcher;

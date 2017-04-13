@@ -1,4 +1,4 @@
-package com.rtmznk.texthandler.math;
+package com.rtmznk.texthandler.operator;
 
 import java.util.*;
 import java.util.regex.Matcher;
@@ -12,7 +12,7 @@ public class ExpressionOperator {
     private static final String DECREMENT_AFTER_PATTERN = "(?<=[ij])--";
     private static final String INCREMENT_BEFORE_PATTERN = "\\+\\+(?=[ij])";
     private static final String INCREMENT_AFTER_PATTERN = "(?<=[ij])\\+\\+";
-    private static final String NEGATIVE_DIGIT = "(?<![\\d)])-\\d+";
+    private static final String NEGATIVE_DIGIT = "(?<![\\d)ij])-\\d+";
     private static Map<Character, Integer> priorityMap;
 
     static {
@@ -29,12 +29,12 @@ public class ExpressionOperator {
     }
 
     public static void main(String[] args) {
-        String mathExpression = "5*(1*2*(3*(4*(5- --j + 4)-3)-2)-1)";
+        String mathExpression = "(-5+1/2*(2+5*2- --j))*1200";
 
         System.out.println(reciveRpnList(mathExpression));
     }
 
-    private static List<String> reciveRpnList(String mathExpression) {
+    public static List<String> reciveRpnList(String mathExpression) {
         List<String> result = new ArrayList<>();
         Deque<Character> deque = new LinkedList<>();
         List<String> negativeDigits = new ArrayList<>();
@@ -48,7 +48,7 @@ public class ExpressionOperator {
             String digit = negativeMatcher.group();
             negativeDigits.add(digit);
             mathExpression = mathExpression.replaceFirst(digit, "N");
-            negativeMatcher = negativeMatcher.reset();
+            negativeMatcher = negativeDigit.matcher(mathExpression);
         }
         List<String> digits = new ArrayList<>();
         Scanner sc = new Scanner(mathExpression);
@@ -59,13 +59,10 @@ public class ExpressionOperator {
         for (String d : digits) {
             mathExpression = mathExpression.replaceFirst(d, "D");
         }
-        System.out.println(digits);
         mathExpression = mathExpression.replaceAll("\\s", "");
         int ndIndex = 0;
         int dIndex = 0;
-        System.out.println(mathExpression);
         for (char ch : mathExpression.toCharArray()) {
-            System.out.println(ch);
             if (ch == 'D') {
                 result.add(digits.get(dIndex++));
             } else if (ch == 'N') {
@@ -86,7 +83,7 @@ public class ExpressionOperator {
                 while (flag) {
                     char top = deque.pop();
                     int priority = priorityMap.get(top);
-                    if (chPriority < priority) {
+                    if (chPriority <= priority) {
                         result.add(String.valueOf(top));
                         flag = !deque.isEmpty();
                     } else {
@@ -96,8 +93,6 @@ public class ExpressionOperator {
                 }
                 deque.push(ch);
             }
-            System.out.println(result);
-            System.out.println(deque);
         }
         while (!deque.isEmpty()) {
             result.add(String.valueOf(deque.pop()));

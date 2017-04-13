@@ -1,7 +1,9 @@
 package com.rtmznk.texthandler.entity;
 
-import com.rtmznk.texthandler.composite.TextChildLevel;
 import com.rtmznk.texthandler.composite.TextComponent;
+import com.rtmznk.texthandler.interpreter.Context;
+import com.rtmznk.texthandler.interpreter.Interpreter;
+import com.rtmznk.texthandler.operator.TextOperator;
 import com.rtmznk.texthandler.parser.IntoParagraphParser;
 
 
@@ -34,10 +36,15 @@ public class Main {
                 "\tBye.";
         IntoParagraphParser textParser = new IntoParagraphParser();
         TextComponent components = textParser.doChain(text);
-        String completedText =components.recieveText();
+        String completedText =components.receiveText();
         System.out.println(completedText);
-//       for(TextComponent c:components.recieveComponents(TextChildLevel.MATH)){
-//           System.out.println(c.recieveText());
+        TextOperator operator = new TextOperator();
+
+        operator.calculateText(components,new Interpreter(),new Context(1,1));
+        completedText =components.receiveText();
+        System.out.println(completedText);
+//       for(TextComponent c:components.receiveComponents(TextChildLevel.MATH)){
+//           System.out.println(c.receiveText());
 //       }
 
 

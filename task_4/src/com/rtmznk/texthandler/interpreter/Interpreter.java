@@ -1,6 +1,8 @@
 package com.rtmznk.texthandler.interpreter;
 
 import com.rtmznk.texthandler.composite.TextComponent;
+import com.rtmznk.texthandler.composite.Symbol;
+import com.rtmznk.texthandler.operator.ExpressionOperator;
 import org.apache.logging.log4j.Level;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
@@ -15,9 +17,21 @@ import java.util.Scanner;
 public class Interpreter {
     private static Logger logger = LogManager.getLogger(Interpreter.class);
 
-    public TextComponent calculate(List<String> rpnParts, int i, int j) {
-        Context context = new Context(i, j);
-        return null;
+    public static void main(String[] args) {
+        String mathExpression = "5*(1*2*(3*(4*(5- --j + 4)-(--j-2))-2)-1)";
+        List<String> rpn = ExpressionOperator.reciveRpnList(mathExpression);
+        System.out.println(rpn);
+        Interpreter interpreter = new Interpreter();
+        TextComponent c = interpreter.executeInterpretation(rpn,new Context(5,2));
+    }
+
+    public TextComponent executeInterpretation(List<String> rpnParts,Context context) {
+        List<Operation> operations = recieveOperationsList(rpnParts);
+        for (Operation o : operations) {
+            o.interpret(context);
+        }
+        String result = context.popValue();
+        return new Symbol(result);
     }
 
     private List<Operation> recieveOperationsList(List<String> rpnParts) {
@@ -37,27 +51,36 @@ public class Interpreter {
                     break;
                 case '+':
                     operations.add((Context context) -> {
-                        int firstAddendum = reciveInt(context);
-                        int secondAddendum = reciveInt(context);
+                        double firstAddendum = reciveDouble(context);
+                        double secondAddendum = reciveDouble(context);
                         context.pushValue(String.valueOf(firstAddendum + secondAddendum));
                     });
                     break;
                 case '-':
-                    operations.add((Context context) -> {
-                        int subtrahend = reciveInt(context);
-                        int minuend = reciveInt(context);
-                        context.pushValue(String.valueOf(minuend - subtrahend));
-                    });
+                    if (lexeme.length() == 1) {
+                        operations.add((Context context) -> {
+                            double subtrahend = reciveDouble(context);
+                            double minuend = reciveDouble(context);
+                            context.pushValue(String.valueOf(minuend - subtrahend));
+                        });
+                    } else {
+                        Scanner scan = new Scanner(lexeme);
+                        if (scan.hasNextDouble()) {
+                            operations.add((Context context) -> {
+                                context.pushValue(String.valueOf(scan.nextDouble()));
+                            });
+                        }
+                    }
                     break;
                 case '*':
                     operations.add((Context context) -> {
-                        context.pushValue(String.valueOf(reciveInt(context) * reciveInt(context)));
+                        context.pushValue(String.valueOf(reciveDouble(context) * reciveDouble(context)));
                     });
                     break;
                 case '/':
                     operations.add((Context context) -> {
-                        int divider = reciveInt(context);
-                        int dividend = reciveInt(context);
+                        double divider = reciveDouble(context);
+                        double dividend = reciveDouble(context);
                         context.pushValue(String.valueOf(dividend / divider));
                     });
                     break;
@@ -70,7 +93,7 @@ public class Interpreter {
                             context.pushValue(String.valueOf(context.getAndAddJ()));
                         } else {
                             logger.log(Level.WARN, "Incrementation operation for digit has no sense");
-                            context.pushValue(String.valueOf(Integer.parseInt(contextTop)));
+                            context.pushValue(String.valueOf(Double.parseDouble(contextTop)));
                         }
                     });
                     break;
@@ -83,7 +106,7 @@ public class Interpreter {
                             context.pushValue(String.valueOf(context.addAndGetJ()));
                         } else {
                             logger.log(Level.WARN, "Incrementation operation for digit has no sense");
-                            context.pushValue(String.valueOf(Integer.parseInt(contextTop)));
+                            context.pushValue(String.valueOf(Double.parseDouble(contextTop)));
                         }
                     });
                     break;
@@ -96,7 +119,7 @@ public class Interpreter {
                             context.pushValue(String.valueOf(context.deductAndGetJ()));
                         } else {
                             logger.log(Level.WARN, "Decrement operation for digit has no sense");
-                            context.pushValue(String.valueOf(Integer.parseInt(contextTop)));
+                            context.pushValue(String.valueOf(Double.parseDouble(contextTop)));
                         }
                     });
                     break;
@@ -109,31 +132,31 @@ public class Interpreter {
                             context.pushValue(String.valueOf(context.getAndDeductJ()));
                         } else {
                             logger.log(Level.WARN, "Decrement operation for digit has no sense");
-                            context.pushValue(String.valueOf(Integer.parseInt(contextTop)));
+                            context.pushValue(String.valueOf(Double.parseDouble(contextTop)));
                         }
                     });
                     break;
                 default:
                     Scanner scan = new Scanner(lexeme);
-                    if (scan.hasNextInt()) {
+                    if (scan.hasNextDouble()) {
                         operations.add((Context context) -> {
-                            context.pushValue(String.valueOf(scan.nextInt()));
+                            context.pushValue(String.valueOf(scan.nextDouble()));
                         });
                     }
             }
         }
-        return null;
+        return operations;
     }
 
-    private int reciveInt(Context c) {
+    private double reciveDouble(Context c) {
         String contextTop = c.popValue();
-        int result;
+        double result;
         if (contextTop.equals("i")) {
             result = c.getI();
         } else if (contextTop.equals("j")) {
             result = c.getJ();
         } else {
-            result = Integer.parseInt(contextTop);
+            result = Double.parseDouble(contextTop);
         }
         return result;
     }

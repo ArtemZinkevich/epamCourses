@@ -15,6 +15,7 @@ public class CompositeText implements TextComponent {
         this.level = level;
     }
 
+    @Override
     public void add(TextComponent component) {
         childs.add(component);
     }
@@ -24,21 +25,21 @@ public class CompositeText implements TextComponent {
     }
 
     @Override
-    public String recieveText() {
+    public String receiveText() {
         StringBuilder stringBuilder = new StringBuilder();
         for (TextComponent component : childs) {
-            stringBuilder.append(component.recieveText());
+            stringBuilder.append(component.receiveText());
         }
         return stringBuilder.toString();
     }
 
     @Override
-    public List<TextComponent> recieveChilds() {
+    public List<TextComponent> receiveChilds() {
         List<TextComponent> allJuniorComponents = new ArrayList<>();
         for (TextComponent child : childs) {
             allJuniorComponents.add(child);
             if (child.hasChilds()) {
-                allJuniorComponents.addAll(child.recieveChilds());
+                allJuniorComponents.addAll(child.receiveChilds());
             }
         }
         return allJuniorComponents;
@@ -54,14 +55,19 @@ public class CompositeText implements TextComponent {
         return level;
     }
 
-    public List<TextComponent> recieveComponents(TextChildLevel level) {
-        List<TextComponent> allComponents = recieveChilds();
+    public List<TextComponent> receiveComponents(TextChildLevel level) {
+        List<TextComponent> allComponents = receiveChilds();
         List<TextComponent> result = new ArrayList<>();
         for (TextComponent component : allComponents) {
-            if (component.level()!=null&&component.level().equals(level)) {
+            if (component.level() != null && component.level().equals(level)) {
                 result.add(component);
             }
         }
         return result;
+    }
+
+    @Override
+    public void removeChilds() {
+        childs.clear();
     }
 }

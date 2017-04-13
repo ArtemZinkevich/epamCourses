@@ -5,7 +5,7 @@ import java.util.ArrayDeque;
 /**
  * Created by RTM on 06.04.2017.
  */
-class Context {
+public class Context {
     private int i;
     private int j;
     private ArrayDeque<String> contextValues = new ArrayDeque<>();
@@ -15,11 +15,11 @@ class Context {
         this.j = j;
     }
 
-    public int getI() {
+     int getI() {
         return i;
     }
 
-    public int getJ() {
+     int getJ() {
         return j;
     }
 
@@ -31,41 +31,48 @@ class Context {
         this.contextValues.push(value);
     }
 
-    public int addAndGetI() {
+     int addAndGetI() {
         return ++i;
     }
 
-    public int getAndAddI() {
+     int getAndAddI() {
         int result = i;
         i++;
         return result;
     }
-    public int deductAndGetI() {
+
+     int deductAndGetI() {
         return --i;
     }
 
-    public int getAndDeductI() {
+     int getAndDeductI() {
         int result = i;
         i--;
         return result;
     }
-    public int addAndGetJ() {
+
+     int addAndGetJ() {
         return ++j;
     }
 
-    public int getAndAddJ() {
+     int getAndAddJ() {
         int result = j;
         j++;
         return result;
     }
-    public int deductAndGetJ() {
+
+     int deductAndGetJ() {
         return --j;
     }
 
-    public int getAndDeductJ() {
+     int getAndDeductJ() {
         int result = j;
         j--;
         return result;
+    }
+
+    public void resetContext() {
+        contextValues.clear();
     }
 }
 

@@ -1,8 +1,5 @@
-package com.rtmznk.texthandler.entity;
+package com.rtmznk.texthandler.composite;
 
-
-import com.rtmznk.texthandler.composite.TextChildLevel;
-import com.rtmznk.texthandler.composite.TextComponent;
 
 /**
  * Created by RTM on 01.04.2017.
@@ -15,7 +12,7 @@ public class Symbol implements TextComponent {
     }
 
     @Override
-    public String recieveText() {
+    public String receiveText() {
         return content;
     }
 

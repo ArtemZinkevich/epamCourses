@@ -3,7 +3,7 @@ package com.rtmznk.texthandler.parser;
 import com.rtmznk.texthandler.composite.CompositeText;
 import com.rtmznk.texthandler.composite.TextChildLevel;
 import com.rtmznk.texthandler.composite.TextComponent;
-import com.rtmznk.texthandler.entity.Symbol;
+import com.rtmznk.texthandler.composite.Symbol;
 
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
@@ -17,7 +17,7 @@ class IntoWordAndPunctuationParser extends ChainParser {
     private static final String PUNCTUATION_REGEX = "\\p{Punct}+";
     private static final String WORD_WITH_PUNCTUATION_REGEX = "\\w+\\p{Punct}+";
     private static final String PUNCTUATION_WITH_WORD_REGEX = "\\p{Punct}+\\w+";
-    private ChainParser symbolParser ;
+    private ChainParser symbolParser;
 
     public IntoWordAndPunctuationParser() {
         symbolParser = new IntoSymbolParser();
@@ -39,7 +39,7 @@ class IntoWordAndPunctuationParser extends ChainParser {
                 String wordString = matcher.group();
                 CompositeText word = new CompositeText();
                 word.setLevel(TextChildLevel.WORD);
-                symbolParser.parse(wordString).recieveChilds().forEach(word::add);
+                symbolParser.parse(wordString).receiveChilds().forEach(word::add);
                 wordsAndPunctuation.add(word);
                 if (spaceAfterWordNeeded) {
                     wordsAndPunctuation.add(new Symbol(" "));
@@ -48,7 +48,7 @@ class IntoWordAndPunctuationParser extends ChainParser {
                 String punctuationString = matcher.group();
                 CompositeText punctuation = new CompositeText();
                 punctuation.setLevel(TextChildLevel.PUNCTUATION);
-                symbolParser.parse(punctuationString).recieveChilds().forEach(punctuation::add);
+                symbolParser.parse(punctuationString).receiveChilds().forEach(punctuation::add);
                 wordsAndPunctuation.add(punctuation);
                 if (spaceAfterPunctuationNeeded) {
                     wordsAndPunctuation.add(new Symbol(" "));
