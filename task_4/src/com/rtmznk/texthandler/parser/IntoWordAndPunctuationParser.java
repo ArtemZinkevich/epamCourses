@@ -23,7 +23,7 @@ class IntoWordAndPunctuationParser extends ChainParser {
         symbolParser = new IntoSymbolParser();
     }
 
-    TextComponent parse(String lexeme) {
+    TextComponent parse(String lexeme) throws TextFormatException {
         Pattern wordAndPunctuationPattern = Pattern.compile(WORD_OR_PUNCTUATION_REGEX);
         Pattern wordPattern = Pattern.compile(WORD_REGEX);
         Pattern punctuationPattern = Pattern.compile(PUNCTUATION_REGEX);

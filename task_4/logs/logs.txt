@@ -175,3 +175,9 @@
 03.04.2017 10:05:09.131 [main] WARN  com.rtmznk.texthandler.parser.IntoMathAndLexemParser - Wrong sentence.Won't be parsed : Bye.
 13.04.2017 16:04:54.440 [main] FATAL com.rtmznk.texthandler.reader.TextFileReader - java.nio.file.NoSuchFileException: badFilePath
 13.04.2017 16:40:39.090 [main] ERROR com.rtmznk.texthandler.parser.MainTextParser - Text has incorrect format!
+19.04.2017 23:07:28.926 [main] FATAL com.rtmznk.texthandler.reader.TextFileReader - java.nio.file.NoSuchFileException: badFilePath
+19.04.2017 23:19:56.045 [main] FATAL com.rtmznk.texthandler.reader.TextFileReader - java.nio.file.NoSuchFileException: badFilePath
+19.04.2017 23:21:37.716 [main] FATAL com.rtmznk.texthandler.reader.TextFileReader - java.nio.file.NoSuchFileException: badFilePath
+19.04.2017 23:26:23.662 [main] FATAL com.rtmznk.texthandler.reader.TextFileReader - java.nio.file.NoSuchFileException: badFilePath
+19.04.2017 23:34:13.140 [main] FATAL com.rtmznk.texthandler.reader.TextFileReader - java.nio.file.NoSuchFileException: badFilePath
+19.04.2017 23:34:55.644 [main] FATAL com.rtmznk.texthandler.reader.TextFileReader - java.nio.file.NoSuchFileException: badFilePath

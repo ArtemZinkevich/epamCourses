@@ -18,7 +18,7 @@ class IntoSentenceParser extends ChainParser {
         mathAndLexemeParser = new IntoMathAndLexemeParser();
     }
 
-    TextComponent parse(String paragraph) {
+    TextComponent parse(String paragraph) throws TextFormatException {
         CompositeText allSentences = new CompositeText();
         Pattern sentencePattern = Pattern.compile(SENTENCE_REGEX);
         Matcher sentenceMatcher = sentencePattern.matcher(paragraph);

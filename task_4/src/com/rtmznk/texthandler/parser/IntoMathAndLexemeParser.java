@@ -30,7 +30,7 @@ class IntoMathAndLexemeParser extends ChainParser {
         wordAndPunctuationParser = new IntoWordAndPunctuationParser();
     }
 
-    TextComponent parse(String sentence) {
+    TextComponent parse(String sentence) throws TextFormatException {
         Pattern textAndLexeme = Pattern.compile(MATH_OR_LEXEME_REGEX);
         Matcher matcher = textAndLexeme.matcher(sentence);
         CompositeText mathAndLexeme = new CompositeText();

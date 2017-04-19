@@ -25,19 +25,34 @@ public class TextOperator {
         sentences.forEach((TextComponent component) -> {
             List<TextComponent> lexemes = component.receiveComponents(TextChildLevel.LEXEME);
             TextComponent temp = lexemes.get(0);
-            lexemes.set(0, lexemes.get(lexemes.size() - 1));
+            TextComponent last = lexemes.get(lexemes.size() - 1);
+            lexemes.set(0, last);
             lexemes.set(lexemes.size() - 1, temp);
+            component.removeChilds();
+            lexemes.forEach(component::add);
         });
     }
 
     public void removeLexemes(TextComponent text, char firstCharacter, int length) {
-        List<TextComponent> lexemes = text.receiveComponents(TextChildLevel.LEXEME);
-        Iterator<TextComponent> iterator = lexemes.iterator();
+        List<TextComponent> components = text.receiveChilds();
+        Iterator<TextComponent> iterator = components.iterator();
+        int minOrdinal = Integer.MAX_VALUE;
         while (iterator.hasNext()) {
-            TextComponent lexeme = iterator.next();
-            String lexemeText = lexeme.receiveText();
-            if (lexemeText.charAt(0) == firstCharacter && lexemeText.length() == length) {
-                iterator.remove();
+            TextComponent component = iterator.next();
+            if (component.level().ordinal() < minOrdinal) {
+                minOrdinal = component.level().ordinal();
+            }
+            if (component.level().equals(TextChildLevel.LEXEME)) {
+                String lexemeText = component.receiveText();
+                if (lexemeText.charAt(0) == firstCharacter && lexemeText.length() == length) {
+                    component.removeChilds();
+                }
+            }
+        }
+        text.removeChilds();
+        for (TextComponent component : components) {
+            if (component.level().ordinal() == minOrdinal) {
+                text.add(component);
             }
         }
     }
