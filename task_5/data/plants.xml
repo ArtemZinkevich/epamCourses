@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<flowers
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="schema.xsd">
+    <flower id="1">
+        <name>Rose</name>
+        <growing_tips photophilous="true">
+            <temperature>20</temperature>
+            <watering>20</watering>
+        </growing_tips>
+        <multiplying>Seeds</multiplying>
+        <origin>Rome</origin>
+        <soil>Ground</soil>
+        <visual_parameters>
+            <stalk_color>Dark-green</stalk_color>
+            <leaves_color>green</leaves_color>
+            <average_size>450</average_size>
+        </visual_parameters>
+    </flower>
+    <flower id="2">
+        <name>Orchid</name>
+        <growing_tips photophilous="true">
+            <temperature>25</temperature>
+            <watering>200</watering>
+        </growing_tips>
+        <multiplying>Seeds</multiplying>
+        <origin>Spain</origin>
+        <soil>Podsolic</soil>
+        <visual_parameters>
+            <stalk_color>green</stalk_color>
+            <leaves_color>green</leaves_color>
+            <average_size>40</average_size>
+        </visual_parameters>
+    </flower>
+    <flower id="3">
+        <name>Tulip</name>
+        <growing_tips photophilous="true">
+            <temperature>30</temperature>
+            <watering>560</watering>
+        </growing_tips>
+        <multiplying>Seeds</multiplying>
+        <origin>Iran</origin>
+        <soil>Podsolic</soil>
+        <visual_parameters>
+            <stalk_color>green</stalk_color>
+            <leaves_color>green</leaves_color>
+            <average_size>35</average_size>
+        </visual_parameters>
+    </flower>
+    <flower id="4">
+        <name>Sunflower</name>
+        <growing_tips photophilous="true">
+            <temperature>25</temperature>
+            <watering>200</watering>
+        </growing_tips>
+        <multiplying>Seeds</multiplying>
+        <origin>Europe</origin>
+        <soil>Podsolic</soil>
+        <visual_parameters>
+            <stalk_color>green</stalk_color>
+            <leaves_color>green</leaves_color>
+            <average_size>100</average_size>
+        </visual_parameters>
+    </flower>
+    <flower id="5">
+        <name>Sunflower</name>
+        <growing_tips photophilous="true">
+            <temperature>25</temperature>
+            <watering>200</watering>
+        </growing_tips>
+        <multiplying>Seeds</multiplying>
+        <origin>Europe</origin>
+        <soil>Podsolic</soil>
+        <visual_parameters>
+            <stalk_color>green</stalk_color>
+            <leaves_color>green</leaves_color>
+            <average_size>100</average_size>
+        </visual_parameters>
+    </flower>
+    <flower id="6">
+        <name>Iris</name>
+        <growing_tips photophilous="true">
+            <temperature>25</temperature>
+            <watering>200</watering>
+        </growing_tips>
+        <multiplying>Cuttings</multiplying>
+        <origin>Europe</origin>
+        <soil>Ground</soil>
+        <visual_parameters>
+            <stalk_color>green</stalk_color>
+            <leaves_color>green</leaves_color>
+            <average_size>30</average_size>
+        </visual_parameters>
+    </flower>
+    <flower id="7">
+        <name>Aconitum</name>
+        <growing_tips photophilous="false">
+            <temperature>50</temperature>
+            <watering>10</watering>
+        </growing_tips>
+        <multiplying>Leaves</multiplying>
+        <origin>Africa</origin>
+        <soil>Sod-Podsolic</soil>
+        <visual_parameters>
+            <stalk_color>brown</stalk_color>
+            <leaves_color>green</leaves_color>
+            <average_size>10</average_size>
+        </visual_parameters>
+    </flower>
+    <flower id="8">
+        <name>Amaranthus</name>
+        <growing_tips photophilous="true">
+            <temperature>35</temperature>
+            <watering>1000</watering>
+        </growing_tips>
+        <multiplying>Seeds</multiplying>
+        <origin>Africa</origin>
+        <soil>Sod-Podsolic</soil>
+        <visual_parameters>
+            <stalk_color>green</stalk_color>
+            <leaves_color>red</leaves_color>
+            <average_size>25</average_size>
+        </visual_parameters>
+    </flower>
+    <flower id="9">
+        <name>Anemone</name>
+        <growing_tips photophilous="true">
+            <temperature>25</temperature>
+            <watering>350</watering>
+        </growing_tips>
+        <multiplying>Seeds</multiplying>
+        <origin>Greece</origin>
+        <soil>Sod-Podsolic</soil>
+        <visual_parameters>
+            <stalk_color>green</stalk_color>
+            <leaves_color>grape</leaves_color>
+            <average_size>40</average_size>
+        </visual_parameters>
+    </flower>
+    <flower id="10">
+        <name>Camelia</name>
+        <growing_tips photophilous="true">
+            <temperature>20</temperature>
+            <watering>200</watering>
+        </growing_tips>
+        <multiplying>Seeds</multiplying>
+        <origin>America</origin>
+        <soil>Podsolic</soil>
+        <visual_parameters>
+            <stalk_color>green</stalk_color>
+            <leaves_color>green</leaves_color>
+            <average_size>35</average_size>
+        </visual_parameters>
+    </flower>
+    <flower id="11">
+        <name>Chrysantemum</name>
+        <growing_tips photophilous="true">
+            <temperature>27</temperature>
+            <watering>800</watering>
+        </growing_tips>
+        <multiplying>Seeds</multiplying>
+        <origin>Asia</origin>
+        <soil>Podsolic</soil>
+        <visual_parameters>
+            <stalk_color>green</stalk_color>
+            <leaves_color>green</leaves_color>
+            <average_size>40</average_size>
+        </visual_parameters>
+    </flower>
+    <flower id="12">
+        <name>Daisy</name>
+        <growing_tips photophilous="true">
+            <temperature>32</temperature>
+            <watering>300</watering>
+        </growing_tips>
+        <multiplying>Leaves</multiplying>
+        <origin>Africa</origin>
+        <soil>Sod-Podsolic</soil>
+        <visual_parameters>
+            <stalk_color>dark-green</stalk_color>
+            <leaves_color>green</leaves_color>
+            <average_size>20</average_size>
+        </visual_parameters>
+    </flower>
+    <flower id="13">
+        <name>Delphinium</name>
+        <growing_tips photophilous="true">
+            <temperature>19</temperature>
+            <watering>250</watering>
+        </growing_tips>
+        <multiplying>Cuttings</multiplying>
+        <origin>Greece</origin>
+        <soil>Sod-Podsolic</soil>
+        <visual_parameters>
+            <stalk_color>green</stalk_color>
+            <leaves_color>green</leaves_color>
+            <average_size>24</average_size>
+        </visual_parameters>
+    </flower>
+    <flower id="14">
+        <name>Forget Me Not</name>
+        <growing_tips photophilous="true">
+            <temperature>25</temperature>
+            <watering>250</watering>
+        </growing_tips>
+        <multiplying>Seeds</multiplying>
+        <origin>Greece</origin>
+        <soil>Sod-Podsolic</soil>
+        <visual_parameters>
+            <stalk_color>green</stalk_color>
+            <leaves_color>green</leaves_color>
+            <average_size>8</average_size>
+        </visual_parameters>
+    </flower>
+    <flower id="15">
+        <name>Gladiolus</name>
+        <growing_tips photophilous="true">
+            <temperature>30</temperature>
+            <watering>200</watering>
+        </growing_tips>
+        <multiplying>Seeds</multiplying>
+        <origin>South Africa</origin>
+        <soil>Ground</soil>
+        <visual_parameters>
+            <stalk_color>light-green</stalk_color>
+            <leaves_color>green</leaves_color>
+            <average_size>70</average_size>
+        </visual_parameters>
+    </flower>
+    <flower id="16">
+        <name>Hibiscus</name>
+        <growing_tips photophilous="true">
+            <temperature>25</temperature>
+            <watering>650</watering>
+        </growing_tips>
+        <multiplying>Seeds</multiplying>
+        <origin>China</origin>
+        <soil>Ground</soil>
+        <visual_parameters>
+            <stalk_color>light-green</stalk_color>
+            <leaves_color>deep green</leaves_color>
+            <average_size>47</average_size>
+        </visual_parameters>
+    </flower>
+
+</flowers>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+
+    <xs:complexType name="plantSpecies">
+        <xs:sequence>
+            <xs:element name="name" type="xs:token"/>
+            <xs:element name="soil">
+                <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                        <xs:enumeration value="Podsolic"/>
+                        <xs:enumeration value="Ground"/>
+                        <xs:enumeration value="Sod-Podsolic"/>
+                    </xs:restriction>
+                </xs:simpleType>
+            </xs:element>
+            <xs:element name="origin">
+                <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                        <xs:pattern value="^[A-ZА-Я].*$"/>
+                    </xs:restriction>
+                </xs:simpleType>
+            </xs:element>
+            <xs:element name="visual_parameters">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element name="stalk_color" type="xs:string"/>
+                        <xs:element name="leaves_color" type="xs:string"/>
+                        <xs:element name="average_size" type="xs:positiveInteger"/>
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+            <xs:element name="growing_tips">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element name="temperature" type="xs:float"/>
+                        <xs:element name="watering" type="xs:positiveInteger"/>
+                    </xs:sequence>
+                    <xs:attribute name="photophilous" use="required" default="true" type="xs:boolean"/>
+                </xs:complexType>
+            </xs:element>
+            <xs:element name="multiplying">
+                <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                        <xs:enumeration value="Leaves"/>
+                        <xs:enumeration value="Cuttings"/>
+                        <xs:enumeration value="Seeds"/>
+                    </xs:restriction>
+                </xs:simpleType>
+            </xs:element>
+        </xs:sequence>
+    </xs:complexType>
+    <xs:element name="plant" type="plantSpecies" abstract="true"/>
+
+    <xs:complexType name="greenhousePlant">
+        <xs:complexContent>
+            <xs:extension base="plantSpecies">
+                <xs:attribute name="id" use="required" type="xs:ID"/>
+                <xs:attribute name="price" use="optional" type="xs:positiveInteger"/>
+            </xs:extension>
+        </xs:complexContent>
+    </xs:complexType>
+    <xs:element name="flower" type="greenhousePlant" substitutionGroup="plant"/>
+    <xs:element name="flowers">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="flower" minOccurs="1" maxOccurs="unbounded"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>
