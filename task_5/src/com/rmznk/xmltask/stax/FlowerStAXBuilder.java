@@ -1,6 +1,7 @@
 package com.rmznk.xmltask.stax;
 
 import com.rmznk.xmltask.entity.Flower;
+import com.rmznk.xmltask.factory.AbstractFlowerBuilder;
 import org.apache.logging.log4j.Level;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
@@ -10,7 +11,7 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.util.ArrayList;
 
-public class FlowerStAXBuilder {
+public class FlowerStAXBuilder implements AbstractFlowerBuilder {
     private static Logger logger = LogManager.getLogger(FlowerStAXBuilder.class);
     private StAXParser stAXParser;
     private InputStream inputStream;

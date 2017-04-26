@@ -2,6 +2,7 @@ package com.rmznk.xmltask.sax;
 
 
 import com.rmznk.xmltask.entity.Flower;
+import com.rmznk.xmltask.factory.AbstractFlowerBuilder;
 import org.apache.logging.log4j.Level;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
@@ -12,7 +13,7 @@ import org.xml.sax.helpers.XMLReaderFactory;
 import java.io.IOException;
 import java.util.ArrayList;
 
-public class FlowersSAXBuilder {
+public class FlowersSAXBuilder implements AbstractFlowerBuilder {
     private static Logger logger = LogManager.getLogger(FlowersSAXBuilder.class);
     private ArrayList<Flower> flowers;
     private SaxContentHandler handler;

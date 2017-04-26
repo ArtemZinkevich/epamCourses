@@ -2,6 +2,7 @@ package com.rmznk.xmltask.dom;
 
 
 import com.rmznk.xmltask.entity.Flower;
+import com.rmznk.xmltask.factory.AbstractFlowerBuilder;
 import org.apache.logging.log4j.Level;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
@@ -15,7 +16,7 @@ import javax.xml.parsers.ParserConfigurationException;
 import java.io.IOException;
 import java.util.ArrayList;
 
-public class FlowerDOMBuilder {
+public class FlowerDOMBuilder implements AbstractFlowerBuilder {
     private static Logger logger = LogManager.getLogger(FlowerDOMBuilder.class);
     private ArrayList<Flower> flowers;
     private DocumentBuilderFactory documentBuilderFactory;
